@@ -1,0 +1,115 @@
+{
+  "canonical_notebook": "notebooks/fig03/fig_3.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/fig03/composition_model_metrics.csv": "0dfb651f163a89dbf56d250787fe4a245f8ff7b2fecbc94d0e60a520e3311718",
+    "data/precomputed/fig03/composition_cv_metrics.csv": "ffcfd3d8148f4adf4248490208d1a5699da95e86c6acd6ae93aae63b63b1ad90",
+    "data/precomputed/fig03/composition_null_comparison.csv": "0bb5e3d0d75ef27d779a27e55c1584fb74846598584faae5afd180c6de3b5165",
+    "data/precomputed/fig03/fig3_3MIDD_components_per_model.csv": "61cbfbb833fe1ca116b7efd771dbd2e70000448df7318485bf50773a60558cf6",
+    "data/precomputed/fig03/fig3_canonical_pair_predictions.csv": "29d63afc77f55ce85ecb440a38e83832cea3b5e4ccee15f3b120ae4493d56875",
+    "data/precomputed/fig03/composition_null_draw_metrics.csv": "832a2b8988076b2907e8858ce2a4be6cec8922d7e078e1f052c91990ebe4be6c",
+    "data/precomputed/fig03/composition_bootstrap_summary.csv": "f1e3d075241fc394b60fc6bb54e96c9fbbf4237b4a8d79697e6735fda05663a1",
+    "data/precomputed/fig03/composition_control_summary.csv": "44f699c4907e923e9b0d8775478b3a103139b230fdcba3573f80415aad24612d",
+    "data/precomputed/supplementary/figS1/multifield_sign_correspondence.csv": "99cd9f86db78bab1da5e8e99a8c9e1970ad01fb2b159bc8b754bef45d0221758",
+    "data/precomputed/supplementary/figS1/multifield_qa.csv": "b08b8527a45859697490b925e604af55ea5bd0cd32eef296806d4c8147c248b4",
+    "data/precomputed/fig03/comparator_model_metrics.csv": "eea19a9d1e275d097e711c072b8ee4dec21602c3ead5a9dfb389a7afe3eb4602",
+    "data/precomputed/fig03/comparator_summary.csv": "3a4ee9c4d6b4219d80ff9879b800e3e0c61b4686509333516529683de1339eb7",
+    "data/precomputed/fig03/comparator_contrasts.csv": "7fe748fcf0ed03063ed3731cf85e35f4f1380f2b5f531ab9d1b084c69971990d"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/fig03/fig03_main.pdf": "945e44638fdeae311b2913b2d7893cc2dd3aaf301e039d3b3a6d06292b18ad16",
+    "figures/fig03/fig03_main.png": "0f9ab1454bfcfd52e87b5bcc2bee324ef43068f9b12775f841607d5ca96a339e"
+  },
+  "summaries": {
+    "figures/fig03/fig03_integration_primary_00.csv": {
+      "source_or_calculation": "affine_fit",
+      "sha256": "9473051e91c39d0c275a7c4eb2ef5cf848df471e83cbec3a89af0c7ac92a064e"
+    },
+    "figures/fig03/fig03_integration_primary_01.csv": {
+      "source_or_calculation": "held_out_prediction",
+      "sha256": "5a3fe17bb19b656c2f646197bd6c36896dc77a7974bbd3a093f1ab4fc166bb6c"
+    },
+    "figures/fig03/fig03_integration_primary_02.csv": {
+      "source_or_calculation": "model_bootstrap",
+      "sha256": "bf6125f3c34e0a3d8e02cbae9b38c2240ed575c3250555948379eed29c46adb1"
+    },
+    "figures/fig03/fig03_integration_primary_03.csv": {
+      "source_or_calculation": "structured_nulls",
+      "sha256": "84a5ab8d1a9b35280cf06540243138bb3bdf909245b0067ea81a7178ad01cb6a"
+    },
+    "figures/fig03/fig03_integration_primary_04.csv": {
+      "source_or_calculation": "comparator_prediction",
+      "sha256": "76bd4014453afff09d684b0c082fa2685395768bc96878e1a44b9ff8b839c9a5"
+    },
+    "figures/fig03/fig03_integration_primary_05.csv": {
+      "source_or_calculation": "all_cross_model_donors",
+      "sha256": "00c5f13cbb8c9119e2d8e6f73c7fb0cf9a8364db8d7faa256ab59fa41c63a953"
+    },
+    "figures/fig03/fig03_integration_adopted_00.csv": {
+      "source_or_calculation": "data/precomputed/fig03/composition_model_metrics.csv",
+      "sha256": "0919967bcd82b5f20f9f5007356c9d72eed2e33158e0715efe523164b05ddd22"
+    },
+    "figures/fig03/fig03_integration_adopted_01.csv": {
+      "source_or_calculation": "data/precomputed/fig03/composition_cv_metrics.csv",
+      "sha256": "3c39f45059bf8d08827ed9ae8148b39b2a8cebf74fdcb5349892938886d410ef"
+    },
+    "figures/fig03/fig03_integration_adopted_02.csv": {
+      "source_or_calculation": "data/precomputed/fig03/composition_null_comparison.csv",
+      "sha256": "b1391791bb254a453831385e7b6bf49edf03dad759aa302c3ae1c398856a5bc1"
+    },
+    "figures/fig03/fig03_integration_adopted_03.csv": {
+      "source_or_calculation": "data/precomputed/fig03/composition_bootstrap_summary.csv",
+      "sha256": "f1f03470b396ace1d9617450c2c45d20aa727fc86a3a8b666a69b3b9f28e9d6d"
+    },
+    "figures/fig03/fig03_integration_adopted_04.csv": {
+      "source_or_calculation": "data/precomputed/fig03/composition_control_summary.csv",
+      "sha256": "d4435ac567d940bd6bb326d4aa78e3e48abf103432e1cf6694a1d98c4bf73742"
+    },
+    "figures/fig03/fig03_integration_adopted_05.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS1/multifield_sign_correspondence.csv",
+      "sha256": "9be86e6682c3a8d4ae3eec8a1dc202719cafbec772db26ab7e97a38168fc06e1"
+    },
+    "figures/fig03/fig03_integration_adopted_06.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS1/multifield_qa.csv",
+      "sha256": "b08b8527a45859697490b925e604af55ea5bd0cd32eef296806d4c8147c248b4"
+    },
+    "figures/fig03/fig03_integration_adopted_07.csv": {
+      "source_or_calculation": "data/precomputed/fig03/comparator_model_metrics.csv",
+      "sha256": "c19dd536d8cbcc8bd2e84b2afdd444fb358ad294d3017cfa853dc98217c1f2b1"
+    },
+    "figures/fig03/fig03_integration_adopted_08.csv": {
+      "source_or_calculation": "data/precomputed/fig03/comparator_summary.csv",
+      "sha256": "bd9287d685bd9f82c3d26e525d836f0ca6b8c6420796364df00f1a691a2a19b7"
+    },
+    "figures/fig03/fig03_integration_adopted_09.csv": {
+      "source_or_calculation": "data/precomputed/fig03/comparator_contrasts.csv",
+      "sha256": "a590d450c5ad732c027a6b7d49dd5c6b79cc92d5b82c5f3f20e444d96d30a07e"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

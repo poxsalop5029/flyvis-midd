@@ -1,0 +1,29 @@
+check,pass,detail
+Exp09_n10_models,True,10
+Exp09_seven_luminances,True,"[np.int64(48), np.int64(80), np.int64(112), np.int64(143), np.int64(175), np.int64(191), np.int64(207)]"
+Exp09_activity_unique,True,2338
+Exp09_normalized_response_finite,True,0
+Exp09_identifiable_subset_available,True,1323
+Exp09_T4a_signed_coupling_varies,True,R04 model-wise signs differ
+Exp10_n10_models,True,10
+Exp10_midd_effect_unique,True,"(260, 7)"
+Exp10_silencing_QA_all_pass,True,"[{'check': 'non_target_invariance', 'pass': True}, {'check': 'noop_unchanged', 'pass': True}, {'check': 'ten_models', 'pass': True}, {'check': 'two_renderings', 'pass': True}, {'check': 'all_interventions', 'pass': True}, {'check': 'finite_primary_effects', 'pass': True}]"
+MVE02_seed_cohort_pairs_unique,True,"(12, 15)"
+MVE02_Sintel_finite,True,"(12, 9)"
+Crossswap_selected_10x10,True,100
+Crossswap_matrix_complete_no_duplicates,True,"selected IDs 0,5,...,45"
+CW_positive_contract_recorded,True,metadata contract
+E9_render_contract_50hz_fade_frames,True,10–49 inclusive
+E10_render_contract_50hz_fade_frames,True,10–49 inclusive
+MVE02_decoder_y_transform_not_reapplied,True,already-derived scalar artifacts; figure notebook applies no coordinate transform
+C_E10_distinct_from_C_D_MVE02,True,separate methods are explicitly labeled
+Fig6B_activity_rows_4subtypes_x7levels,True,per-subtype identifiable N varies
+Fig6C_E10_primary_R05_R06_values,True,"[{'intervention_id': 'single__T4a__baseline', 'mean_loss': 0.0517252007652129}, {'intervention_id': 'single__T4b__baseline', 'mean_loss': 0.2620878751888823}, {'intervention_id': 'group__T4_family__baseline', 'mean_loss': 0.3867609151697587}, {'intervention_id': 'group__T4_T5__baseline', 'mean_loss': 0.6281186938203792}]"
+Fig6C_alternate_canonical_artifact_discrepancy_recorded,True,alternate per-model artifact differs; kept out of plotted estimates
+Exp10_alternate_intervention_model_coverage_n10,True,retained as separate precomputed raw table
+Fig6C_each_E10_intervention_same_model_cohort,True,same model IDs across intervention conditions
+Fig6C2_D_same_MVE02_seed_cohort_interventions,True,T4c/T4d recurrent neutralization rows pair exactly by seed and cohort
+Fig6D_independent_cohort_labelled,True,"['comparator', 'established']"
+Fig6E_seed_and_cohort_complete,True,"(12, 15)"
+Fig6F_10x10_matrix_finite,True,"(10, 10)"
+Fig6F_I05_percentages_not_plotted,True,matrix only; no variance shares

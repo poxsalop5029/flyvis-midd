@@ -1,0 +1,22 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+  "figure": "S8",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/fig05/learning_threshold_summary.csv": "f3a6192ebb4c655d116515494ece65b5ade368015a195744060818fb7b2de51b",
+    "data/precomputed/fig05/learning_normalized_metrics.csv": "dc778a2d7e432abc8ae4cc17e9f77b033c372a087da18780056239b60f8f07e5",
+    "data/precomputed/fig05/physical_motion_trajectory.csv": "0d7810935770d873effd598c55f12cb74e48c89b59806b841ee1eae68732b243",
+    "data/precomputed/fig05/learning_fixed_control_pairs.csv": "8a5b6af858656d8a2e1dc307b68ace340470128b3fd20207830ae0a12dfbf364",
+    "data/precomputed/fig05/learning_stability_checkpoint_summary.csv": "09410cc5cbfd076673550baa532639ae713a32bd57b31f7c931430b10a4ee328"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS8/figS8_main.pdf": "0aa9af5930f1c20beda4a04b0ea676a7097e8565a3deb2e2af932be171a4cdf2",
+    "figures/supplementary/figS8/figS8_main.png": "d04e0fce4f9d6d55b6d8f2019048beee3c91e655d00bf64bb5d6a447b553439b",
+    "figures/supplementary/figS8/figS8_adoption_QA.csv": "89287d15ef22f6a413495dc662af7ba1ff59dd249a9563121d5721469c27780d"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": "",
+  "last_execution_source_sha256": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+  "path_relocation_only": true
+}

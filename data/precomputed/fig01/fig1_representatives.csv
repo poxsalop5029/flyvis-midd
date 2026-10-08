@@ -1,0 +1,5 @@
+model_id,label,actual_reversal
+flow/0000/015,MIDD+,True
+flow/0000/013,MIDD+,True
+flow/0000/025,MIDD−,False
+flow/0000/002,MIDD−,False

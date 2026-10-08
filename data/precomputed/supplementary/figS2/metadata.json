@@ -1,0 +1,351 @@
+{
+  "figure": "S2",
+  "sources": [
+    {
+      "filename": "scalar_02_model_level_statistics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/02_model_level_statistics.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "2f10b7df3f999bf098c315f804ec25da752f060f72b55170c93b723e9bd19514",
+      "source_worktree_status": "",
+      "copied_sha256": "2f10b7df3f999bf098c315f804ec25da752f060f72b55170c93b723e9bd19514"
+    },
+    {
+      "filename": "scalar_03_canonical_pair_predictions.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/03_canonical_pair_predictions.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "fec13d94d2753ce344347a88041d36462115f143a1e1c1cf57b68c6a8f2d39ef",
+      "source_worktree_status": "",
+      "copied_sha256": "fec13d94d2753ce344347a88041d36462115f143a1e1c1cf57b68c6a8f2d39ef"
+    },
+    {
+      "filename": "scalar_05_global_model_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/05_global_model_metrics.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "c628fcd2f0961849458b98705308132ef1947a17447c42e51a14912d85e48991",
+      "source_worktree_status": "",
+      "copied_sha256": "c628fcd2f0961849458b98705308132ef1947a17447c42e51a14912d85e48991"
+    },
+    {
+      "filename": "scalar_06_final_QA.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/06_final_QA.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "df6cfd4c6963acb86510adb2f13ecebd4e65c8ade2f4339e039a105c44696613",
+      "source_worktree_status": "",
+      "copied_sha256": "df6cfd4c6963acb86510adb2f13ecebd4e65c8ade2f4339e039a105c44696613"
+    },
+    {
+      "filename": "scalar_global_run_metadata.json",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/global_run_metadata.json",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "9768c33375bdd59e84610ad2510687e90999b0f2635176d89c77c3f7bc5bd9fa",
+      "source_worktree_status": "",
+      "copied_sha256": "6fad350407205aa016cdba624b18d5c68894b0a48dc8b8a2f205e17773eba57c",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    },
+    {
+      "filename": "scalar_run_metadata.json",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/run_metadata.json",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "b46f500547b60b038f190757167e66fddb2ead0e2790e5df47d2d5ffd288d485",
+      "source_worktree_status": "",
+      "copied_sha256": "b46f500547b60b038f190757167e66fddb2ead0e2790e5df47d2d5ffd288d485"
+    },
+    {
+      "filename": "scalar_additivity_report.md",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/additivity_report.md",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "60f2120934bb87ce6fac81635a1d45e182050e4b6b30bd879f404b113dc512bb",
+      "source_worktree_status": "",
+      "copied_sha256": "60f2120934bb87ce6fac81635a1d45e182050e4b6b30bd879f404b113dc512bb"
+    },
+    {
+      "filename": "field_01_vector_field_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/01_vector_field_metrics.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "c491c9f53213e8e1cb03190da4e817d62ace29c90eeb3b8fab62da862b66a6f7",
+      "source_worktree_status": "",
+      "copied_sha256": "c491c9f53213e8e1cb03190da4e817d62ace29c90eeb3b8fab62da862b66a6f7"
+    },
+    {
+      "filename": "field_02_representation_level_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/02_representation_level_summary.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "6682bc3bb5f79f8320a147248028f1640b6bc36b8360036eae12595088d1b78f",
+      "source_worktree_status": "",
+      "copied_sha256": "6682bc3bb5f79f8320a147248028f1640b6bc36b8360036eae12595088d1b78f"
+    },
+    {
+      "filename": "field_04_vector_field_QA.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/04_vector_field_QA.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "90143d7ab8ddd281fd96a42417054d8401f06a07439c98406652369e7c983e5c",
+      "source_worktree_status": "",
+      "copied_sha256": "90143d7ab8ddd281fd96a42417054d8401f06a07439c98406652369e7c983e5c"
+    },
+    {
+      "filename": "field_run_metadata.json",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/run_metadata.json",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "9b72fe469602585be7e47a09fa55d8686da73173d10d19b2545709387b1b042b",
+      "source_worktree_status": "",
+      "copied_sha256": "9b72fe469602585be7e47a09fa55d8686da73173d10d19b2545709387b1b042b"
+    },
+    {
+      "filename": "source_rendering_contract.json",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/flow_estimates/05_4MIDD_additivity_flow0000_000-009/midd_luminance_additivity_contract.json",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "e801c6a56d9e5551e289f163c5dee9e00dc0c73d92a64396c5a511a3313f55ee",
+      "source_worktree_status": "",
+      "copied_sha256": "bbada09f9eef597abd04d7e697ab602bbd81fe25bb060cc2f8c94720518c85e6",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    }
+  ],
+  "source_implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "notebooks/midd/02_MIDD_luminance_additivity_pipeline.ipynb",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "b1257c442b460eeed163a95d635867637c58aaa15293b9e47e03f147c157eb3b",
+      "source_worktree_status": ""
+    }
+  ],
+  "analysis_contract": {
+    "model_cohort": "official pretrained flow/0000/000–009 (N=10)",
+    "rendering": [
+      "boxeye",
+      "highres_232 (2,3,2; seven fields), distinct from main Fig.3 centered (3,2,3; eight fields)"
+    ],
+    "statistical_unit": "trained model; 21 canonical luminance pairs within each model",
+    "status": "descriptive rendering comparison; full-field metrics unregistered exploratory",
+    "scalar": "A4,pred=A3(C1)-A3(C2); model-wise OLS with intercept; identity RMSE normalized by within-model A3 range",
+    "field": "Stable time-mean antisymmetric vector fields; overlap merging and source spatial mask. Identity vector RMSE normalized by prediction RMS; no fitted field gain.",
+    "sign_gate": "abs(prediction)>=0.05*within-model A3 range"
+  },
+  "provenance_note": "Per-file source_commit_sha is set only when verified or previously recorded. source_sha256 identifies original source bytes; copied_sha256 identifies bundled public bytes after reference sanitation. Source checkout HEAD alone does not prove artifact provenance. Unknown upstream commits remain null. Source references use repository-relative paths; historical-local references do not imply a published repository.",
+  "artifact_version": "provenance-v1",
+  "provenance_schema_version": "1.0",
+  "cohort": "official pretrained flow/0000/000–009 (N=10)",
+  "statistical_unit": "trained model; 21 canonical luminance pairs within each model",
+  "limitations": "descriptive rendering comparison; full-field metrics unregistered exploratory",
+  "rendering_contract": [
+    "boxeye",
+    "highres_232 (2,3,2; seven fields), distinct from main Fig.3 centered (3,2,3; eight fields)"
+  ],
+  "temporal_contract": {
+    "policy": "Retain source-specific timing; see source contract artifacts."
+  },
+  "stimulus": {
+    "model_cohort": "official pretrained flow/0000/000–009 (N=10)",
+    "rendering": [
+      "boxeye",
+      "highres_232 (2,3,2; seven fields), distinct from main Fig.3 centered (3,2,3; eight fields)"
+    ],
+    "statistical_unit": "trained model; 21 canonical luminance pairs within each model",
+    "status": "descriptive rendering comparison; full-field metrics unregistered exploratory",
+    "scalar": "A4,pred=A3(C1)-A3(C2); model-wise OLS with intercept; identity RMSE normalized by within-model A3 range",
+    "field": "Stable time-mean antisymmetric vector fields; overlap merging and source spatial mask. Identity vector RMSE normalized by prediction RMS; no fitted field gain.",
+    "sign_gate": "abs(prediction)>=0.05*within-model A3 range"
+  },
+  "metric": "A4,pred=A3(C1)-A3(C2); model-wise OLS with intercept; identity RMSE normalized by within-model A3 range",
+  "sign_convention": "Source-specific CW-positive conversion; already-derived scalars are not flipped again.",
+  "estimands": {
+    "model_cohort": "official pretrained flow/0000/000–009 (N=10)",
+    "rendering": [
+      "boxeye",
+      "highres_232 (2,3,2; seven fields), distinct from main Fig.3 centered (3,2,3; eight fields)"
+    ],
+    "statistical_unit": "trained model; 21 canonical luminance pairs within each model",
+    "status": "descriptive rendering comparison; full-field metrics unregistered exploratory",
+    "scalar": "A4,pred=A3(C1)-A3(C2); model-wise OLS with intercept; identity RMSE normalized by within-model A3 range",
+    "field": "Stable time-mean antisymmetric vector fields; overlap merging and source spatial mask. Identity vector RMSE normalized by prediction RMS; no fitted field gain.",
+    "sign_gate": "abs(prediction)>=0.05*within-model A3 range"
+  },
+  "precomputed_policy": "Reuse bundled source products; do not rerun originating inference or pool distinct cohorts.",
+  "source_files": [
+    {
+      "filename": "field_01_vector_field_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/01_vector_field_metrics.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "c491c9f53213e8e1cb03190da4e817d62ace29c90eeb3b8fab62da862b66a6f7",
+      "source_worktree_status": "",
+      "copied_sha256": "c491c9f53213e8e1cb03190da4e817d62ace29c90eeb3b8fab62da862b66a6f7"
+    },
+    {
+      "filename": "field_02_representation_level_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/02_representation_level_summary.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "6682bc3bb5f79f8320a147248028f1640b6bc36b8360036eae12595088d1b78f",
+      "source_worktree_status": "",
+      "copied_sha256": "6682bc3bb5f79f8320a147248028f1640b6bc36b8360036eae12595088d1b78f"
+    },
+    {
+      "filename": "field_04_vector_field_QA.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/04_vector_field_QA.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "90143d7ab8ddd281fd96a42417054d8401f06a07439c98406652369e7c983e5c",
+      "source_worktree_status": "",
+      "copied_sha256": "90143d7ab8ddd281fd96a42417054d8401f06a07439c98406652369e7c983e5c"
+    },
+    {
+      "filename": "field_run_metadata.json",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/run_metadata.json",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "9b72fe469602585be7e47a09fa55d8686da73173d10d19b2545709387b1b042b",
+      "source_worktree_status": "",
+      "copied_sha256": "9b72fe469602585be7e47a09fa55d8686da73173d10d19b2545709387b1b042b"
+    },
+    {
+      "filename": "scalar_02_model_level_statistics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/02_model_level_statistics.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "2f10b7df3f999bf098c315f804ec25da752f060f72b55170c93b723e9bd19514",
+      "source_worktree_status": "",
+      "copied_sha256": "2f10b7df3f999bf098c315f804ec25da752f060f72b55170c93b723e9bd19514"
+    },
+    {
+      "filename": "scalar_03_canonical_pair_predictions.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/03_canonical_pair_predictions.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "fec13d94d2753ce344347a88041d36462115f143a1e1c1cf57b68c6a8f2d39ef",
+      "source_worktree_status": "",
+      "copied_sha256": "fec13d94d2753ce344347a88041d36462115f143a1e1c1cf57b68c6a8f2d39ef"
+    },
+    {
+      "filename": "scalar_05_global_model_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/05_global_model_metrics.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "c628fcd2f0961849458b98705308132ef1947a17447c42e51a14912d85e48991",
+      "source_worktree_status": "",
+      "copied_sha256": "c628fcd2f0961849458b98705308132ef1947a17447c42e51a14912d85e48991"
+    },
+    {
+      "filename": "scalar_06_final_QA.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/06_final_QA.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "df6cfd4c6963acb86510adb2f13ecebd4e65c8ade2f4339e039a105c44696613",
+      "source_worktree_status": "",
+      "copied_sha256": "df6cfd4c6963acb86510adb2f13ecebd4e65c8ade2f4339e039a105c44696613"
+    },
+    {
+      "filename": "scalar_additivity_report.md",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/additivity_report.md",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "60f2120934bb87ce6fac81635a1d45e182050e4b6b30bd879f404b113dc512bb",
+      "source_worktree_status": "",
+      "copied_sha256": "60f2120934bb87ce6fac81635a1d45e182050e4b6b30bd879f404b113dc512bb"
+    },
+    {
+      "filename": "scalar_global_run_metadata.json",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/global_run_metadata.json",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "9768c33375bdd59e84610ad2510687e90999b0f2635176d89c77c3f7bc5bd9fa",
+      "source_worktree_status": "",
+      "copied_sha256": "6fad350407205aa016cdba624b18d5c68894b0a48dc8b8a2f205e17773eba57c",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    },
+    {
+      "filename": "scalar_run_metadata.json",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/run_metadata.json",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "b46f500547b60b038f190757167e66fddb2ead0e2790e5df47d2d5ffd288d485",
+      "source_worktree_status": "",
+      "copied_sha256": "b46f500547b60b038f190757167e66fddb2ead0e2790e5df47d2d5ffd288d485"
+    },
+    {
+      "filename": "source_rendering_contract.json",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/flow_estimates/05_4MIDD_additivity_flow0000_000-009/midd_luminance_additivity_contract.json",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_sha256": "e801c6a56d9e5551e289f163c5dee9e00dc0c73d92a64396c5a511a3313f55ee",
+      "source_worktree_status": "",
+      "copied_sha256": "bbada09f9eef597abd04d7e697ab602bbd81fe25bb060cc2f8c94720518c85e6",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    }
+  ],
+  "source_repository": "https://github.com/poxsalop5029/fvpg",
+  "source_commit_sha": {
+    "https://github.com/poxsalop5029/fvpg": "5acb9a145047274be04cd3e1511382f7f833819c"
+  },
+  "source_paths": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/01_vector_field_metrics.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/02_representation_level_summary.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/04_vector_field_QA.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/08_MIDD_vector_field_additivity/run_metadata.json"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/02_model_level_statistics.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/03_canonical_pair_predictions.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/05_global_model_metrics.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/06_final_QA.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/additivity_report.md"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/global_run_metadata.json"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_4MIDD_additivity/run_metadata.json"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/flow_estimates/05_4MIDD_additivity_flow0000_000-009/midd_luminance_additivity_contract.json"
+    }
+  ],
+  "implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "notebooks/supplementary/fig_S2.ipynb",
+      "source_sha256": "5e86560a313a91409e81ada069168ac011e92ec2e2f965b961875dced5c00f08",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+check,passed
+intervention cohort is models 000-009,True
+intervention source has no duplicate keys,True
+intervention source has complete required condition grid,True
+intervention source values are finite,True
+Panel B contains 10 models for T4 and T4+T5,True
+Panel C contains propeller and moving-edge data for 10 models,True
+Panels B/C normalized endpoint is finite,True
+intervention derived-table agreement,True
+Panel D uses complete 10 by 10 stable C48 cross-swap,True
+cross-swap pair keys are unique,True
+cross-swap stable C48 A values are finite,True
+cross-swap matrix has no missing pair,True
+each Panel D network has exactly nine mismatched decoders,True
+matched/mismatch derived-table agreement,True
+direction table contains unique complete 10 by 10 pairs,True
+direction saved correctness definition is preserved,True
+Panel E is a complete 10 by 10 direction matrix,True
+direction counts match prespecified 10/10 and 9/90 QA,True
+direction-summary derived-table agreement,True
+direction matched both-correct count = 10,True
+direction mismatched both-correct count = 9,True

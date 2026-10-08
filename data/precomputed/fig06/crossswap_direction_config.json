@@ -1,0 +1,28 @@
+{
+  "seed": 2026100506,
+  "ids": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45
+  ],
+  "dt": 0.02,
+  "gray_seconds": 1.0,
+  "n_frames": 50,
+  "spatial_cycles": 3.0,
+  "temporal_cycles": 1.0,
+  "contrast": 0.35,
+  "window": [
+    10,
+    50
+  ],
+  "primary": "right u>0 AND left u<0 separately for every pair",
+  "Q_secondary": "half right-minus-left mean u; exact source replay gate",
+  "aggregation": "all receptors, as original cross-swap, not annular MIDD"
+}

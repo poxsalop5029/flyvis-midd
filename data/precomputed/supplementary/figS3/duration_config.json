@@ -1,0 +1,70 @@
+{
+  "dt": 0.02,
+  "fade": 1.0,
+  "frames": 500,
+  "window": [
+    10,
+    50
+  ],
+  "image_size": 382,
+  "diameters": [
+    55,
+    382
+  ],
+  "BoxEye": [
+    15,
+    13
+  ],
+  "annulus": [
+    0.14,
+    0.98
+  ],
+  "sign": "decoder v flipped once; CW positive",
+  "device": "cpu",
+  "threads": 1,
+  "bootstrap": 10000,
+  "unit": "model",
+  "models": [
+    24,
+    41,
+    42
+  ],
+  "selection": "nearest90th/50th/10th quantile |A_C48| inofficial50, lexicographic tie-break before new outcomes",
+  "duration_seconds": 10,
+  "windows_seconds": [
+    [
+      0.2,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "fades": [
+    0,
+    0.5,
+    1,
+    2
+  ],
+  "jitter_amplitude_pixels": [
+    0,
+    1,
+    2
+  ],
+  "jitter": "exactly498 balanced nonzero shifts plus first/last0, both axes independently shuffled, same path acrossallconditions",
+  "primary": "late9\u201310s A versus early.2\u20131s A C48",
+  "near_zero_abs_A": 0.0005,
+  "retention_decay": 0.5,
+  "expand": "no result-dependent expansion;pilot only",
+  "id": 14,
+  "seed": 2026100414
+}

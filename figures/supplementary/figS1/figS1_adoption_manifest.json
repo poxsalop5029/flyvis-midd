@@ -1,0 +1,30 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+  "figure": "S1",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/supplementary/figS1/source_P_B_summary.csv": "76ecfcbb47b1a607c1f4c12982c8eb8db87ddd1a5cacdfe949dc432a025be946",
+    "data/precomputed/supplementary/figS1/source_input_manifest.json": "a55c8bbd35f32af3fb303cd3569510efde857e05ab2f50ecb27cddc80e27bf7f",
+    "data/precomputed/supplementary/figS1/source_flow_contract.json": "013be026cbce3a5bec1b168f44b1a61d4b413e88206ee6d770e442174a2f2723",
+    "data/precomputed/supplementary/figS1/metadata.json": "823438c63603b4602e5a3766d9c91340f33c3fcc6cad8b9b271ffdecf8d7f9a5",
+    "data/precomputed/supplementary/figS1/propeller_flow_50models.npy": "28446eb87dc52f47c72cd35ed1c3c610476cb7c14f0309c2a7e446dcbb2ca9b3",
+    "data/precomputed/supplementary/figS1/source_analysis_qa.csv": "e65b5f358fefae11fb9a62203d046f4671a2f472e70ce18c62911f295017b0f2",
+    "data/precomputed/supplementary/figS1/source_flow_qa.csv": "5f6d7639f1eefeff867083f0fca48e5bbc6aa3a2499d8c61fca8861c26dc4b6e",
+    "data/precomputed/supplementary/figS1/source_control_summary.csv": "b1a349fe2ea4534270b71a772a8a640b9614c7adfcf3631bbe8803fef43fceaf",
+    "data/precomputed/supplementary/figS1/source_analysis_contract.json": "c714f4422f3f44a9b13d723d5c4f7b0ede4ab6913d747da556b648d36c72c318",
+    "data/precomputed/supplementary/figS1/propeller_boxeye_rendered.npz": "67d62607d5147301efeb74876b9d52cb50a015085cd1040a0956be98ba383e23",
+    "data/precomputed/supplementary/figS1/propeller_sequences.npz": "8568ef587dfc2cfde2cfd7a0fe5b06ee41ea149b9e6f2d5d179b7932e45a141f",
+    "data/precomputed/supplementary/figS1/source_flow_metrics.csv": "860e51a1d81db6b81f2975da8886dbbc425560104312d3d25b00ff00b45964c8",
+    "data/precomputed/supplementary/figS1/multifield_sign_correspondence.csv": "99cd9f86db78bab1da5e8e99a8c9e1970ad01fb2b159bc8b754bef45d0221758"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS1/figS1_main.pdf": "fb098b5207d235e91c098e3391cd379651d98765b4da7e35f3056825f9e114e7",
+    "figures/supplementary/figS1/figS1_main.png": "2a7743a29aedd55f5411fe41dec97cf9fcb410615c2ca83f83f7321dfd99972d",
+    "figures/supplementary/figS1/figS1_adoption_QA.csv": "5daac600a03c47d07e14d560e996d9a1b7e0f8e8eda17220976f2e9d4cdd3ed8"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": "",
+  "last_execution_source_sha256": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+  "path_relocation_only": true
+}

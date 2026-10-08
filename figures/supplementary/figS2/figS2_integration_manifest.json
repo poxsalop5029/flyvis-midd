@@ -1,0 +1,79 @@
+{
+  "canonical_notebook": "notebooks/supplementary/fig_S2.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/supplementary/figS2/source_rendering_contract.json": "bbada09f9eef597abd04d7e697ab602bbd81fe25bb060cc2f8c94720518c85e6",
+    "data/precomputed/supplementary/figS2/scalar_run_metadata.json": "b46f500547b60b038f190757167e66fddb2ead0e2790e5df47d2d5ffd288d485",
+    "data/precomputed/supplementary/figS2/scalar_additivity_report.md": "60f2120934bb87ce6fac81635a1d45e182050e4b6b30bd879f404b113dc512bb",
+    "data/precomputed/supplementary/figS2/metadata.json": "f8edddc042edf68681e5902de82d74bbff61d61673d54f33ae33eb93f350953a",
+    "data/precomputed/supplementary/figS2/field_01_vector_field_metrics.csv": "c491c9f53213e8e1cb03190da4e817d62ace29c90eeb3b8fab62da862b66a6f7",
+    "data/precomputed/supplementary/figS2/scalar_global_run_metadata.json": "6fad350407205aa016cdba624b18d5c68894b0a48dc8b8a2f205e17773eba57c",
+    "data/precomputed/supplementary/figS2/scalar_02_model_level_statistics.csv": "2f10b7df3f999bf098c315f804ec25da752f060f72b55170c93b723e9bd19514",
+    "data/precomputed/supplementary/figS2/scalar_03_canonical_pair_predictions.csv": "fec13d94d2753ce344347a88041d36462115f143a1e1c1cf57b68c6a8f2d39ef",
+    "data/precomputed/supplementary/figS2/scalar_05_global_model_metrics.csv": "c628fcd2f0961849458b98705308132ef1947a17447c42e51a14912d85e48991",
+    "data/precomputed/supplementary/figS2/scalar_06_final_QA.csv": "df6cfd4c6963acb86510adb2f13ecebd4e65c8ade2f4339e039a105c44696613",
+    "data/precomputed/supplementary/figS2/field_02_representation_level_summary.csv": "6682bc3bb5f79f8320a147248028f1640b6bc36b8360036eae12595088d1b78f",
+    "data/precomputed/supplementary/figS2/field_04_vector_field_QA.csv": "90143d7ab8ddd281fd96a42417054d8401f06a07439c98406652369e7c983e5c",
+    "data/precomputed/supplementary/figS2/field_run_metadata.json": "9b72fe469602585be7e47a09fa55d8686da73173d10d19b2545709387b1b042b"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS2/figS2_main.pdf": "c80117988c19009381b4d319b43c34e3fb9240d778dcd5da5e6d0fc0ba143532",
+    "figures/supplementary/figS2/figS2_main.png": "db573a6261b85a56c027c086fc7dfb475a9dca26d698d90d109ac62a6275ec2e"
+  },
+  "summaries": {
+    "figures/supplementary/figS2/figS2_integration_primary_00.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS2/field_01_vector_field_metrics.csv",
+      "sha256": "fddfdfad41cd91a9ab2c0838c09c12e51e1ef5671c925f8070fbf0ca7f0fe87f"
+    },
+    "figures/supplementary/figS2/figS2_integration_primary_01.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS2/scalar_02_model_level_statistics.csv",
+      "sha256": "62551c1a676782a8a1fea56b04048cedbb7bf3e21b4619cdabd86a9e7869067a"
+    },
+    "figures/supplementary/figS2/figS2_integration_primary_02.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS2/scalar_03_canonical_pair_predictions.csv",
+      "sha256": "a6e223659f65a8afece64e8c1f4a83673606f161bab52d04cfe8fada28216bce"
+    },
+    "figures/supplementary/figS2/figS2_integration_primary_03.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS2/scalar_05_global_model_metrics.csv",
+      "sha256": "f0b23776f6ac1771a9b98876a2478bc0b900693766abbc0fe3c485c23ee1a506"
+    },
+    "figures/supplementary/figS2/figS2_integration_primary_04.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS2/scalar_06_final_QA.csv",
+      "sha256": "df6cfd4c6963acb86510adb2f13ecebd4e65c8ade2f4339e039a105c44696613"
+    },
+    "figures/supplementary/figS2/figS2_integration_primary_05.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS2/field_02_representation_level_summary.csv",
+      "sha256": "8913ddfbd0fe85eba372215622b7bffe7527f58164e3073cce24367648bdeb2a"
+    },
+    "figures/supplementary/figS2/figS2_integration_primary_06.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS2/field_04_vector_field_QA.csv",
+      "sha256": "90143d7ab8ddd281fd96a42417054d8401f06a07439c98406652369e7c983e5c"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

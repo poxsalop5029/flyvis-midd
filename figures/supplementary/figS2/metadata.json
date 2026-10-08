@@ -1,0 +1,34 @@
+{
+  "canonical_reproduction": {
+    "notebook": "notebooks/supplementary/fig_S2.ipynb",
+    "input_contract": "src/flyvis_midd/figure_inputs.json",
+    "input_paths": [
+      "data/precomputed/supplementary/figS2/source_rendering_contract.json",
+      "data/precomputed/supplementary/figS2/scalar_run_metadata.json",
+      "data/precomputed/supplementary/figS2/scalar_additivity_report.md",
+      "data/precomputed/supplementary/figS2/metadata.json",
+      "data/precomputed/supplementary/figS2/field_01_vector_field_metrics.csv",
+      "data/precomputed/supplementary/figS2/scalar_global_run_metadata.json",
+      "data/precomputed/supplementary/figS2/scalar_02_model_level_statistics.csv",
+      "data/precomputed/supplementary/figS2/scalar_03_canonical_pair_predictions.csv",
+      "data/precomputed/supplementary/figS2/scalar_05_global_model_metrics.csv",
+      "data/precomputed/supplementary/figS2/scalar_06_final_QA.csv",
+      "data/precomputed/supplementary/figS2/field_02_representation_level_summary.csv",
+      "data/precomputed/supplementary/figS2/field_04_vector_field_QA.csv",
+      "data/precomputed/supplementary/figS2/field_run_metadata.json"
+    ],
+    "analysis_source": "src/flyvis_midd/figure_analysis.py",
+    "plot_source": "src/flyvis_midd/figure_rendering.py",
+    "outputs": [
+      "figures/supplementary/figS2/figS2_main.pdf",
+      "figures/supplementary/figS2/figS2_main.png"
+    ],
+    "execution_manifest": "figures/supplementary/figS2/figS2_integration_manifest.json",
+    "source_chain": "numerical acquisition \u2192 canonical precomputed inputs \u2192 Figure notebook",
+    "revision_notebook_execution_required": false,
+    "inference_performed": false,
+    "historical_metadata_retained": true,
+    "supporting_inputs": [],
+    "path_relocation_only": true
+  }
+}

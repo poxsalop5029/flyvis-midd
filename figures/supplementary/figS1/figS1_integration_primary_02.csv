@@ -1,0 +1,8 @@
+check,pass
+50 model caches,True
+all caches valid,True
+flow shape,True
+finite flow,True
+activity coverage,True
+finite activity summary,True
+unique summary keys,True

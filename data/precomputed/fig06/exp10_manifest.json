@@ -1,0 +1,145 @@
+{
+  "experiment": "Experiment10_MIDDvsT4T5Silencing",
+  "model_ids": [
+    "000",
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009"
+  ],
+  "c_levels": [
+    48,
+    80,
+    112,
+    143,
+    175,
+    191,
+    207
+  ],
+  "dt_sec": 0.02,
+  "fade_in_state_sec": 1.0,
+  "n_frames": 50,
+  "analysis_frame_start": 10,
+  "expected_input_shape": [
+    8,
+    50,
+    34,
+    721
+  ],
+  "roi": {
+    "annulus_inner_fraction_of_image_radius": 0.14,
+    "annulus_outer_fraction_of_image_radius": 0.98
+  },
+  "targets": {
+    "confirmatory": [
+      "T4a"
+    ],
+    "secondary": [
+      "TmY14",
+      "T2a",
+      "Tm16"
+    ],
+    "exploratory": [
+      "T4b"
+    ]
+  },
+  "groups": {
+    "T4_family": [
+      "T4a",
+      "T4b",
+      "T4c",
+      "T4d"
+    ],
+    "T5_family": [
+      "T5a",
+      "T5b",
+      "T5c",
+      "T5d"
+    ],
+    "T4_T5": [
+      "T4a",
+      "T4b",
+      "T4c",
+      "T4d",
+      "T5a",
+      "T5b",
+      "T5c",
+      "T5d"
+    ],
+    "formal_candidates": [
+      "T4a",
+      "TmY14",
+      "T2a",
+      "Tm16"
+    ],
+    "formal_candidates_plus_T4b": [
+      "T4a",
+      "TmY14",
+      "T2a",
+      "Tm16",
+      "T4b"
+    ]
+  },
+  "thresholds": {
+    "sesoi_loss": 0.1,
+    "reproduction_max_abs": 1e-05,
+    "noop_max_abs": 1e-07,
+    "signal_floor_abs": 1e-12,
+    "positive_control_min_loss": 0.5,
+    "fdr_q": 0.05
+  },
+  "seeds": {
+    "spatial_permutation": 10010,
+    "matched_controls": 10011,
+    "bootstrap": 10012
+  },
+  "statistical_unit": "trained model (n=10)",
+  "primary_method": "frame_matched_baseline",
+  "output_dirs": {
+    "audit": "historical-local/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/00_audit",
+    "activity": "historical-local/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/cell_responses/01_float32_decoder_input",
+    "references": "historical-local/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/02_references_controls",
+    "runs": "historical-local/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/03_silencing_runs",
+    "qa": "historical-local/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/04_QA",
+    "midd": "historical-local/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/05_3MIDD_effects",
+    "specificity": "historical-local/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/06_specificity",
+    "screen": "historical-local/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/07_screen",
+    "additivity": "historical-local/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/08_additivity",
+    "report": "historical-local/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/09_report"
+  },
+  "conditions": [
+    "3MIDD_original_048",
+    "3MIDD_mirror_048",
+    "3MIDD_negative_048",
+    "3MIDD_original_080",
+    "3MIDD_mirror_080",
+    "3MIDD_negative_080",
+    "3MIDD_original_112",
+    "3MIDD_mirror_112",
+    "3MIDD_negative_112",
+    "3MIDD_original_143",
+    "3MIDD_mirror_143",
+    "3MIDD_negative_143",
+    "3MIDD_original_175",
+    "3MIDD_mirror_175",
+    "3MIDD_negative_175",
+    "3MIDD_original_191",
+    "3MIDD_mirror_191",
+    "3MIDD_negative_191",
+    "3MIDD_original_207",
+    "3MIDD_mirror_207",
+    "3MIDD_negative_207",
+    "propeller__static",
+    "propeller__CW_mid",
+    "propeller__CCW_mid"
+  ],
+  "checksums": {
+    "models": "530e3547d3f348808c83ff917e95f680720d61ef2c0d211b76f5fc9f10997a40",
+    "mapping": "2f406f97519c132c0e9a99ccb04bcb26994e32c7159b6ca0ebb45106e31d604e"
+  }
+}

@@ -1,0 +1,2 @@
+n_conditions,n_robust,pearson_r,spearman_rho,normalized_rmse,robust_sign_agreement,bach_antisymmetry_rmse,flyvis_antisymmetry_rmse
+441,346,0.3465225361084975,0.4328232900481876,0.6017858362598153,0.5115606936416185,4.940715479732491e-17,0.03685775744091934

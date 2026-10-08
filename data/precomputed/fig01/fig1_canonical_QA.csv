@@ -1,0 +1,12 @@
+check,pass,detail
+official 50 models and 3 groups,True,
+finite scalar measurements,True,
+A/S reconstruction,True,
+reversal iff positive margin,True,
+canonical frame and coordinate contract,True,
+3MIDD_048 regression,True,"(21, np.float64(-0.009345612477006082))"
+3MIDD_207 regression,True,"(18, np.float64(0.008258558978241005))"
+4MIDD_085_170 regression,True,"(12, np.float64(0.0032090433995232547))"
+3MIDD_048 Fig.2 per-model regression,True,
+3MIDD_207 Fig.2 per-model regression,True,
+4MIDD_085_170 Fig.2 per-model regression,True,

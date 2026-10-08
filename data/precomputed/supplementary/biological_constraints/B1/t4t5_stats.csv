@@ -1,0 +1,4 @@
+family,endpoint,n,statistic,effect_size,estimate,ci_low,ci_high,raw_p,holm_p,n_excluded,note
+primary,P1_mean_A_activity,50,two-sided model-level sign-flip,0.045957337652175911,0.00014145821190923629,-0.00067733264716443467,0.0010545855975132913,0.75486225688715569,1,0,"Mean and percentile bootstrap 95% CI; Cohen dz; 20,000 sign flips."
+primary,P2_spearman_A_activity_vs_A_flow,50,two-sided model-level permutation Spearman,0.11615846338535413,0.11615846338535413,-0.19332020648948026,0.41475034712182973,0.41732913354332285,1,0,"Paired percentile bootstrap 95% CI; 20,000 model-label permutations."
+primary,P3_sign_agreement,50,two-sided exact binomial against 0.5,0.54000000000000004,0.54000000000000004,0.39324197611692191,0.68185082143139131,0.67181103376536555,1,0,27/50 nonzero pairs agree; exact-zero pairs excluded.

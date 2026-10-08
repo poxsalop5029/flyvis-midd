@@ -1,0 +1,6 @@
+check,pass
+metric_rows_420,True
+representation_rows_20,True
+finite,True
+global_scalar_identity,True
+primary_eligible_false,True

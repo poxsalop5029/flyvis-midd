@@ -1,0 +1,24 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+  "figure": "S5",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/fig02/official50_shuffle_model_metrics.csv": "6812c7d5121a127dd5b732eec9daaec2a37374bc8ae1c9b78dffcac6ebcd9398",
+    "data/precomputed/fig02/official50_static_physical_context.csv": "e328328a4b8e24e32476269f3d2f08b497b187fb381dc53f48610accae6e1ef3",
+    "data/precomputed/fig02/official50_controls_metrics.csv": "45a7b1286da2fb6f1ea231671e2afdbeaf50eeffba240089482ebb3e938f2d7b",
+    "data/precomputed/fig04/phase_paired.csv": "c9506a3fd02d96fbc8c8af4bb8d7bdf16dd8b7c3b6e17b33536f28edba8b9833",
+    "data/precomputed/fig04/official50_phase_model_metrics.csv": "0ae6279923d14a7e04349da39b3afb0653f32777bddea24020419069aae09f3c",
+    "data/precomputed/fig02/official50_shuffle_draw_metrics.csv": "bde52ce47f40a748cc037dc8098f10bf54f473872b8f7006a4b10420be162395",
+    "data/precomputed/fig04/official50_performance_phase_join.csv": "8f7a89e99bc57a3eba2196122bfeb4d1acd5b81fb2f3a6d8596af8666cc7cf6e"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS5/figS5_main.pdf": "96451a73f76011c49b9a4b4882e86e2add7fb1cb69d5dafe6c4ee98bb17c01ad",
+    "figures/supplementary/figS5/figS5_main.png": "afc5310052fbf3a32adf16ddb53b2b60511a4a3630b7b1378d1d68610a26dd20",
+    "figures/supplementary/figS5/figS5_adoption_QA.csv": "89287d15ef22f6a413495dc662af7ba1ff59dd249a9563121d5721469c27780d"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": "",
+  "last_execution_source_sha256": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+  "path_relocation_only": true
+}

@@ -1,0 +1,13 @@
+check,pass
+official_model_ids_000_049,True
+expected_rows_50x3x2,True
+expected_conditions_and_variants,True
+no_duplicate_model_condition_variant,True
+finite_source_values,True
+original_mirror_pairing,True
+CW_positive_and_y_flip_once,True
+A_definition,True
+S_definition,True
+reconstruction_identity,True
+reversal_equivalence_all_models,True
+margin_sign_matches_reversal,True

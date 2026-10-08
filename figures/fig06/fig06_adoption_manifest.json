@@ -1,0 +1,18 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "bade429874bbd631544e4bfdce9099d6f71c7163a87e99d6665b740dfe2ed6d0",
+  "figure": "6",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/fig06/replacement_metrics.csv": "36a4f61de1accd16dec753caa53a78e4ebb075658b85f255623d95f0987abb69",
+    "data/precomputed/fig06/crossswap_metrics.csv": "2f07747574d790cdb625646c5c6c810c05ce133ae6bde79aa5df572697015d72",
+    "data/precomputed/fig06/crossswap_direction_accuracy.csv": "a727a67ac7e8c6e46b1507eb14f851ce325d4089f3bed9367a972aea2004807e"
+  },
+  "outputs_sha256": {
+    "figures/fig06/fig06_main.pdf": "5a111bfb75a5ce294d139a26c919006f85a74079d637a1edb1b848c9a118b387",
+    "figures/fig06/fig06_main.png": "c4167adf2fa800d45068ed6912591d4919aa0b8c6c64ef2d287319512c1989cd",
+    "figures/fig06/fig06_adoption_QA.csv": "babe758777696135e551a3e36d7497d9f73c7de014e7ad5ed5936791396245c4"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": ""
+}

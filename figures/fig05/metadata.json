@@ -1,0 +1,42 @@
+{
+  "canonical_reproduction": {
+    "notebook": "notebooks/fig05/fig_5.ipynb",
+    "input_contract": "src/flyvis_midd/figure_inputs.json",
+    "input_paths": [
+      "data/precomputed/fig05/learning_normalized_metrics.csv",
+      "data/precomputed/fig05/fig05_seed_support.csv",
+      "data/precomputed/fig05/fig05_EPE_step_summary.csv",
+      "data/precomputed/fig05/learning_threshold_summary.csv",
+      "data/precomputed/fig05/learning_threshold_crossings.csv",
+      "data/precomputed/fig05/learning_sign_consistency.csv",
+      "data/precomputed/fig05/physical_motion_trajectory.csv",
+      "data/precomputed/fig05/physical_motion_onsets.csv",
+      "data/precomputed/fig05/official50_sintel_epe.csv",
+      "data/precomputed/fig05/learning_fixed_control_pairs.csv",
+      "data/precomputed/fig05/learning_stability_checkpoint_summary.csv"
+    ],
+    "analysis_source": "src/flyvis_midd/figure_analysis.py",
+    "plot_source": "src/flyvis_midd/figure_rendering.py",
+    "outputs": [
+      "figures/fig05/fig05_main.pdf",
+      "figures/fig05/fig05_main.png"
+    ],
+    "execution_manifest": "figures/fig05/fig05_integration_manifest.json",
+    "source_chain": "numerical acquisition \u2192 canonical precomputed inputs \u2192 Figure notebook",
+    "revision_notebook_execution_required": false,
+    "inference_performed": false,
+    "historical_metadata_retained": true,
+    "supporting_inputs": [
+      "data/precomputed/fig05/learning_normalized_metrics.csv",
+      "data/precomputed/fig05/learning_threshold_summary.csv",
+      "data/precomputed/fig05/learning_threshold_crossings.csv",
+      "data/precomputed/fig05/learning_sign_consistency.csv",
+      "data/precomputed/fig05/physical_motion_trajectory.csv",
+      "data/precomputed/fig05/physical_motion_onsets.csv",
+      "data/precomputed/fig05/official50_sintel_epe.csv",
+      "data/precomputed/fig05/learning_fixed_control_pairs.csv",
+      "data/precomputed/fig05/learning_stability_checkpoint_summary.csv"
+    ],
+    "path_relocation_only": true
+  }
+}

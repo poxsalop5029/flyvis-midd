@@ -1,0 +1,19 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+  "figure": "S6",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/supplementary/figS6/sector_paired.csv": "fdbc67805dbe84f587b33678e0e41f2b9221c5f750d0df6002fcee23f2c217bd",
+    "data/precomputed/fig04/receptor_geometry.csv": "37d62da0b6c699edc8459f95e779c5226c94237dc19ebb3f6c19fcb87b195f91"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS6/figS6_main.pdf": "a8d090f58a1396d89cbff409df9009dcdc7f04f01113ab07bace0c25d60937e6",
+    "figures/supplementary/figS6/figS6_main.png": "e98af1c798447e0b4c88ab2c27ef7c468713bc1012df55589b9848b167966780",
+    "figures/supplementary/figS6/figS6_adoption_QA.csv": "89287d15ef22f6a413495dc662af7ba1ff59dd249a9563121d5721469c27780d"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": "",
+  "last_execution_source_sha256": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+  "path_relocation_only": true
+}

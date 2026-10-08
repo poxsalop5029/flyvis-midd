@@ -1,0 +1,151 @@
+model_id,condition,known_direction,signed_tangent_ratio,direction_aligned
+000,CW_mid,CW,0.9101736037046456,True
+000,CCW_mid,CCW,-0.9113459960930811,True
+000,Static,no rotation (baseline),-0.3905167724103112,not_applicable
+001,CW_mid,CW,0.9214669081132474,True
+001,CCW_mid,CCW,-0.9489531832274443,True
+001,Static,no rotation (baseline),-0.21621117981565213,not_applicable
+002,CW_mid,CW,0.9436384461905195,True
+002,CCW_mid,CCW,-0.9536592591631503,True
+002,Static,no rotation (baseline),0.12959087383708187,not_applicable
+003,CW_mid,CW,0.9176218731068698,True
+003,CCW_mid,CCW,-0.9366668909009224,True
+003,Static,no rotation (baseline),0.0674939530897975,not_applicable
+004,CW_mid,CW,0.9537699591281437,True
+004,CCW_mid,CCW,-0.9463601217039025,True
+004,Static,no rotation (baseline),0.23816722291003126,not_applicable
+005,CW_mid,CW,0.9470970784663757,True
+005,CCW_mid,CCW,-0.9429693046775115,True
+005,Static,no rotation (baseline),-0.16217815507739966,not_applicable
+006,CW_mid,CW,0.9445557128529292,True
+006,CCW_mid,CCW,-0.9575842899366093,True
+006,Static,no rotation (baseline),-0.02618590386491923,not_applicable
+007,CW_mid,CW,0.9202131139959867,True
+007,CCW_mid,CCW,-0.9432044700442641,True
+007,Static,no rotation (baseline),-0.10916159662515969,not_applicable
+008,CW_mid,CW,0.9510711951618156,True
+008,CCW_mid,CCW,-0.9461951686615248,True
+008,Static,no rotation (baseline),0.15638548250628098,not_applicable
+009,CW_mid,CW,0.9438158436227511,True
+009,CCW_mid,CCW,-0.9532979612147775,True
+009,Static,no rotation (baseline),0.16361067538266438,not_applicable
+010,CW_mid,CW,0.9290687613560882,True
+010,CCW_mid,CCW,-0.9264805452178825,True
+010,Static,no rotation (baseline),0.17640911894788558,not_applicable
+011,CW_mid,CW,0.9314283833692423,True
+011,CCW_mid,CCW,-0.9407118544228105,True
+011,Static,no rotation (baseline),0.11050771237594714,not_applicable
+012,CW_mid,CW,0.9306788062185273,True
+012,CCW_mid,CCW,-0.9448524773805217,True
+012,Static,no rotation (baseline),0.11081559836924437,not_applicable
+013,CW_mid,CW,0.9093794107104465,True
+013,CCW_mid,CCW,-0.9143967868890271,True
+013,Static,no rotation (baseline),-0.036435535203565864,not_applicable
+014,CW_mid,CW,0.9268805164936049,True
+014,CCW_mid,CCW,-0.9244677336197291,True
+014,Static,no rotation (baseline),0.02054216685297807,not_applicable
+015,CW_mid,CW,0.9247194381018581,True
+015,CCW_mid,CCW,-0.9007968565693604,True
+015,Static,no rotation (baseline),-0.15700441966434336,not_applicable
+016,CW_mid,CW,0.9384242437929746,True
+016,CCW_mid,CCW,-0.9611488569110387,True
+016,Static,no rotation (baseline),0.0013373852068135066,not_applicable
+017,CW_mid,CW,0.9358682213234593,True
+017,CCW_mid,CCW,-0.9272612333580961,True
+017,Static,no rotation (baseline),-0.13815975063115804,not_applicable
+018,CW_mid,CW,0.9449453563543196,True
+018,CCW_mid,CCW,-0.9489203769542842,True
+018,Static,no rotation (baseline),-0.019580597469205832,not_applicable
+019,CW_mid,CW,0.9376161199843789,True
+019,CCW_mid,CCW,-0.9372334217215965,True
+019,Static,no rotation (baseline),-0.3051462585362982,not_applicable
+020,CW_mid,CW,0.9348215756753389,True
+020,CCW_mid,CCW,-0.94701304863016,True
+020,Static,no rotation (baseline),0.20014606602935234,not_applicable
+021,CW_mid,CW,0.9134329785499095,True
+021,CCW_mid,CCW,-0.9224742504321853,True
+021,Static,no rotation (baseline),0.09716959097412999,not_applicable
+022,CW_mid,CW,0.9391745827552556,True
+022,CCW_mid,CCW,-0.9414891725048665,True
+022,Static,no rotation (baseline),0.17699781624564462,not_applicable
+023,CW_mid,CW,0.8994581806417006,True
+023,CCW_mid,CCW,-0.9182065044194389,True
+023,Static,no rotation (baseline),-0.09156496237393291,not_applicable
+024,CW_mid,CW,0.9308155443062567,True
+024,CCW_mid,CCW,-0.9410881851432877,True
+024,Static,no rotation (baseline),0.05880591319927652,not_applicable
+025,CW_mid,CW,0.9364812107143098,True
+025,CCW_mid,CCW,-0.9334367909002714,True
+025,Static,no rotation (baseline),0.11587137707436257,not_applicable
+026,CW_mid,CW,0.9514562087822855,True
+026,CCW_mid,CCW,-0.9474793676599188,True
+026,Static,no rotation (baseline),-0.22195128969819997,not_applicable
+027,CW_mid,CW,0.9469232253652861,True
+027,CCW_mid,CCW,-0.9436100991437907,True
+027,Static,no rotation (baseline),0.3059799978022079,not_applicable
+028,CW_mid,CW,0.9136139296687643,True
+028,CCW_mid,CCW,-0.912914682909805,True
+028,Static,no rotation (baseline),0.08579812746218467,not_applicable
+029,CW_mid,CW,0.9412554811750861,True
+029,CCW_mid,CCW,-0.9512754197814498,True
+029,Static,no rotation (baseline),0.05137667265818308,not_applicable
+030,CW_mid,CW,0.929609582489623,True
+030,CCW_mid,CCW,-0.9320586308052464,True
+030,Static,no rotation (baseline),-0.10160473758129067,not_applicable
+031,CW_mid,CW,0.9346208600358241,True
+031,CCW_mid,CCW,-0.9329199577486655,True
+031,Static,no rotation (baseline),0.15497345439246016,not_applicable
+032,CW_mid,CW,0.9587497550493913,True
+032,CCW_mid,CCW,-0.9522377150353554,True
+032,Static,no rotation (baseline),0.17957037407888124,not_applicable
+033,CW_mid,CW,0.9355775715607552,True
+033,CCW_mid,CCW,-0.9355595504427302,True
+033,Static,no rotation (baseline),0.07415537581435473,not_applicable
+034,CW_mid,CW,0.9455107175284102,True
+034,CCW_mid,CCW,-0.9525215144475452,True
+034,Static,no rotation (baseline),-0.031760744984408056,not_applicable
+035,CW_mid,CW,0.9291892638545378,True
+035,CCW_mid,CCW,-0.9403426998330261,True
+035,Static,no rotation (baseline),-0.016575570648300997,not_applicable
+036,CW_mid,CW,0.9546013737153543,True
+036,CCW_mid,CCW,-0.9639175815406312,True
+036,Static,no rotation (baseline),-0.03881749639748527,not_applicable
+037,CW_mid,CW,0.9219316586655629,True
+037,CCW_mid,CCW,-0.9149471678223532,True
+037,Static,no rotation (baseline),-0.21584022012845114,not_applicable
+038,CW_mid,CW,0.9471641736507135,True
+038,CCW_mid,CCW,-0.9430943457091135,True
+038,Static,no rotation (baseline),-0.1295064623187627,not_applicable
+039,CW_mid,CW,0.9170595756321818,True
+039,CCW_mid,CCW,-0.9326859269705406,True
+039,Static,no rotation (baseline),0.05070552295069944,not_applicable
+040,CW_mid,CW,0.9564644459271717,True
+040,CCW_mid,CCW,-0.9552444316335122,True
+040,Static,no rotation (baseline),-0.006951635351880751,not_applicable
+041,CW_mid,CW,0.927769095920903,True
+041,CCW_mid,CCW,-0.9314791331944149,True
+041,Static,no rotation (baseline),-0.08803173073245148,not_applicable
+042,CW_mid,CW,0.9287595290790437,True
+042,CCW_mid,CCW,-0.9343491603811672,True
+042,Static,no rotation (baseline),0.08276222420832788,not_applicable
+043,CW_mid,CW,0.9170811363233196,True
+043,CCW_mid,CCW,-0.9127669191391257,True
+043,Static,no rotation (baseline),-0.04548472457117911,not_applicable
+044,CW_mid,CW,0.9076171709770537,True
+044,CCW_mid,CCW,-0.9213210108861576,True
+044,Static,no rotation (baseline),0.08841439304350893,not_applicable
+045,CW_mid,CW,0.9274911665566821,True
+045,CCW_mid,CCW,-0.9179361736258322,True
+045,Static,no rotation (baseline),0.05362336929704348,not_applicable
+046,CW_mid,CW,0.9134837394926082,True
+046,CCW_mid,CCW,-0.9258947834017389,True
+046,Static,no rotation (baseline),-0.09660764353753354,not_applicable
+047,CW_mid,CW,0.94172153284379,True
+047,CCW_mid,CCW,-0.9525319585150508,True
+047,Static,no rotation (baseline),0.05876500214512697,not_applicable
+048,CW_mid,CW,0.859026853797298,True
+048,CCW_mid,CCW,-0.8788852905970169,True
+048,Static,no rotation (baseline),-0.15475381001383928,not_applicable
+049,CW_mid,CW,0.1499568577998012,True
+049,CCW_mid,CCW,-0.055463979736943184,True
+049,Static,no rotation (baseline),-0.014413461167880193,not_applicable

@@ -1,0 +1,17 @@
+check,pass
+checkpoint_zip_checksum_matches_metadata,True
+learning_custom_seeds_000_013,True
+zip_checkpoint_count_2586,True
+step_zero_in_all_seeds,True
+R10_regular_checkpoint_support_2567,True
+seed_max_steps_match_R10,True
+14_seeds_3_groups_3_variants_complete,True
+MIDD_rows_unique_finite_monotone,True
+A_formula,True
+S_formula,True
+M_formula,True
+actual_reversal_product_equals_margin,True
+EPE_complete_fixed_diagnostic_support,True
+onset_14_of_14_in_all_groups,True
+onset_medians_match_R10,True
+recomputed_onsets_match_R10_rows,True

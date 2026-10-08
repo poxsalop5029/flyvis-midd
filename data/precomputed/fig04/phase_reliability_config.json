@@ -1,0 +1,54 @@
+{
+  "scope": "R2-0 and R2-1 only; stop after Gate",
+  "primary": "3MIDD_048",
+  "secondary_groups": [
+    "3MIDD_207",
+    "4MIDD_085_170"
+  ],
+  "new_inference": false,
+  "sign": "native decoder v flipped exactly once; CW-positive T",
+  "unit": "official model or independent custom training seed; phases/checkpoints repeated within unit",
+  "official_models": [
+    "flow/0000/000",
+    "flow/0000/001",
+    "flow/0000/002",
+    "flow/0000/003",
+    "flow/0000/004",
+    "flow/0000/005",
+    "flow/0000/006",
+    "flow/0000/007",
+    "flow/0000/008",
+    "flow/0000/009"
+  ],
+  "selection": "Reuse the fixed Rev02/03 official000\u2013009 index cohort, not a random sample of official50; no phenotype re-selection.",
+  "bootstrap": "10000 whole-model row resamples; fixed phase columns retained; percentile95%; conditional robustness intervals, not official50 population intervals.",
+  "seed": 2026100501,
+  "phase_grid_degrees": [
+    0.0,
+    1.25,
+    2.5,
+    3.75,
+    5.0,
+    6.25,
+    7.5,
+    8.75,
+    10.0,
+    11.25,
+    12.5,
+    13.75
+  ],
+  "ICC_primary": "ICC(A,1): balanced two-way mixed-effects, absolute agreement, single phase. Models are target units, the12 phases are fixed repeated conditions. Reliability conditional on the fixed grid and cohort; not random measurement-noise estimation.",
+  "ICC_formula": "(MS_model-MS_residual)/(MS_model+(k-1)*MS_residual+k*(MS_phase-MS_residual)/n)",
+  "ICC_secondary": "ICC(C,1), same model, consistency; systematic phase means removed, cannot replace primary absolute agreement.",
+  "variance": "Balanced centered sums of squares plus ANOVA moment estimates: sigma_model=(MS_model-MS_residual)/k; sigma_phase=(MS_phase-MS_residual)/n; residual=MS_residual. Retain negative estimates; residual conflates interaction with deterministic sampling/measurement differences. Also report observed variance of model phase means and mean within-model sample phase variance.",
+  "reversal": [
+    "mean of phase-wise predicate TO*TM<0",
+    "predicate on separately phase-averaged TO and TM"
+  ],
+  "near_zero_policy": "No new exclusion/floor for A sign. Exact sign including0; MAD/SD/IQR instead of dividing by near-zero mean A. Normalized spread uses positive paired G.",
+  "learning": "Regular checkpoints only; common0\u2013100k endpoints; adjacent pairs require1000-step difference. Late common80\u2013100k is fixed sensitivity, not asserted plateau. Terminal last21 regular checkpoints at each unequal endpoint is additional descriptive window.",
+  "learning_metrics": "Across-seed adjacent Pearson/Spearman/sign, per-seed adjacent changes and late sign stability; late odd/even checkpoint means correlated across seeds with no Spearman-Brown correction or iid-time p-value.",
+  "100k": "Secondary two-sided exact binomial p under0.5 sign probability; no correction claimed for3 descriptive tests; report group-wise counts.",
+  "cross_condition": "Only3 pairwise Spearman/Pearson relations on phase-average A, exploratory; no shuffle/physical/task score analyses.",
+  "gate": "Holistic GO/REFINE/DROP based on primary ICC and CI, between/within variance, phase0-to-mean relation, sign consistency and both reversal definitions; no automatic single-cutoff decision. Selected-cohort and time-series restrictions apply."
+}

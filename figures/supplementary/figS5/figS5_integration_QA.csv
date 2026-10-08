@@ -1,0 +1,6 @@
+check,passed
+A/S identity: data/precomputed/fig04/phase_paired.csv,True
+A/S identity: data/precomputed/fig01/fig1_midd_per_model.csv,True
+A/S identity: data/precomputed/fig04/geometry_paired.csv,True
+A/S identity: data/precomputed/fig04/official50_phase_pairs.csv,True
+A/S identity: data/precomputed/fig04/radial_radial_model_phase_metrics.csv,True

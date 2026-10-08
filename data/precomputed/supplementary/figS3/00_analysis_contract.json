@@ -1,0 +1,89 @@
+{
+  "artifact_version": "midd_flow_analysis_50models_v1",
+  "source_contract": "fvsp/projects/seed_analysis/artifacts/01_midd_50models/contract.json",
+  "source_contract_sha256": "d17735f2109680ae56688b3932b8b9aaeaaa51c5a2c03af464f5bb40cb8b1e38",
+  "model_ids": [
+    "000",
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "010",
+    "011",
+    "012",
+    "013",
+    "014",
+    "015",
+    "016",
+    "017",
+    "018",
+    "019",
+    "020",
+    "021",
+    "022",
+    "023",
+    "024",
+    "025",
+    "026",
+    "027",
+    "028",
+    "029",
+    "030",
+    "031",
+    "032",
+    "033",
+    "034",
+    "035",
+    "036",
+    "037",
+    "038",
+    "039",
+    "040",
+    "041",
+    "042",
+    "043",
+    "044",
+    "045",
+    "046",
+    "047",
+    "048",
+    "049"
+  ],
+  "conditions": [
+    "3MIDD_048__original",
+    "3MIDD_048__mirror",
+    "3MIDD_207__original",
+    "3MIDD_207__mirror",
+    "4MIDD_085_170__original",
+    "4MIDD_085_170__mirror"
+  ],
+  "stable_frames_python": [
+    10,
+    50
+  ],
+  "statistical_unit": "trained network (N=50)",
+  "groups": [
+    "3MIDD_048",
+    "3MIDD_207",
+    "4MIDD_085_170"
+  ],
+  "variants": [
+    "original",
+    "mirror"
+  ],
+  "annulus_radius_fraction": [
+    0.14,
+    0.98
+  ],
+  "rotation_sign": "CW positive after one decoder-v display flip",
+  "pair_components": {
+    "A": "(T_original-T_mirror)/2",
+    "S": "(T_original+T_mirror)/2",
+    "M": "abs(A)-abs(S)"
+  }
+}

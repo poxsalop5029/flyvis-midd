@@ -1,0 +1,170 @@
+check,identity,passed
+actual checkpoint,flow/0000/000,True
+actual checkpoint,flow/0000/001,True
+actual checkpoint,flow/0000/002,True
+actual checkpoint,flow/0000/003,True
+actual checkpoint,flow/0000/004,True
+actual checkpoint,flow/0000/005,True
+actual checkpoint,flow/0000/006,True
+actual checkpoint,flow/0000/007,True
+actual checkpoint,flow/0000/008,True
+actual checkpoint,flow/0000/009,True
+actual checkpoint,flow/0000/010,True
+actual checkpoint,flow/0000/011,True
+actual checkpoint,flow/0000/012,True
+actual checkpoint,flow/0000/013,True
+actual checkpoint,flow/0000/014,True
+actual checkpoint,flow/0000/015,True
+actual checkpoint,flow/0000/016,True
+actual checkpoint,flow/0000/017,True
+actual checkpoint,flow/0000/018,True
+actual checkpoint,flow/0000/019,True
+actual checkpoint,flow/0000/020,True
+actual checkpoint,flow/0000/021,True
+actual checkpoint,flow/0000/022,True
+actual checkpoint,flow/0000/023,True
+actual checkpoint,flow/0000/024,True
+actual checkpoint,flow/0000/025,True
+actual checkpoint,flow/0000/026,True
+actual checkpoint,flow/0000/027,True
+actual checkpoint,flow/0000/028,True
+actual checkpoint,flow/0000/029,True
+actual checkpoint,flow/0000/030,True
+actual checkpoint,flow/0000/031,True
+actual checkpoint,flow/0000/032,True
+actual checkpoint,flow/0000/033,True
+actual checkpoint,flow/0000/034,True
+actual checkpoint,flow/0000/035,True
+actual checkpoint,flow/0000/036,True
+actual checkpoint,flow/0000/037,True
+actual checkpoint,flow/0000/038,True
+actual checkpoint,flow/0000/039,True
+actual checkpoint,flow/0000/040,True
+actual checkpoint,flow/0000/041,True
+actual checkpoint,flow/0000/042,True
+actual checkpoint,flow/0000/043,True
+actual checkpoint,flow/0000/044,True
+actual checkpoint,flow/0000/045,True
+actual checkpoint,flow/0000/046,True
+actual checkpoint,flow/0000/047,True
+actual checkpoint,flow/0000/048,True
+actual checkpoint,flow/0000/049,True
+reused checkpoint matches,flow/0000/015,True
+reused checkpoint matches,flow/0000/025,True
+reused checkpoint matches,flow/0000/046,True
+reused checkpoint matches,flow/0000/000,True
+reused checkpoint matches,flow/0000/001,True
+reused checkpoint matches,flow/0000/002,True
+reused checkpoint matches,flow/0000/003,True
+reused checkpoint matches,flow/0000/004,True
+reused checkpoint matches,flow/0000/005,True
+reused checkpoint matches,flow/0000/006,True
+reused checkpoint matches,flow/0000/000,True
+reused checkpoint matches,flow/0000/001,True
+reused checkpoint matches,flow/0000/002,True
+reused checkpoint matches,flow/0000/003,True
+reused checkpoint matches,flow/0000/004,True
+reused checkpoint matches,flow/0000/005,True
+reused checkpoint matches,flow/0000/006,True
+reused checkpoint matches,flow/0000/007,True
+reused checkpoint matches,flow/0000/008,True
+reused checkpoint matches,flow/0000/009,True
+reused rendered input hash,3MIDD_048__original,True
+reused rendered input hash,3MIDD_048__mirror,True
+reused rendered input hash,3MIDD_048__negative,True
+reused rendered input hash,3MIDD_048__original_LR,True
+reused rendered input hash,3MIDD_048__negative_LR,True
+reused rendered input hash,3MIDD_048__shuffle_00,True
+reused rendered input hash,3MIDD_048__shuffle_00_LR,True
+reused rendered input hash,3MIDD_048__shuffle_01,True
+reused rendered input hash,3MIDD_048__shuffle_01_LR,True
+reused rendered input hash,3MIDD_048__shuffle_02,True
+reused rendered input hash,3MIDD_048__shuffle_02_LR,True
+reused rendered input hash,3MIDD_048__shuffle_03,True
+reused rendered input hash,3MIDD_048__shuffle_03_LR,True
+reused rendered input hash,3MIDD_048__shuffle_04,True
+reused rendered input hash,3MIDD_048__shuffle_04_LR,True
+reused rendered input hash,3MIDD_048__shuffle_05,True
+reused rendered input hash,3MIDD_048__shuffle_05_LR,True
+reused rendered input hash,3MIDD_048__shuffle_06,True
+reused rendered input hash,3MIDD_048__shuffle_06_LR,True
+reused rendered input hash,3MIDD_048__shuffle_07,True
+reused rendered input hash,3MIDD_048__shuffle_07_LR,True
+reused rendered input hash,3MIDD_048__shuffle_08,True
+reused rendered input hash,3MIDD_048__shuffle_08_LR,True
+reused rendered input hash,3MIDD_048__shuffle_09,True
+reused rendered input hash,3MIDD_048__shuffle_09_LR,True
+reused rendered input hash,3MIDD_207__original,True
+reused rendered input hash,3MIDD_207__mirror,True
+reused rendered input hash,3MIDD_207__negative,True
+reused rendered input hash,3MIDD_207__original_LR,True
+reused rendered input hash,3MIDD_207__negative_LR,True
+reused rendered input hash,3MIDD_207__shuffle_00,True
+reused rendered input hash,3MIDD_207__shuffle_00_LR,True
+reused rendered input hash,3MIDD_207__shuffle_01,True
+reused rendered input hash,3MIDD_207__shuffle_01_LR,True
+reused rendered input hash,3MIDD_207__shuffle_02,True
+reused rendered input hash,3MIDD_207__shuffle_02_LR,True
+reused rendered input hash,3MIDD_207__shuffle_03,True
+reused rendered input hash,3MIDD_207__shuffle_03_LR,True
+reused rendered input hash,3MIDD_207__shuffle_04,True
+reused rendered input hash,3MIDD_207__shuffle_04_LR,True
+reused rendered input hash,3MIDD_207__shuffle_05,True
+reused rendered input hash,3MIDD_207__shuffle_05_LR,True
+reused rendered input hash,3MIDD_207__shuffle_06,True
+reused rendered input hash,3MIDD_207__shuffle_06_LR,True
+reused rendered input hash,3MIDD_207__shuffle_07,True
+reused rendered input hash,3MIDD_207__shuffle_07_LR,True
+reused rendered input hash,3MIDD_207__shuffle_08,True
+reused rendered input hash,3MIDD_207__shuffle_08_LR,True
+reused rendered input hash,3MIDD_207__shuffle_09,True
+reused rendered input hash,3MIDD_207__shuffle_09_LR,True
+reused rendered input hash,4MIDD_085_170__original,True
+reused rendered input hash,4MIDD_085_170__mirror,True
+reused rendered input hash,4MIDD_085_170__negative,True
+reused rendered input hash,4MIDD_085_170__original_LR,True
+reused rendered input hash,4MIDD_085_170__negative_LR,True
+reused rendered input hash,4MIDD_085_170__shuffle_00,True
+reused rendered input hash,4MIDD_085_170__shuffle_00_LR,True
+reused rendered input hash,4MIDD_085_170__shuffle_01,True
+reused rendered input hash,4MIDD_085_170__shuffle_01_LR,True
+reused rendered input hash,4MIDD_085_170__shuffle_02,True
+reused rendered input hash,4MIDD_085_170__shuffle_02_LR,True
+reused rendered input hash,4MIDD_085_170__shuffle_03,True
+reused rendered input hash,4MIDD_085_170__shuffle_03_LR,True
+reused rendered input hash,4MIDD_085_170__shuffle_04,True
+reused rendered input hash,4MIDD_085_170__shuffle_04_LR,True
+reused rendered input hash,4MIDD_085_170__shuffle_05,True
+reused rendered input hash,4MIDD_085_170__shuffle_05_LR,True
+reused rendered input hash,4MIDD_085_170__shuffle_06,True
+reused rendered input hash,4MIDD_085_170__shuffle_06_LR,True
+reused rendered input hash,4MIDD_085_170__shuffle_07,True
+reused rendered input hash,4MIDD_085_170__shuffle_07_LR,True
+reused rendered input hash,4MIDD_085_170__shuffle_08,True
+reused rendered input hash,4MIDD_085_170__shuffle_08_LR,True
+reused rendered input hash,4MIDD_085_170__shuffle_09,True
+reused rendered input hash,4MIDD_085_170__shuffle_09_LR,True
+phase input hash,3MIDD_048_p00__original,True
+phase input hash,3MIDD_048_p00__mirror,True
+phase input hash,3MIDD_048_p01__original,True
+phase input hash,3MIDD_048_p01__mirror,True
+phase input hash,3MIDD_048_p02__original,True
+phase input hash,3MIDD_048_p02__mirror,True
+phase input hash,3MIDD_048_p03__original,True
+phase input hash,3MIDD_048_p03__mirror,True
+phase input hash,3MIDD_048_p04__original,True
+phase input hash,3MIDD_048_p04__mirror,True
+phase input hash,3MIDD_048_p05__original,True
+phase input hash,3MIDD_048_p05__mirror,True
+phase input hash,3MIDD_048_p06__original,True
+phase input hash,3MIDD_048_p06__mirror,True
+phase input hash,3MIDD_048_p07__original,True
+phase input hash,3MIDD_048_p07__mirror,True
+phase input hash,3MIDD_048_p08__original,True
+phase input hash,3MIDD_048_p08__mirror,True
+phase input hash,3MIDD_048_p09__original,True
+phase input hash,3MIDD_048_p09__mirror,True
+phase input hash,3MIDD_048_p10__original,True
+phase input hash,3MIDD_048_p10__mirror,True
+phase input hash,3MIDD_048_p11__original,True
+phase input hash,3MIDD_048_p11__mirror,True

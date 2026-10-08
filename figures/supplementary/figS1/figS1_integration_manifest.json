@@ -1,0 +1,80 @@
+{
+  "canonical_notebook": "notebooks/supplementary/fig_S1.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/supplementary/figS1/source_P_B_summary.csv": "76ecfcbb47b1a607c1f4c12982c8eb8db87ddd1a5cacdfe949dc432a025be946",
+    "data/precomputed/supplementary/figS1/source_input_manifest.json": "a55c8bbd35f32af3fb303cd3569510efde857e05ab2f50ecb27cddc80e27bf7f",
+    "data/precomputed/supplementary/figS1/source_flow_contract.json": "013be026cbce3a5bec1b168f44b1a61d4b413e88206ee6d770e442174a2f2723",
+    "data/precomputed/supplementary/figS1/metadata.json": "823438c63603b4602e5a3766d9c91340f33c3fcc6cad8b9b271ffdecf8d7f9a5",
+    "data/precomputed/supplementary/figS1/propeller_flow_50models.npy": "28446eb87dc52f47c72cd35ed1c3c610476cb7c14f0309c2a7e446dcbb2ca9b3",
+    "data/precomputed/supplementary/figS1/source_analysis_qa.csv": "e65b5f358fefae11fb9a62203d046f4671a2f472e70ce18c62911f295017b0f2",
+    "data/precomputed/supplementary/figS1/source_flow_qa.csv": "5f6d7639f1eefeff867083f0fca48e5bbc6aa3a2499d8c61fca8861c26dc4b6e",
+    "data/precomputed/supplementary/figS1/source_control_summary.csv": "b1a349fe2ea4534270b71a772a8a640b9614c7adfcf3631bbe8803fef43fceaf",
+    "data/precomputed/supplementary/figS1/source_analysis_contract.json": "c714f4422f3f44a9b13d723d5c4f7b0ede4ab6913d747da556b648d36c72c318",
+    "data/precomputed/supplementary/figS1/propeller_boxeye_rendered.npz": "67d62607d5147301efeb74876b9d52cb50a015085cd1040a0956be98ba383e23",
+    "data/precomputed/supplementary/figS1/propeller_sequences.npz": "8568ef587dfc2cfde2cfd7a0fe5b06ee41ea149b9e6f2d5d179b7932e45a141f",
+    "data/precomputed/supplementary/figS1/source_flow_metrics.csv": "860e51a1d81db6b81f2975da8886dbbc425560104312d3d25b00ff00b45964c8",
+    "data/precomputed/supplementary/figS1/multifield_sign_correspondence.csv": "99cd9f86db78bab1da5e8e99a8c9e1970ad01fb2b159bc8b754bef45d0221758",
+    "data/precomputed/supplementary/figS1/multifield_qa.csv": "b08b8527a45859697490b925e604af55ea5bd0cd32eef296806d4c8147c248b4"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS1/figS1_main.pdf": "fb098b5207d235e91c098e3391cd379651d98765b4da7e35f3056825f9e114e7",
+    "figures/supplementary/figS1/figS1_main.png": "2a7743a29aedd55f5411fe41dec97cf9fcb410615c2ca83f83f7321dfd99972d"
+  },
+  "summaries": {
+    "figures/supplementary/figS1/figS1_integration_primary_00.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS1/source_P_B_summary.csv",
+      "sha256": "c20b0317d0b08381e1e2113338a0ca1049a9bcc5802abf53b87ca4a8ef258d34"
+    },
+    "figures/supplementary/figS1/figS1_integration_primary_01.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS1/source_analysis_qa.csv",
+      "sha256": "e65b5f358fefae11fb9a62203d046f4671a2f472e70ce18c62911f295017b0f2"
+    },
+    "figures/supplementary/figS1/figS1_integration_primary_02.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS1/source_flow_qa.csv",
+      "sha256": "5f6d7639f1eefeff867083f0fca48e5bbc6aa3a2499d8c61fca8861c26dc4b6e"
+    },
+    "figures/supplementary/figS1/figS1_integration_primary_03.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS1/source_control_summary.csv",
+      "sha256": "5f7d7b471d90a8fa5e633d42b6955cbf335a7005e7b15296b3473cf3aeb0ca4d"
+    },
+    "figures/supplementary/figS1/figS1_integration_primary_04.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS1/source_flow_metrics.csv",
+      "sha256": "6e604959fba4b229cd619964358b9af225dad246fd9603cc82fa409136f12e0a"
+    },
+    "figures/supplementary/figS1/figS1_integration_adopted_00.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS1/multifield_sign_correspondence.csv",
+      "sha256": "9be86e6682c3a8d4ae3eec8a1dc202719cafbec772db26ab7e97a38168fc06e1"
+    },
+    "figures/supplementary/figS1/figS1_integration_adopted_01.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS1/multifield_qa.csv",
+      "sha256": "b08b8527a45859697490b925e604af55ea5bd0cd32eef296806d4c8147c248b4"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "canonical_notebook": "notebooks/fig01/fig_1.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/fig01/fig1_midd_per_model.csv": "ea64ba2c8b5d1bee163f70c30901bf6063849957771137d24b9aadda5bba90ea",
+    "figures/fig01/source/retained_representative_fields.png": "7500e31838899d6df4a7f3e0548a7dc4ee76ac04e24ee213d19553cc7e09be3d",
+    "figures/fig01/fig1A_midd_stimuli.png": "d15d282c4eecc20b6e3c72da955329d2f9bef3911ddf53c0030485165d143ce0"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/fig01/fig01_main.pdf": "5280c8568d5f7d27a9080803c3cd0059420ee9454100d994bf82f9ccb32510fa",
+    "figures/fig01/fig01_main.png": "5887e06e78186c78e62dbda5c660932f7f804a4e6edf8ede53170c0d4a8f7326"
+  },
+  "summaries": {
+    "figures/fig01/fig01_integration_primary_00.csv": {
+      "source_or_calculation": "data/precomputed/fig01/fig1_midd_per_model.csv",
+      "sha256": "43aefc20f2d32e4d50495caf3ed3e18c317a9b476f613040594fae39158389c0"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "Fig1B uses retained rasters; complete representative raw vectors are unavailable.",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

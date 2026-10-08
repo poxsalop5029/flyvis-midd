@@ -1,0 +1,58 @@
+{
+  "canonical_notebook": "notebooks/supplementary/fig_S6.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/supplementary/figS6/sector_paired.csv": "fdbc67805dbe84f587b33678e0e41f2b9221c5f750d0df6002fcee23f2c217bd",
+    "data/precomputed/supplementary/figS6/sector_model_count_sensitivity.csv": "b3b44fdbf21515dbd2ff7f52d4d704f474bce98113fbfa5c419eb4db3780be29",
+    "data/precomputed/supplementary/figS6/sector_bootstrap.csv": "935a9096e01745b2595d9dcea143f1d3a5b024db11827c1a68600d32e9fd098e",
+    "data/precomputed/fig04/receptor_geometry.csv": "37d62da0b6c699edc8459f95e779c5226c94237dc19ebb3f6c19fcb87b195f91"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS6/figS6_main.pdf": "a8d090f58a1396d89cbff409df9009dcdc7f04f01113ab07bace0c25d60937e6",
+    "figures/supplementary/figS6/figS6_main.png": "e98af1c798447e0b4c88ab2c27ef7c468713bc1012df55589b9848b167966780"
+  },
+  "summaries": {
+    "figures/supplementary/figS6/figS6_integration_adopted_00.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS6/sector_paired.csv",
+      "sha256": "e9a7e9a233ccb2fb3a1343f7661f8e8b7055637192bc816639dfd25d610799e3"
+    },
+    "figures/supplementary/figS6/figS6_integration_adopted_01.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS6/sector_model_count_sensitivity.csv",
+      "sha256": "91627df756aef6cbfe8e7357496057e339193592044cf1ecbb8cce897d25453b"
+    },
+    "figures/supplementary/figS6/figS6_integration_adopted_02.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS6/sector_bootstrap.csv",
+      "sha256": "b944bd0d5ec4552e6ac9d963f6594328da6ae88e73c599d3f7cc83452987b5c0"
+    },
+    "figures/supplementary/figS6/figS6_integration_adopted_03.csv": {
+      "source_or_calculation": "data/precomputed/fig04/receptor_geometry.csv",
+      "sha256": "5dc56bc8d3fd7bae6b929821b0a606ee12ec4ebf0a3bb49af396d5d9646f896c"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

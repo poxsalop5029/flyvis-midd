@@ -1,0 +1,20 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+  "figure": "1",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/fig01/fig1_midd_per_model.csv": "ea64ba2c8b5d1bee163f70c30901bf6063849957771137d24b9aadda5bba90ea",
+    "figures/fig01/source/retained_representative_fields.png": "7500e31838899d6df4a7f3e0548a7dc4ee76ac04e24ee213d19553cc7e09be3d",
+    "figures/fig01/fig1A_midd_stimuli.png": "d15d282c4eecc20b6e3c72da955329d2f9bef3911ddf53c0030485165d143ce0"
+  },
+  "outputs_sha256": {
+    "figures/fig01/fig01_main.pdf": "5280c8568d5f7d27a9080803c3cd0059420ee9454100d994bf82f9ccb32510fa",
+    "figures/fig01/fig01_main.png": "5887e06e78186c78e62dbda5c660932f7f804a4e6edf8ede53170c0d4a8f7326",
+    "figures/fig01/fig01_adoption_QA.csv": "a32d27d0b8d05c439f3ca8dca4b47dc7646a2e6678fac9f6fc926a1233d3cc7a"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": "Fig1B is a retained raster snapshot; all other scientific plots use stored numerical inputs.",
+  "last_execution_source_sha256": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+  "path_relocation_only": true
+}

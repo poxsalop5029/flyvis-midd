@@ -1,0 +1,215 @@
+{
+  "result_id": "R01",
+  "source_analysis": "Appendix 01 — BoxEye MIDD responses across 50 official FlyVis models",
+  "source_artifact": "fvsp/projects/learning_dynamics/artifacts/appendix01_MIDD_50model_boxeye/01_boxeye_tangent_per_model_condition.csv",
+  "source_pair_artifact": "fvsp/projects/learning_dynamics/artifacts/appendix01_MIDD_50model_boxeye/02_boxeye_MIDD_per_model.csv",
+  "models": [
+    "flow/0000/000",
+    "flow/0000/001",
+    "flow/0000/002",
+    "flow/0000/003",
+    "flow/0000/004",
+    "flow/0000/005",
+    "flow/0000/006",
+    "flow/0000/007",
+    "flow/0000/008",
+    "flow/0000/009",
+    "flow/0000/010",
+    "flow/0000/011",
+    "flow/0000/012",
+    "flow/0000/013",
+    "flow/0000/014",
+    "flow/0000/015",
+    "flow/0000/016",
+    "flow/0000/017",
+    "flow/0000/018",
+    "flow/0000/019",
+    "flow/0000/020",
+    "flow/0000/021",
+    "flow/0000/022",
+    "flow/0000/023",
+    "flow/0000/024",
+    "flow/0000/025",
+    "flow/0000/026",
+    "flow/0000/027",
+    "flow/0000/028",
+    "flow/0000/029",
+    "flow/0000/030",
+    "flow/0000/031",
+    "flow/0000/032",
+    "flow/0000/033",
+    "flow/0000/034",
+    "flow/0000/035",
+    "flow/0000/036",
+    "flow/0000/037",
+    "flow/0000/038",
+    "flow/0000/039",
+    "flow/0000/040",
+    "flow/0000/041",
+    "flow/0000/042",
+    "flow/0000/043",
+    "flow/0000/044",
+    "flow/0000/045",
+    "flow/0000/046",
+    "flow/0000/047",
+    "flow/0000/048",
+    "flow/0000/049"
+  ],
+  "n_models": 50,
+  "conditions": [
+    "3MIDD_048",
+    "3MIDD_207",
+    "4MIDD_085_170"
+  ],
+  "variants": [
+    "original",
+    "mirror"
+  ],
+  "rows": 300,
+  "rendering": "single BoxEye; extent=15, kernel_size=13; each input rendered to (50,1,721) receptor values; static MIDD Original/Mirror",
+  "metric": "mean signed tangential flow over frames 10–49 and the 698-receptor annulus; a.u.",
+  "dt_seconds": 0.02,
+  "fps": 50,
+  "fade_in_seconds": 1.0,
+  "frames_start_inclusive": 10,
+  "frames_stop_exclusive": 50,
+  "sign_convention": "CW-positive in image coordinates; source used image_rotation_flow_metrics(..., flip_decoder_y=True), applying decoder-y to image-y conversion once upstream. The saved scalar values are already converted; do not flip again.",
+  "estimands": {
+    "A": "(T_O-T_M)/2",
+    "S": "(T_O+T_M)/2",
+    "M": "abs(A)-abs(S)",
+    "actual_reversal": "(T_O*T_M)<0"
+  },
+  "mixing_policy": "official-50 Appendix01 BoxEye only; do not combine with Experiment08/Fig03 n=10 centered 8-hex rendering or Fig02 derived data from other contracts",
+  "validation": "R01 source summary; 17_01 official50 phenotype CSV independently matches 3MIDD_048 T_O,T_M,A,S and reversal label for all 50 models (read-only cross-check; not a runtime dependency)",
+  "figure": "Fig. 4",
+  "artifact_version": "provenance-v1",
+  "provenance_schema_version": "1.0",
+  "cohort": "official pretrained flow/0000/000–049; Appendix01 single BoxEye",
+  "model_ids": [
+    "flow/0000/000",
+    "flow/0000/001",
+    "flow/0000/002",
+    "flow/0000/003",
+    "flow/0000/004",
+    "flow/0000/005",
+    "flow/0000/006",
+    "flow/0000/007",
+    "flow/0000/008",
+    "flow/0000/009",
+    "flow/0000/010",
+    "flow/0000/011",
+    "flow/0000/012",
+    "flow/0000/013",
+    "flow/0000/014",
+    "flow/0000/015",
+    "flow/0000/016",
+    "flow/0000/017",
+    "flow/0000/018",
+    "flow/0000/019",
+    "flow/0000/020",
+    "flow/0000/021",
+    "flow/0000/022",
+    "flow/0000/023",
+    "flow/0000/024",
+    "flow/0000/025",
+    "flow/0000/026",
+    "flow/0000/027",
+    "flow/0000/028",
+    "flow/0000/029",
+    "flow/0000/030",
+    "flow/0000/031",
+    "flow/0000/032",
+    "flow/0000/033",
+    "flow/0000/034",
+    "flow/0000/035",
+    "flow/0000/036",
+    "flow/0000/037",
+    "flow/0000/038",
+    "flow/0000/039",
+    "flow/0000/040",
+    "flow/0000/041",
+    "flow/0000/042",
+    "flow/0000/043",
+    "flow/0000/044",
+    "flow/0000/045",
+    "flow/0000/046",
+    "flow/0000/047",
+    "flow/0000/048",
+    "flow/0000/049"
+  ],
+  "statistical_unit": "trained network",
+  "stimulus": {
+    "conditions": [
+      "3MIDD_048",
+      "3MIDD_207",
+      "4MIDD_085_170"
+    ],
+    "variants": [
+      "original",
+      "mirror"
+    ]
+  },
+  "rendering_contract": "single BoxEye; extent=15, kernel_size=13; each input rendered to (50,1,721) receptor values; static MIDD Original/Mirror",
+  "temporal_contract": {
+    "dt_seconds": 0.02,
+    "fade_in_seconds": 1.0,
+    "analysis_start": 10,
+    "analysis_stop": 50
+  },
+  "limitations": [
+    "A/S is algebraic; raw reversal excludes negative subtraction."
+  ],
+  "precomputed_policy": "Reuse bundled source products; do not rerun originating inference or pool distinct cohorts.",
+  "source_files": [
+    {
+      "filename": "fig04_R01_raw_tangent_per_model_condition.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/appendix01_MIDD_50model_boxeye/01_boxeye_tangent_per_model_condition.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "243571fbe4f40ac719d6e128dcd36a1776c0aef689649c20a2ccb3408da6246a",
+      "copied_sha256": "243571fbe4f40ac719d6e128dcd36a1776c0aef689649c20a2ccb3408da6246a"
+    },
+    {
+      "filename": "fig04_model_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig04/fig04_model_metrics.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "figure-notebook generated product",
+      "source_sha256": "8428aa8a4c29502fee6166faacbc598b2a7028689eab4bb2564a7ac35ca876fb",
+      "copied_sha256": "8428aa8a4c29502fee6166faacbc598b2a7028689eab4bb2564a7ac35ca876fb",
+      "derived_from": [
+        "fig04_R01_raw_tangent_per_model_condition.csv"
+      ]
+    }
+  ],
+  "source_repository": [
+    "https://github.com/poxsalop5029/flyvis-midd",
+    "https://github.com/poxsalop5029/fvsp"
+  ],
+  "source_commit_sha": {
+    "https://github.com/poxsalop5029/fvsp": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+    "https://github.com/poxsalop5029/flyvis-midd": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad"
+  },
+  "source_paths": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/appendix01_MIDD_50model_boxeye/01_boxeye_tangent_per_model_condition.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig04/fig04_model_metrics.csv"
+    }
+  ],
+  "provenance_note": "Per-file source_commit_sha is set only when verified or previously recorded. source_sha256 identifies original source bytes; copied_sha256 identifies bundled public bytes after reference sanitation. Source checkout HEAD alone does not prove artifact provenance. Unknown upstream commits remain null. Source references use repository-relative paths; historical-local references do not imply a published repository.",
+  "implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "notebooks/fig04/fig_4.ipynb",
+      "source_sha256": "ae1990427f5aa59cf21b18dd62bc289732604969c583af2cd857ce8c0d7e36a3",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    }
+  ]
+}

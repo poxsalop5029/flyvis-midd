@@ -1,0 +1,20 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "88246b6247bde41f79ec400c5460c4526d0fcce1c2c9f9d6988a70b7ca7b8445",
+  "figure": "5",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/fig05/learning_normalized_metrics.csv": "dc778a2d7e432abc8ae4cc17e9f77b033c372a087da18780056239b60f8f07e5",
+    "data/precomputed/fig05/fig05_seed_support.csv": "16344b2621338f57e73203ce5c660007e9de49060c7b3a0b2cd2fa31bab66910",
+    "data/precomputed/fig05/fig05_EPE_step_summary.csv": "ee64ce6458e87200aec225a3d0d7e5bf96ad9e0fcc1fd0c7516272436392aab5",
+    "data/precomputed/fig05/official50_sintel_epe.csv": "0e97e7bc4fa8913a96eac789295a8ae66840812bd03813d4b41ff706c73750c1",
+    "data/precomputed/fig05/learning_stability_sign_tendency_100k.csv": "c180413e674626d13cb74fec2bf9e876dd5564bd852dbf172652ed495da23974"
+  },
+  "outputs_sha256": {
+    "figures/fig05/fig05_main.pdf": "2179498eca8cbd8c492931c66068d8fe33314a875d7c694d9fa05c52f12148b2",
+    "figures/fig05/fig05_main.png": "97da5a6c0c73115b877f6b738475ee951860b9db56a4db33ca7de7cfc1b63638",
+    "figures/fig05/fig05_adoption_QA.csv": "cfb94bfb84d3357b21af9909062d4019ec780ddb419414c712430d82f46ac97d"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": ""
+}

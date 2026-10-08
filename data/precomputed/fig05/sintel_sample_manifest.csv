@@ -1,0 +1,16 @@
+index,original_index,name,original_n_frames
+0,0,sequence_00_alley_1_split_00,50
+1,0,sequence_00_alley_1_split_01,50
+2,0,sequence_00_alley_1_split_02,50
+15,5,sequence_05_ambush_6_split_00,20
+16,5,sequence_05_ambush_6_split_01,20
+17,5,sequence_05_ambush_6_split_02,20
+30,10,sequence_10_bandage_2_split_00,50
+31,10,sequence_10_bandage_2_split_01,50
+32,10,sequence_10_bandage_2_split_02,50
+45,15,sequence_15_market_6_split_00,40
+46,15,sequence_15_market_6_split_01,40
+47,15,sequence_15_market_6_split_02,40
+66,22,sequence_22_temple_3_split_00,50
+67,22,sequence_22_temple_3_split_01,50
+68,22,sequence_22_temple_3_split_02,50

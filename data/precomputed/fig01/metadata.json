@@ -1,0 +1,274 @@
+{
+  "contract": {
+    "dt": 0.02,
+    "fade_seconds": 1.0,
+    "n_frames": 50,
+    "eye_extent": 15,
+    "eye_kernel_size": 13,
+    "analysis_start": 10,
+    "analysis_stop": 50,
+    "inner_radius_fraction": 0.14,
+    "outer_radius_fraction": 0.98,
+    "flip_decoder_y": true,
+    "fade_source": "stimulus frame 0",
+    "fade_frames_concatenated": false,
+    "flow_coordinates": "raw decoder (u,v)",
+    "image_conversion": "(u,v) -> (u,-v), once inside metric",
+    "rotation_sign": "CW positive",
+    "reversal": "T_original * T_mirror < 0; negative excluded"
+  },
+  "model_ids": [
+    "flow/0000/000",
+    "flow/0000/001",
+    "flow/0000/002",
+    "flow/0000/003",
+    "flow/0000/004",
+    "flow/0000/005",
+    "flow/0000/006",
+    "flow/0000/007",
+    "flow/0000/008",
+    "flow/0000/009",
+    "flow/0000/010",
+    "flow/0000/011",
+    "flow/0000/012",
+    "flow/0000/013",
+    "flow/0000/014",
+    "flow/0000/015",
+    "flow/0000/016",
+    "flow/0000/017",
+    "flow/0000/018",
+    "flow/0000/019",
+    "flow/0000/020",
+    "flow/0000/021",
+    "flow/0000/022",
+    "flow/0000/023",
+    "flow/0000/024",
+    "flow/0000/025",
+    "flow/0000/026",
+    "flow/0000/027",
+    "flow/0000/028",
+    "flow/0000/029",
+    "flow/0000/030",
+    "flow/0000/031",
+    "flow/0000/032",
+    "flow/0000/033",
+    "flow/0000/034",
+    "flow/0000/035",
+    "flow/0000/036",
+    "flow/0000/037",
+    "flow/0000/038",
+    "flow/0000/039",
+    "flow/0000/040",
+    "flow/0000/041",
+    "flow/0000/042",
+    "flow/0000/043",
+    "flow/0000/044",
+    "flow/0000/045",
+    "flow/0000/046",
+    "flow/0000/047",
+    "flow/0000/048",
+    "flow/0000/049"
+  ],
+  "conditions": [
+    "3MIDD_048__original",
+    "3MIDD_048__mirror",
+    "3MIDD_207__original",
+    "3MIDD_207__mirror",
+    "4MIDD_085_170__original",
+    "4MIDD_085_170__mirror",
+    "3MIDD_048__negative"
+  ],
+  "device": "cpu",
+  "flyvis_version": "1.2.0",
+  "input_sha256": {
+    "3MIDD_048__original": "12afbe0d8f29b9563a881012679693f6d2ef8364067a4eb0b1b6bcf4ba988bc3",
+    "3MIDD_048__mirror": "95ccac4a43b2ce3101428c8ad255378481707b4f230146b8893eff4eea57ffca",
+    "3MIDD_207__original": "614111f0f6fd4498da0ba0726762237a95ddef50abab27c1bc432cc8214bd3bb",
+    "3MIDD_207__mirror": "1f84292e78f688b4f2217ca3d3a8905c9539883880f634adf0a605e823f4dac6",
+    "4MIDD_085_170__original": "ee43297e8b588662513e0a3cd51231db2a90fe8656caf835edbffc24952f4a0c",
+    "4MIDD_085_170__mirror": "018c4b0c0d185573ff47f0ab8cf28c1cf7cd1be3f6493a6fd7e22c93f05b5c2c",
+    "3MIDD_048__negative": "1640c7fcd9bc894730317a4d0d0d59f6d8941bbe96bcb934351bef99d7e10abb"
+  },
+  "figure": "Fig. 1",
+  "artifact_version": "provenance-v1",
+  "provenance_schema_version": "1.0",
+  "cohort": "official pretrained FlyVis flow/0000/000–049",
+  "statistical_unit": "trained network; stimulus conditions and frames are repeated within network",
+  "stimulus": {
+    "family": [
+      "3MIDD",
+      "4MIDD"
+    ],
+    "variants": "Original/Mirror; balanced negative reported separately",
+    "image_size_px": [
+      382,
+      382
+    ],
+    "inner_outer_diameter_px": [
+      55,
+      382
+    ],
+    "n_units": 24,
+    "conditions": [
+      "3MIDD_048__original",
+      "3MIDD_048__mirror",
+      "3MIDD_207__original",
+      "3MIDD_207__mirror",
+      "4MIDD_085_170__original",
+      "4MIDD_085_170__mirror",
+      "3MIDD_048__negative"
+    ]
+  },
+  "rendering_contract": {
+    "type": "single BoxEye",
+    "extent": 15,
+    "kernel_size": 13,
+    "receptors": 721
+  },
+  "temporal_contract": {
+    "dt": 0.02,
+    "fade_seconds": 1.0,
+    "n_frames": 50,
+    "analysis_start": 10,
+    "analysis_stop": 50,
+    "fade_source": "stimulus frame 0",
+    "fade_frames_concatenated": false
+  },
+  "metric": {
+    "name": "mean_signed_tangent",
+    "annulus_r_max_fraction": [
+      0.14,
+      0.98
+    ],
+    "api": "flyvis_midd.evaluation.analyze_midd_flow"
+  },
+  "sign_convention": "decoder (u,v) -> image (u,-v), exactly once; CW positive",
+  "estimands": {
+    "A": "(T_original-T_mirror)/2",
+    "S": "(T_original+T_mirror)/2",
+    "M": "abs(A)-abs(S)",
+    "actual_reversal": "T_original*T_mirror<0; negative excluded"
+  },
+  "precomputed_policy": "Saved canonical evaluation tables; originating notebook runs inference, while lightweight tests read these tables without FlyVis downloads.",
+  "limitations": [
+    "Decoded optical flow is not human perception.",
+    "A/S is an algebraic decomposition, not independent biological pathways."
+  ],
+  "source_files": [
+    {
+      "filename": "fig1_canonical_QA.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig01/fig1_canonical_QA.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "repository artifact",
+      "source_sha256": "6886900d9e15f1eb91e631696cb50ac416e097fadd2cdc8980f550749859e19c",
+      "copied_sha256": "6886900d9e15f1eb91e631696cb50ac416e097fadd2cdc8980f550749859e19c"
+    },
+    {
+      "filename": "fig1_fig2_regression_QA.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig01/fig1_fig2_regression_QA.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "repository artifact",
+      "source_sha256": "b889dc4292ef739004b2bf631dbc646fddbbfc7873f967ea3c8177458c55bb49",
+      "copied_sha256": "b889dc4292ef739004b2bf631dbc646fddbbfc7873f967ea3c8177458c55bb49"
+    },
+    {
+      "filename": "fig1_midd_per_model.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig01/fig1_midd_per_model.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "repository artifact",
+      "source_sha256": "ea64ba2c8b5d1bee163f70c30901bf6063849957771137d24b9aadda5bba90ea",
+      "copied_sha256": "ea64ba2c8b5d1bee163f70c30901bf6063849957771137d24b9aadda5bba90ea"
+    },
+    {
+      "filename": "fig1_representatives.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig01/fig1_representatives.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "repository artifact",
+      "source_sha256": "d1fa102ce1288e8e1a6084634bdb4c218e38aa659668ff8af577b34b98a5f420",
+      "copied_sha256": "d1fa102ce1288e8e1a6084634bdb4c218e38aa659668ff8af577b34b98a5f420"
+    },
+    {
+      "filename": "fig1_tangent_per_model_condition.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig01/fig1_tangent_per_model_condition.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "repository artifact",
+      "source_sha256": "478a573ef3844d2593d83d6f2486fab15b2af171e29562c4f97951dc73f0d56e",
+      "copied_sha256": "478a573ef3844d2593d83d6f2486fab15b2af171e29562c4f97951dc73f0d56e"
+    }
+  ],
+  "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+  "source_commit_sha": {
+    "https://github.com/poxsalop5029/flyvis-midd": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad"
+  },
+  "source_paths": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig01/fig1_canonical_QA.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig01/fig1_fig2_regression_QA.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig01/fig1_midd_per_model.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig01/fig1_representatives.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig01/fig1_tangent_per_model_condition.csv"
+    }
+  ],
+  "provenance_note": "Per-file source_commit_sha is set only when verified or previously recorded. source_sha256 identifies original source bytes; copied_sha256 identifies bundled public bytes after reference sanitation. Source checkout HEAD alone does not prove artifact provenance. Unknown upstream commits remain null. Source references use repository-relative paths; historical-local references do not imply a published repository.",
+  "implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "notebooks/fig01/fig_1.ipynb",
+      "source_sha256": "f55c7a73949d9e2d8b8b881866f6e8aca08e434e1e45575059dda5b275824df1",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "src/flyvis_midd/flow.py",
+      "source_sha256": "0e912317fb238f2bc2f9a22e9d10cf0336ba35fd84cec4fd330b9f7863c895e7",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "src/flyvis_midd/evaluation.py",
+      "source_sha256": "a5a26d110d30eb937ceb27ea73a025ec3424a65d7a3fb57aaaf359ba9981bac9",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "src/flyvis_midd/rotation.py",
+      "source_sha256": "24bc75a3475776b1da71d0fec144666853f096afd3b4a102dff1b7f27a3fca6b",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "src/flyvis_midd/stimuli.py",
+      "source_sha256": "8b85cd4c5befea88054e3fea59198efe4053483dcb6fc8e2a94e92d2d850abe8",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    }
+  ],
+  "model_software_source": {
+    "source_repository": "https://github.com/TuragaLab/flyvis",
+    "source_commit_sha": "92b3845cc426dd309a1a0e1b3890156c42e14021",
+    "version": "v1.2.0",
+    "pretrained_data": "Installed separately via flyvis download-pretrained; upstream model data are distinct from this repository artifacts."
+  }
+}

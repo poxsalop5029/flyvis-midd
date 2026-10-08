@@ -1,0 +1,39 @@
+{
+  "seed": 2026100309,
+  "seeds": [
+    0,
+    4,
+    7
+  ],
+  "selection": "frozen Phase1 longest/shortest/intermediate training-support strata, no phenotype selection",
+  "steps": [
+    0,
+    10000,
+    20000,
+    30000,
+    40000,
+    50000,
+    60000,
+    70000,
+    80000,
+    90000,
+    100000
+  ],
+  "dt": 0.02,
+  "fade": 1.0,
+  "frames": 50,
+  "window": [
+    10,
+    50
+  ],
+  "device": "cpu",
+  "threads": 1,
+  "physical_primary": "propeller: correct CW and CCW signs; abs signed tangent ratio >=0.1 each; moving/static mean magnitude >=3 each",
+  "threshold_origin": "existing Experiment08 direction QA manifest, fixed before new controls",
+  "secondary": "moving-edge correct opposite horizontal signs and directional ratio >=0.1 each",
+  "persistent": "three consecutive selected 10k-grid checkpoints; report coarse brackets and endpoint support",
+  "MIDD_onset": "Rev08 dense1k .001 first and three-checkpoint persistent; coarse11-point sensitivity separately",
+  "normalization": "saved Rev08 |A|/G, paired Original/Mirror mean magnitude, no invented zero ratios",
+  "EPE": "saved diagnostic fixed-evaluation only, not heldout",
+  "loader": "original R10 FlyVisCheckpointRuntime strict network+decoder restore; local package-location setup only"
+}

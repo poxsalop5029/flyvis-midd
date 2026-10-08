@@ -1,0 +1,14 @@
+{
+  "artifact_version": 1,
+  "n_models": 10,
+  "n_ordered_pairs": 49,
+  "n_canonical_pairs": 21,
+  "canonical_rule": "c1 < c2",
+  "near_zero_rule": "abs(prediction) >= 0.05 * within-model A3 range",
+  "inference_in_same_notebook": true,
+  "renderings": [
+    "boxeye",
+    "highres_232"
+  ],
+  "source_contract": "fvpg/experiments/midd/Experiment_MIDD/Experiment08_MIDD_addEffects/flow_estimates/05_4MIDD_additivity_flow0000_000-009/midd_luminance_additivity_contract.json"
+}

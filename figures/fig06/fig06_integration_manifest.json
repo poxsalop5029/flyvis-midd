@@ -1,0 +1,81 @@
+{
+  "canonical_notebook": "notebooks/fig06/fig_6.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/fig06/replacement_paired_losses.csv": "e3ec244647fb0594d99b3c77763414b9ebfd3cdedfe3a72271630d0005d1b4f5",
+    "data/precomputed/fig06/replacement_bootstrap.csv": "e1ea0c57a146da3423ca47a0a7715ee107d40116e883a45dc3c5f73f80fa9112",
+    "data/precomputed/fig06/replacement_qa.csv": "12f2b7195d111615289cad69ad4311af12cf563f4608df9b60f8f04b3531a0f9",
+    "data/precomputed/fig06/robust_intervention_model_metrics.csv": "af9bcc64596db095eb3198ee30c11b2e4a120e988f4370e5ce643102a619feae",
+    "data/precomputed/fig06/robust_intervention_summary.csv": "ac03e9ec916b620975ac2b2132b72eb302221ab9b3d477ae10fd1b826c186c2b",
+    "data/precomputed/fig06/denominator_audit.csv": "9a47b34f9aaa631b25a39d3a351c789f3905fc43a05cfb31406c06e019e8b711",
+    "data/precomputed/fig06/replacement_metrics.csv": "36a4f61de1accd16dec753caa53a78e4ebb075658b85f255623d95f0987abb69",
+    "data/precomputed/fig06/crossswap_metrics.csv": "2f07747574d790cdb625646c5c6c810c05ce133ae6bde79aa5df572697015d72",
+    "data/precomputed/fig06/crossswap_direction_accuracy.csv": "a727a67ac7e8c6e46b1507eb14f851ce325d4089f3bed9367a972aea2004807e",
+    "data/precomputed/fig06/crossswap_matched_model_units.csv": "2bb6b32a3e77302db0339806a33ad3d09d449cfc337d53874e546010da7983dd",
+    "data/precomputed/fig06/crossswap_direction_summary.csv": "76285f6dd77fcec198dda6eb086195550d362069790a6abdab5c650eaf229afc"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "cde99b96518ff19cb95d2010a52dbb6fa889e2ffa7865d4e79864ae06bd1fa67",
+    "src/flyvis_midd/figure_rendering.py": "bade429874bbd631544e4bfdce9099d6f71c7163a87e99d6665b740dfe2ed6d0",
+    "src/flyvis_midd/figure_inputs.json": "2d194d67106ea8c0858aaf35edc8972e8a85a5b969213c8faeb595afc574c37e",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/fig06/fig06_main.pdf": "5a111bfb75a5ce294d139a26c919006f85a74079d637a1edb1b848c9a118b387",
+    "figures/fig06/fig06_main.png": "c4167adf2fa800d45068ed6912591d4919aa0b8c6c64ef2d287319512c1989cd"
+  },
+  "summaries": {
+    "figures/fig06/fig06_integration_primary_00.csv": {
+      "source_or_calculation": "panel_b_intervention",
+      "sha256": "ab436ff6fa171cebffd1163f3ff20bea10764f50dc22c8d0130342469074a6e1"
+    },
+    "figures/fig06/fig06_integration_primary_01.csv": {
+      "source_or_calculation": "panel_c_physical",
+      "sha256": "c90586514ab4d45aca9b1d0304ff21f19a3fd52a589bdb8e223746536d22ecfb"
+    },
+    "figures/fig06/fig06_integration_primary_02.csv": {
+      "source_or_calculation": "panel_d_pairing",
+      "sha256": "fcfc772fd108423695264c7d738e9ce5c41face4f52586c3587b5594d4589fd3"
+    },
+    "figures/fig06/fig06_integration_primary_03.csv": {
+      "source_or_calculation": "panel_e_direction",
+      "sha256": "92122ea324b2c05ab74e2f85e761b7ffdae707980d88c31061ca18a414ab6593"
+    },
+    "figures/fig06/fig06_integration_primary_04.csv": {
+      "source_or_calculation": "fig6_QA",
+      "sha256": "44ad058817767991af3a37ddfed6a2e999c009161f3db85b2b91c138c23ee324"
+    },
+    "figures/fig06/fig06_integration_adopted_00.csv": {
+      "source_or_calculation": "data/precomputed/fig06/replacement_paired_losses.csv",
+      "sha256": "bc8e82b555defb07274f875776fe7364133897472edb2e647b9906f093ff0c69"
+    },
+    "figures/fig06/fig06_integration_adopted_01.csv": {
+      "source_or_calculation": "data/precomputed/fig06/replacement_bootstrap.csv",
+      "sha256": "deb48dde1729602f266874819b0a94c4366e5fa87ac2cf12e0806c4a3d70a38d"
+    },
+    "figures/fig06/fig06_integration_adopted_02.csv": {
+      "source_or_calculation": "data/precomputed/fig06/replacement_qa.csv",
+      "sha256": "98a3d202e8a73f50c44692a4a62f56271a8a0a5a860b026fb7dad9451c9eed19"
+    },
+    "figures/fig06/fig06_integration_adopted_03.csv": {
+      "source_or_calculation": "data/precomputed/fig06/robust_intervention_model_metrics.csv",
+      "sha256": "0f3db142b3a280d2a2151723fc43208bb77f61014c4695ad957bb178634b3741"
+    },
+    "figures/fig06/fig06_integration_adopted_04.csv": {
+      "source_or_calculation": "data/precomputed/fig06/robust_intervention_summary.csv",
+      "sha256": "a4e5143f52b48425782a2e6b0473f522614d4e73de6d4bdd2a6e9cbe49837616"
+    },
+    "figures/fig06/fig06_integration_adopted_05.csv": {
+      "source_or_calculation": "data/precomputed/fig06/denominator_audit.csv",
+      "sha256": "3f8e0e9eb6b3c37c6cf55e4b25ba8381f68188f86b909609df1f71de43c4db7e"
+    }
+  },
+  "software": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3"
+  },
+  "statistics": "No inferential tests, confidence intervals, or bootstrap were computed; model is the unit for intervention observations and network is the unit for matched/mismatched |A|, with nine mismatched decoders averaged within each network.",
+  "limitation": ""
+}

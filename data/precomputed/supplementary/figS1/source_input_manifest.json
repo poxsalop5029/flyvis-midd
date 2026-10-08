@@ -1,0 +1,55 @@
+{
+  "artifact_version": "propeller_boxeye_input_v1",
+  "generator": "flyvis_illusion.stimuli.propeller",
+  "renderer": "flyvis.datasets.rendering.BoxEye",
+  "conditions": [
+    "Static",
+    "CW_mid",
+    "CCW_mid"
+  ],
+  "fps": 50,
+  "dt_seconds": 0.02,
+  "n_frames": 50,
+  "duration_seconds": 1.0,
+  "image_size": [
+    128,
+    128
+  ],
+  "n_blades": 3,
+  "coordinate_convention": "image: +x right, +y down; CW/CCW in image coordinates",
+  "sequence_axes": [
+    "condition",
+    "frame",
+    "y",
+    "x"
+  ],
+  "boxeye_axes": [
+    "condition",
+    "frame",
+    "sample",
+    "receptor"
+  ],
+  "sequence_shape": [
+    3,
+    50,
+    128,
+    128
+  ],
+  "boxeye_shape": [
+    3,
+    50,
+    1,
+    721
+  ],
+  "boxeye_config": {
+    "extent": 15,
+    "kernel_size": 13
+  },
+  "sequence_sha256": "49570ac2a261ad8502d36099495919ee961abc0269f78dcfe7ea563745227b35",
+  "boxeye_sha256": "851fdeb8bea05072a535a54d0bc62b164f2cecad972a042c8d561200ff07300c",
+  "files": {
+    "source_png": "propeller_source.png",
+    "sequences_npz": "propeller_sequences.npz",
+    "boxeye_npz": "propeller_boxeye_rendered.npz"
+  }
+}

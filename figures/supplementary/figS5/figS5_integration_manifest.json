@@ -1,0 +1,145 @@
+{
+  "canonical_notebook": "notebooks/supplementary/fig_S5.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/fig02/matched_control_specificity_modelwise.csv": "9710de8c00486c3893aa07a50b46db579d0a12a3bd7bcfcb0d9f1cb453acbfd4",
+    "data/precomputed/fig04/phase_paired.csv": "c9506a3fd02d96fbc8c8af4bb8d7bdf16dd8b7c3b6e17b33536f28edba8b9833",
+    "data/precomputed/fig04/geometry_geometry_contrasts.csv": "f2db5ddf8dfdadc4e2e8fe6084ab635bd96741e8c525a0424134c13f9da6148a",
+    "data/precomputed/fig01/fig1_midd_per_model.csv": "ea64ba2c8b5d1bee163f70c30901bf6063849957771137d24b9aadda5bba90ea",
+    "data/precomputed/fig02/matched_control_bootstrap_summary.csv": "3fd2de4b6f4c9a0d5f0ca278d24304733c128049edf5a1157d76750dfcc55a59",
+    "data/precomputed/fig04/phase_model_phase_sensitivity.csv": "aeef2462b3e27bfc7fb83f44dfa17bc298f5070ae8e3d55e33dc05b29a169eca",
+    "data/precomputed/fig04/phase_bootstrap.csv": "25e7129e521532e862e8f8118130224e592fbd0e5fb1f1d83bf94ab535a5f9b3",
+    "data/precomputed/fig04/geometry_paired.csv": "e778aa90ae6c4ec8259ee99258c946945aaa168b6183fe93177e7dba5bcd0a87",
+    "data/precomputed/fig04/geometry_bootstrap.csv": "92f40880f62c25915baf08e045b7e867f0e7ce12d94ae5449d9b1444a256a9a9",
+    "data/precomputed/fig02/official50_shuffle_model_metrics.csv": "6812c7d5121a127dd5b732eec9daaec2a37374bc8ae1c9b78dffcac6ebcd9398",
+    "data/precomputed/fig02/official50_shuffle_draw_metrics.csv": "bde52ce47f40a748cc037dc8098f10bf54f473872b8f7006a4b10420be162395",
+    "data/precomputed/fig02/official50_shuffle_summary.csv": "0d10976a4a7fcecc8952348a688b388c75fe3ab387b0c5740b63793210ecf7f0",
+    "data/precomputed/fig02/official50_static_physical_context.csv": "e328328a4b8e24e32476269f3d2f08b497b187fb381dc53f48610accae6e1ef3",
+    "data/precomputed/fig02/official50_controls_metrics.csv": "45a7b1286da2fb6f1ea231671e2afdbeaf50eeffba240089482ebb3e938f2d7b",
+    "data/precomputed/fig04/official50_phase_model_metrics.csv": "0ae6279923d14a7e04349da39b3afb0653f32777bddea24020419069aae09f3c",
+    "data/precomputed/fig04/official50_phase_pairs.csv": "c89eec320fb486f2f75626b727a581bbb0286fa7a7088e9bba004620f98457d3",
+    "data/precomputed/fig04/official50_phase_reliability.csv": "fbb228d8513e3ebd7ee114e759fc4d06be49431215dca3c40ef86e5d64014cd8",
+    "data/precomputed/fig04/official50_performance_phase_join.csv": "8f7a89e99bc57a3eba2196122bfeb4d1acd5b81fb2f3a6d8596af8666cc7cf6e",
+    "data/precomputed/fig05/official50_performance_primary_relations.csv": "ab88b8290843650d162457bba8f177c21bae31cb741dcb968dbe1bc3c261aa2f",
+    "data/precomputed/fig04/receptor_geometry.csv": "37d62da0b6c699edc8459f95e779c5226c94237dc19ebb3f6c19fcb87b195f91",
+    "data/precomputed/fig04/radial_radial_model_phase_metrics.csv": "a2e7477fe49f5071eb78fcb26acb7abd488c5e7d9972e3aa55177992f1866e75",
+    "data/precomputed/fig04/radial_ROI_comparison.csv": "7ffbf95a097aa04110e41560e017f365fb9e846746664e22c80213275ebd70a8",
+    "data/precomputed/fig04/phase_reliability_icc_bootstrap.csv": "5e02d01a3f9a30de719dde3c4d98b9103edff7bfdc191db09ea6486287c0cf97"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS5/figS5_main.pdf": "96451a73f76011c49b9a4b4882e86e2add7fb1cb69d5dafe6c4ee98bb17c01ad",
+    "figures/supplementary/figS5/figS5_main.png": "afc5310052fbf3a32adf16ddb53b2b60511a4a3630b7b1378d1d68610a26dd20"
+  },
+  "summaries": {
+    "figures/supplementary/figS5/figS5_integration_primary_00.csv": {
+      "source_or_calculation": "official50_fixed_phase_pairs",
+      "sha256": "e7d6f6f194d26809db29d846eec5113e604b0d63752c89326c3f55377d05b2e9"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_00.csv": {
+      "source_or_calculation": "data/precomputed/fig02/matched_control_specificity_modelwise.csv",
+      "sha256": "e07958be58ff0be9826834813370f04d146a95c3871aed8ab305f8810f92e395"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_01.csv": {
+      "source_or_calculation": "data/precomputed/fig04/phase_paired.csv",
+      "sha256": "7ab6a171ddac8aeb3054e3859b43548077bbaf1b23d416ef29188bbbed312d60"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_02.csv": {
+      "source_or_calculation": "data/precomputed/fig04/geometry_geometry_contrasts.csv",
+      "sha256": "1f4711f6c00545668631c7b4318a7a51cd0d131e613d99c874855fe5b09492cf"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_03.csv": {
+      "source_or_calculation": "data/precomputed/fig02/matched_control_bootstrap_summary.csv",
+      "sha256": "8d09348ab8aca39c9b0a44c2e5d2efc76d623043a2f41ea0ece3592a7d51f616"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_04.csv": {
+      "source_or_calculation": "data/precomputed/fig04/phase_model_phase_sensitivity.csv",
+      "sha256": "524af18c47407e46a0eb670e1f57b26240089ae1e9872a4cf5f9593769d0d67c"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_05.csv": {
+      "source_or_calculation": "data/precomputed/fig04/phase_bootstrap.csv",
+      "sha256": "a668feff8ef215c6b4e5a31319457e05a7566e7aef4cf82100398cacbc504257"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_06.csv": {
+      "source_or_calculation": "data/precomputed/fig04/geometry_paired.csv",
+      "sha256": "a83d107e644dd85fcc5bfb053ea01cbdfc168febc6a9339bf06af2c65db87f7c"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_07.csv": {
+      "source_or_calculation": "data/precomputed/fig04/geometry_bootstrap.csv",
+      "sha256": "f303c38260b5aaf2b9bdb758446d520dc057cec2384690e05c216ee1a803e8ba"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_08.csv": {
+      "source_or_calculation": "data/precomputed/fig02/official50_shuffle_model_metrics.csv",
+      "sha256": "4c7987c1555e94a1a48c7a3f866d7c3d8f4306b5c3c5a17654132397a649acab"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_10.csv": {
+      "source_or_calculation": "data/precomputed/fig02/official50_shuffle_summary.csv",
+      "sha256": "6f7758945dde876f45ded2a7ad6c45cc72309b1c0d62df73177179738aa85102"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_11.csv": {
+      "source_or_calculation": "data/precomputed/fig02/official50_static_physical_context.csv",
+      "sha256": "2205e5094b84155c1eacddce37643dbfde7e366e723872e1382cc4abf424031a"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_13.csv": {
+      "source_or_calculation": "data/precomputed/fig04/official50_phase_model_metrics.csv",
+      "sha256": "2a863bcafd86d06d4cc55d1d89416a139a781234185fcd8fe2851a11f4aa3691"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_14.csv": {
+      "source_or_calculation": "data/precomputed/fig04/official50_phase_pairs.csv",
+      "sha256": "e7d6f6f194d26809db29d846eec5113e604b0d63752c89326c3f55377d05b2e9"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_15.csv": {
+      "source_or_calculation": "data/precomputed/fig04/official50_phase_reliability.csv",
+      "sha256": "0edefe00d767b4d9fdfb5481ec8c8ed0875eb7a6fe8323b006d3f401f28e2e26"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_16.csv": {
+      "source_or_calculation": "data/precomputed/fig04/official50_performance_phase_join.csv",
+      "sha256": "9db7d385c9efe15347fd7c536874aa555e8dd9b42dd70bd9fe608e86cb6194e2"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_17.csv": {
+      "source_or_calculation": "data/precomputed/fig05/official50_performance_primary_relations.csv",
+      "sha256": "89678f9aff9af81a62939692a6a8104e6b9d80cc78a4f2881efa17e844a60597"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_18.csv": {
+      "source_or_calculation": "data/precomputed/fig04/receptor_geometry.csv",
+      "sha256": "5dc56bc8d3fd7bae6b929821b0a606ee12ec4ebf0a3bb49af396d5d9646f896c"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_20.csv": {
+      "source_or_calculation": "data/precomputed/fig04/radial_ROI_comparison.csv",
+      "sha256": "273b34285b1da59a89bf24bbaef04b40778bf6e2767dbe3b4e8cc0ef969fbd2f"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_21.csv": {
+      "source_or_calculation": "data/precomputed/fig04/phase_reliability_icc_bootstrap.csv",
+      "sha256": "781e1e1e908a82b843d12fec55fb8a1e9a8341913064bb93c95c81cbfc6c4325"
+    },
+    "figures/supplementary/figS5/figS5_integration_adopted_22.csv": {
+      "source_or_calculation": "recomputed_phase_variance",
+      "sha256": "8ad540cdf744f5f8f78611547cc37b929fa75533a2b149b8ee6e76053fb6c3bf"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

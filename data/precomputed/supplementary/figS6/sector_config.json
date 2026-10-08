@@ -1,0 +1,73 @@
+{
+  "dt": 0.02,
+  "fade": 1.0,
+  "frames": 50,
+  "window": [
+    10,
+    50
+  ],
+  "image_size": 382,
+  "diameters": [
+    55,
+    382
+  ],
+  "BoxEye": [
+    15,
+    13
+  ],
+  "annulus": [
+    0.14,
+    0.98
+  ],
+  "sign": "decoder v flipped once; CW positive",
+  "device": "cpu",
+  "threads": 1,
+  "bootstrap": 10000,
+  "unit": "model",
+  "pilot": [
+    8,
+    9,
+    5
+  ],
+  "models": [
+    8,
+    9,
+    5,
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "counts3": [
+    36,
+    48,
+    60,
+    72,
+    84,
+    96,
+    120
+  ],
+  "counts4": [
+    32,
+    48,
+    64,
+    72,
+    80,
+    96,
+    120
+  ],
+  "phase_fractions": [
+    0,
+    0.5
+  ],
+  "phase_definition": "fractionof repeated unit period360/n_units",
+  "primary": "C48 normalizedabsA canonical72 versus meanothercounts atphase0; allcurvessecondary",
+  "practical_range_norm": 0.01,
+  "sharp_peak_ratio": 2,
+  "expansion": "3 preflight then fixed10 after pipeline QA, no50",
+  "id": 4,
+  "seed": 2026100404
+}

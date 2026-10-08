@@ -1,0 +1,104 @@
+{
+  "artifact_version": "fig1b_midd_boxeye_input_v1",
+  "generator": "flyvis_midd.stimuli",
+  "renderer": "flyvis.datasets.rendering.BoxEye",
+  "conditions": [
+    "3MIDD_048__original",
+    "3MIDD_048__mirror",
+    "3MIDD_207__original",
+    "3MIDD_207__mirror",
+    "4MIDD_085_170__original",
+    "4MIDD_085_170__mirror"
+  ],
+  "groups": [
+    "3MIDD_048",
+    "3MIDD_207",
+    "4MIDD_085_170"
+  ],
+  "variants": [
+    "original",
+    "mirror"
+  ],
+  "stimulus_definitions": {
+    "3MIDD_048": {
+      "luminance_levels": [
+        0,
+        48,
+        255
+      ],
+      "n_units": 24
+    },
+    "3MIDD_207": {
+      "luminance_levels": [
+        0,
+        207,
+        255
+      ],
+      "n_units": 24
+    },
+    "4MIDD_085_170": {
+      "luminance_levels": [
+        0,
+        85,
+        255,
+        170
+      ],
+      "n_units": 24
+    }
+  },
+  "phase_deg": 0.0,
+  "fps": 50,
+  "n_frames": 50,
+  "image_size": [
+    382,
+    382
+  ],
+  "inner_diameter": 55,
+  "outer_diameter": 382,
+  "sequence_axes": [
+    "condition",
+    "frame",
+    "y",
+    "x"
+  ],
+  "sequence_shape": [
+    6,
+    50,
+    382,
+    382
+  ],
+  "sequence_dtype": "float32",
+  "sequence_sha256": "c0e51a641d2b64f460cf8d35b3a6f76adba45a36c6d4044ca7066fe6a79931c1",
+  "boxeye_axes": [
+    "condition",
+    "frame",
+    "sample",
+    "receptor"
+  ],
+  "boxeye_shape": [
+    6,
+    50,
+    1,
+    721
+  ],
+  "boxeye_dtype": "float32",
+  "boxeye_config": {
+    "extent": 15,
+    "kernel_size": 13
+  },
+  "receptor_centers_axes": [
+    "receptor",
+    "y_x"
+  ],
+  "receptor_centers_shape": [
+    721,
+    2
+  ],
+  "boxeye_sha256": "90c02bf9fb2644024f6861b4e3ab0c4ef0c983d104e669c71e6ef77b5adffb65",
+  "files": {
+    "source_images": "midd_source_images_uint8.npz",
+    "image_sequence": "midd_sequences.npz",
+    "boxeye_rendered": "midd_boxeye_rendered.npz",
+    "preview": "figures/fig01/fig1B_boxeye_input_preview.png"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "b9c639df8b91a9ecb2dda62d14adf384c20706da500b5038e77ee6f798119ee8",
+  "figure": "4",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/fig04/official50_phase_pairs.csv": "c89eec320fb486f2f75626b727a581bbb0286fa7a7088e9bba004620f98457d3",
+    "data/precomputed/fig04/official50_phase_model_metrics.csv": "0ae6279923d14a7e04349da39b3afb0653f32777bddea24020419069aae09f3c",
+    "data/precomputed/fig04/official50_phase_reliability.csv": "fbb228d8513e3ebd7ee114e759fc4d06be49431215dca3c40ef86e5d64014cd8",
+    "data/precomputed/fig04/receptor_geometry.csv": "37d62da0b6c699edc8459f95e779c5226c94237dc19ebb3f6c19fcb87b195f91",
+    "data/precomputed/fig04/radial_radial_model_phase_metrics.csv": "a2e7477fe49f5071eb78fcb26acb7abd488c5e7d9972e3aa55177992f1866e75",
+    "data/precomputed/fig04/geometry_geometry_contrasts.csv": "f2db5ddf8dfdadc4e2e8fe6084ab635bd96741e8c525a0424134c13f9da6148a",
+    "data/precomputed/fig04/phase_reliability_icc_bootstrap.csv": "5e02d01a3f9a30de719dde3c4d98b9103edff7bfdc191db09ea6486287c0cf97"
+  },
+  "outputs_sha256": {
+    "figures/fig04/fig04_main.pdf": "8c292c8ec49ce18f286ace744755f973683525b32ccc081115d8e7229e079101",
+    "figures/fig04/fig04_main.png": "4c7b6e78bf6c6fb410385d8ccf0b92efb2d7b5b5006d480d33795c2c33b0d5ed",
+    "figures/fig04/fig04_adoption_QA.csv": "89287d15ef22f6a413495dc662af7ba1ff59dd249a9563121d5721469c27780d"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": ""
+}

@@ -1,0 +1,15 @@
+seed,checkpoint_directory,n_all,n_stable_regular,first_step,last_regular_step,complete_0_250k,missing_regular_n,extra_steps
+000,projects/learning_dynamics/flow/0000/000/trajectory_checkpoints,252,251,0,250000,True,0,[250008]
+001,projects/learning_dynamics/flow/0000/001/trajectory_checkpoints,253,251,0,250000,True,0,"[135925, 250009]"
+002,projects/learning_dynamics/flow/0000/002/trajectory_checkpoints,253,251,0,250000,True,0,"[131, 250007]"
+003,projects/learning_dynamics/flow/0000/003/trajectory_checkpoints,253,251,0,250000,True,0,"[100008, 250008]"
+004,projects/learning_dynamics/flow/0000/004/trajectory_checkpoints,102,101,0,100000,False,150,[100008]
+005,projects/learning_dynamics/flow/0000/005/trajectory_checkpoints,102,101,0,100000,False,150,[100008]
+006,projects/learning_dynamics/flow/0000/006/trajectory_checkpoints,102,101,0,100000,False,150,[100008]
+007,projects/learning_dynamics/flow/0000/007/trajectory_checkpoints,229,228,0,227000,False,23,[100008]
+008,projects/learning_dynamics/flow/0000/008/trajectory_checkpoints,253,251,0,250000,True,0,"[100008, 250008]"
+009,projects/learning_dynamics/flow/0000/009/trajectory_checkpoints,102,101,0,100000,False,150,[100008]
+010,projects/learning_dynamics/flow/0000/010/trajectory_checkpoints,253,251,0,250000,True,0,"[100008, 250008]"
+011,projects/learning_dynamics/flow/0000/011/trajectory_checkpoints,102,101,0,100000,False,150,[100008]
+012,projects/learning_dynamics/flow/0000/012/trajectory_checkpoints,228,227,0,226000,False,24,[100008]
+013,projects/learning_dynamics/flow/0000/013/trajectory_checkpoints,102,101,0,100000,False,150,[100008]

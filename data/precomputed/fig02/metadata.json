@@ -1,0 +1,250 @@
+{
+  "figure": "Fig. 2",
+  "artifact_version": "provenance-v1",
+  "provenance_schema_version": "1.0",
+  "cohort": "official pretrained FlyVis flow/0000/000–049",
+  "model_ids": [
+    "flow/0000/000",
+    "flow/0000/001",
+    "flow/0000/002",
+    "flow/0000/003",
+    "flow/0000/004",
+    "flow/0000/005",
+    "flow/0000/006",
+    "flow/0000/007",
+    "flow/0000/008",
+    "flow/0000/009",
+    "flow/0000/010",
+    "flow/0000/011",
+    "flow/0000/012",
+    "flow/0000/013",
+    "flow/0000/014",
+    "flow/0000/015",
+    "flow/0000/016",
+    "flow/0000/017",
+    "flow/0000/018",
+    "flow/0000/019",
+    "flow/0000/020",
+    "flow/0000/021",
+    "flow/0000/022",
+    "flow/0000/023",
+    "flow/0000/024",
+    "flow/0000/025",
+    "flow/0000/026",
+    "flow/0000/027",
+    "flow/0000/028",
+    "flow/0000/029",
+    "flow/0000/030",
+    "flow/0000/031",
+    "flow/0000/032",
+    "flow/0000/033",
+    "flow/0000/034",
+    "flow/0000/035",
+    "flow/0000/036",
+    "flow/0000/037",
+    "flow/0000/038",
+    "flow/0000/039",
+    "flow/0000/040",
+    "flow/0000/041",
+    "flow/0000/042",
+    "flow/0000/043",
+    "flow/0000/044",
+    "flow/0000/045",
+    "flow/0000/046",
+    "flow/0000/047",
+    "flow/0000/048",
+    "flow/0000/049"
+  ],
+  "statistical_unit": "trained network; stimulus conditions and frames are repeated within network",
+  "stimulus": {
+    "family": [
+      "3MIDD",
+      "4MIDD"
+    ],
+    "variants": "Original/Mirror; balanced negative reported separately",
+    "image_size_px": [
+      382,
+      382
+    ],
+    "inner_outer_diameter_px": [
+      55,
+      382
+    ],
+    "n_units": 24,
+    "conditions": {
+      "3MIDD_C_levels": [
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+        143,
+        159,
+        175,
+        191,
+        207,
+        223,
+        239
+      ],
+      "4MIDD": [
+        85,
+        170
+      ]
+    }
+  },
+  "rendering_contract": {
+    "type": "single BoxEye",
+    "extent": 15,
+    "kernel_size": 13,
+    "receptors": 721
+  },
+  "temporal_contract": {
+    "dt": 0.02,
+    "fade_seconds": 1.0,
+    "n_frames": 50,
+    "analysis_start": 10,
+    "analysis_stop": 50,
+    "fade_source": "stimulus frame 0",
+    "fade_frames_concatenated": false
+  },
+  "metric": {
+    "name": "mean_signed_tangent",
+    "annulus_r_max_fraction": [
+      0.14,
+      0.98
+    ],
+    "api": "flyvis_midd.evaluation.analyze_midd_flow"
+  },
+  "sign_convention": "decoder (u,v) -> image (u,-v), exactly once; CW positive",
+  "estimands": {
+    "A": "(T_original-T_mirror)/2",
+    "S": "(T_original+T_mirror)/2",
+    "M": "abs(A)-abs(S)",
+    "actual_reversal": "T_original*T_mirror<0; negative excluded"
+  },
+  "precomputed_policy": "Saved canonical evaluation tables; originating notebook runs inference, while lightweight tests read these tables without FlyVis downloads.",
+  "limitations": [
+    "Decoded optical flow is not human perception.",
+    "A/S is an algebraic decomposition, not independent biological pathways."
+  ],
+  "source_files": [
+    {
+      "filename": "fig2B_luminance_A_per_model.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig02/fig2B_luminance_A_per_model.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "repository artifact",
+      "source_sha256": "5e187be7968ec50782ee7f9a127cf31eeb95a3741314746e004594f9e564883c",
+      "copied_sha256": "5e187be7968ec50782ee7f9a127cf31eeb95a3741314746e004594f9e564883c"
+    },
+    {
+      "filename": "fig2B_luminance_tangent_per_model_condition.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig02/fig2B_luminance_tangent_per_model_condition.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "repository artifact",
+      "source_sha256": "68c55f57fbbe565255553e1dfb106d1f32d81be8fb06702b0992b26a4df64bf0",
+      "copied_sha256": "68c55f57fbbe565255553e1dfb106d1f32d81be8fb06702b0992b26a4df64bf0"
+    },
+    {
+      "filename": "fig2D_4MIDD_A_per_model.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig02/fig2D_4MIDD_A_per_model.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "repository artifact",
+      "source_sha256": "ab3926efb62d34d8403f69fc78923cd7cf10611e21ba3306a36c007bcb1a94f5",
+      "copied_sha256": "ab3926efb62d34d8403f69fc78923cd7cf10611e21ba3306a36c007bcb1a94f5"
+    },
+    {
+      "filename": "fig2D_4MIDD_tangent_per_model_condition.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig02/fig2D_4MIDD_tangent_per_model_condition.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "repository artifact",
+      "source_sha256": "0f456bde1e240041505641bf480834c5398aaa819f1d3d9ae741a956b5a14b7d",
+      "copied_sha256": "0f456bde1e240041505641bf480834c5398aaa819f1d3d9ae741a956b5a14b7d"
+    },
+    {
+      "filename": "fig2E_negative_control_per_model.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig02/fig2E_negative_control_per_model.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "repository artifact",
+      "source_sha256": "b4c50cb34a69732ba1bb4dd89702fcd23ee141c652334763113e3da98f31e8dc",
+      "copied_sha256": "b4c50cb34a69732ba1bb4dd89702fcd23ee141c652334763113e3da98f31e8dc"
+    }
+  ],
+  "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+  "source_commit_sha": {
+    "https://github.com/poxsalop5029/flyvis-midd": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad"
+  },
+  "source_paths": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig02/fig2B_luminance_A_per_model.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig02/fig2B_luminance_tangent_per_model_condition.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig02/fig2D_4MIDD_A_per_model.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig02/fig2D_4MIDD_tangent_per_model_condition.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig02/fig2E_negative_control_per_model.csv"
+    }
+  ],
+  "provenance_note": "Per-file source_commit_sha is set only when verified or previously recorded. source_sha256 identifies original source bytes; copied_sha256 identifies bundled public bytes after reference sanitation. Source checkout HEAD alone does not prove artifact provenance. Unknown upstream commits remain null. Source references use repository-relative paths; historical-local references do not imply a published repository.",
+  "implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "notebooks/fig02/fig_2.ipynb",
+      "source_sha256": "f57aec5ad94d6fd37351ab79d297f1f0eb78b92bcbf9047a3be2dd83370f2b91",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "src/flyvis_midd/flow.py",
+      "source_sha256": "0e912317fb238f2bc2f9a22e9d10cf0336ba35fd84cec4fd330b9f7863c895e7",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "src/flyvis_midd/evaluation.py",
+      "source_sha256": "a5a26d110d30eb937ceb27ea73a025ec3424a65d7a3fb57aaaf359ba9981bac9",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "src/flyvis_midd/rotation.py",
+      "source_sha256": "24bc75a3475776b1da71d0fec144666853f096afd3b4a102dff1b7f27a3fca6b",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "src/flyvis_midd/stimuli.py",
+      "source_sha256": "8b85cd4c5befea88054e3fea59198efe4053483dcb6fc8e2a94e92d2d850abe8",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    }
+  ],
+  "model_software_source": {
+    "source_repository": "https://github.com/TuragaLab/flyvis",
+    "source_commit_sha": "92b3845cc426dd309a1a0e1b3890156c42e14021",
+    "version": "v1.2.0",
+    "pretrained_data": "Installed separately via flyvis download-pretrained; upstream model data are distinct from this repository artifacts."
+  }
+}

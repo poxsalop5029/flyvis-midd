@@ -1,0 +1,125 @@
+{
+  "experiment": "Experiment09_MIDDvsT4T5",
+  "model_ids": [
+    "000",
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009"
+  ],
+  "c_levels": [
+    48,
+    80,
+    112,
+    143,
+    175,
+    191,
+    207
+  ],
+  "temporal": {
+    "dt_sec": 0.02,
+    "fade_in_state_sec": 1.0,
+    "n_frames": 50,
+    "analysis_frame_start": 10,
+    "analysis_frame_stop": 50
+  },
+  "rendering": {
+    "layout": "centered 3-2-3",
+    "n_large_hex": 8,
+    "boxeye_extent": 15,
+    "kernel_size": 13,
+    "expected_shape": [
+      50,
+      8,
+      721
+    ]
+  },
+  "roi": {
+    "annulus_inner_fraction_of_image_radius": 0.14,
+    "annulus_outer_fraction_of_image_radius": 0.98
+  },
+  "moving_edge": {
+    "angles_deg": [
+      0,
+      30,
+      60,
+      90,
+      120,
+      150,
+      180,
+      210,
+      240,
+      270,
+      300,
+      330
+    ],
+    "intensities": [
+      0,
+      1
+    ],
+    "speed": 19,
+    "dt_sec": 0.005,
+    "offsets": [
+      -10,
+      11
+    ],
+    "height": 80,
+    "t_pre_sec": 1.0,
+    "t_post_sec": 1.0
+  },
+  "thresholds": {
+    "minimum_pd_resultant": 0.1,
+    "minimum_models_for_cell_gate": 8,
+    "response_epsilon": 1e-08,
+    "tier1_mean_abs_rho": 0.7,
+    "tier1_models_abs_rho_ge_0_5": 8,
+    "tier2_mean_abs_rho": 0.5,
+    "tier2_models_abs_rho_ge_0_5": 6
+  },
+  "statistical_unit": "trained model (n=10)",
+  "output_dirs": {
+    "audit": "historical-local/Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/00_decoder_audit",
+    "inputs": "historical-local/Experiment_MIDD/Experiment09_MIDDvsT4T5/rendered_sequences/01_inputs",
+    "activity": "historical-local/Experiment_MIDD/Experiment09_MIDDvsT4T5/cell_responses/02_output_cell_activity",
+    "mapping": "historical-local/Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/03_activity_spatial_QA",
+    "direction": "historical-local/Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/04_direction_calibration",
+    "evidence": "historical-local/Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/05_MIDD_cell_evidence",
+    "coupling": "historical-local/Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/06_cell_flow_coupling",
+    "ranking": "historical-local/Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/07_candidate_ranking",
+    "report": "historical-local/Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/08_report"
+  },
+  "config_artifact_sha256": {
+    "models": "530e3547d3f348808c83ff917e95f680720d61ef2c0d211b76f5fc9f10997a40"
+  },
+  "block_a_conditions": [
+    "3MIDD_original_048",
+    "3MIDD_mirror_048",
+    "3MIDD_negative_048",
+    "3MIDD_original_080",
+    "3MIDD_mirror_080",
+    "3MIDD_negative_080",
+    "3MIDD_original_112",
+    "3MIDD_mirror_112",
+    "3MIDD_negative_112",
+    "3MIDD_original_143",
+    "3MIDD_mirror_143",
+    "3MIDD_negative_143",
+    "3MIDD_original_175",
+    "3MIDD_mirror_175",
+    "3MIDD_negative_175",
+    "3MIDD_original_191",
+    "3MIDD_mirror_191",
+    "3MIDD_negative_191",
+    "3MIDD_original_207",
+    "3MIDD_mirror_207",
+    "3MIDD_negative_207",
+    "propeller__static",
+    "propeller__CW_mid",
+    "propeller__CCW_mid"
+  ]
+}

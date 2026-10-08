@@ -1,0 +1,70 @@
+{
+  "analysis": "Add-on Experiment B1 statistics and figures from saved artifacts; no FlyVis inference",
+  "completed_at_local": "2026-10-06T15:27:17+09:00",
+  "repository_head": "76b2d3e2292d1a8dc7922d2039c8825e6ceac8b0",
+  "notebook": "manuscript/review/archive/addon_source_notebooks/B1_t4t5_population_activity_official50.ipynb",
+  "flags": {
+    "RUN_INFERENCE": false,
+    "RUN_STATISTICS": true,
+    "GENERATE_FIGURES": true
+  },
+  "cohort": {
+    "n_models": 50,
+    "model_ids": "flow/0000/000\u2013049",
+    "phases": 12,
+    "model_phase_pairs": 600,
+    "conditions": [
+      "original",
+      "mirror"
+    ],
+    "subtypes": [
+      "T4a",
+      "T4b",
+      "T4c",
+      "T4d",
+      "T5a",
+      "T5b",
+      "T5c",
+      "T5d"
+    ]
+  },
+  "statistics": {
+    "seed": 20261006,
+    "permutations": 20000,
+    "bootstrap_resamples": 10000,
+    "primary_holm_family": [
+      "P1_mean_A_activity",
+      "P2_spearman_A_activity_vs_A_flow",
+      "P3_sign_agreement"
+    ],
+    "analysis_unit": "model",
+    "phase_treatment": "repeated within model; model-level phase averages used for inference"
+  },
+  "readout": "Prespecified equal-weight mean of fixed directional projections across T4a-d and T5a-d; A_activity=(R_original-R_mirror)/2; no fitted weights or sign reorientation.",
+  "input_sha256": {
+    "activity_table": "88f4f4b6c0d52f75abbe1c608136420b1655e7a881e48fe10d667d2818d1a7b4",
+    "decoded_phase_table": "c89eec320fb486f2f75626b727a581bbb0286fa7a7088e9bba004620f98457d3"
+  },
+  "output_sha256": {
+    "data/precomputed/supplementary/biological_constraints/B1/t4t5_model_summary.csv": "568a745aa0d579f8fba3d81b040731caa70e8d988b853ced1a619a502c7f4158",
+    "data/precomputed/supplementary/biological_constraints/B1/t4t5_stats.csv": "afc88485ab67b96b36b34ec71d15c8b9a8e063f4428a76b2a8b6d4c76cbabe49",
+    "data/precomputed/supplementary/biological_constraints/B1/t4t5_secondary_stats.csv": "2d0717460977eecfc80d3aa14fc543d23c83aed4b891ccc682b2e0a95247b4f6",
+    "data/precomputed/supplementary/biological_constraints/B1/t4t5_subtype_stats.csv": "a4a8fc39a040bd9c4733bd6f4ab2925baca6dcbf27c8a5cb54bdd7b9dc622706",
+    "data/precomputed/supplementary/biological_constraints/B1/t4t5_activity_phase_contrasts.csv": "4d158b9b2de4b28a95cdfd425c53382c55f159b4ae1d6bdc37caf231ecb35bc6",
+    "data/precomputed/supplementary/biological_constraints/B1/t4t5_phase_descriptive.csv": "6ab9781e2383f059c849bb86778d181e9c8175a527b83d712fd49214a10288f5",
+    "manuscript/review/archive/addon_figures/B1/B1_phase_averaged_A_activity.png": "7ec3f524bc1cd508d9f49eb0c81dfb32c94dbe8383d663734bdd4c98692035c1",
+    "manuscript/review/archive/addon_figures/B1/B2_A_activity_vs_A_flow.png": "6323df018b13ee2146a0e9e66c30e58140e1a443dc7f1e17b323e643cba48c1e",
+    "manuscript/review/archive/addon_figures/B1/B3_sign_agreement.png": "11d463fb5075c9f7c117362e403838437240c7d5f175e7fc11f056d11aceb3ad",
+    "manuscript/review/archive/addon_figures/B1/B4_T4_T5_comparison.png": "4831668c2d29faa487d32e93d1ba8922af139ca9ed8777e64266b1f6e56aab83",
+    "manuscript/review/archive/addon_figures/B1/B5_phase_profile_descriptive.png": "9b6137c978fbf3a899272d75ba1ce975b7f3f601b8ab6b563a5a334dcf99b1ef"
+  },
+  "software": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.6",
+    "nbclient": "0.10.2",
+    "nbformat": "5.10.4"
+  }
+}

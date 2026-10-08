@@ -1,0 +1,50 @@
+{
+  "dt": 0.02,
+  "fade": 1.0,
+  "frames": 50,
+  "window": [
+    10,
+    50
+  ],
+  "image_size": 382,
+  "diameters": [
+    55,
+    382
+  ],
+  "BoxEye": [
+    15,
+    13
+  ],
+  "annulus": [
+    0.14,
+    0.98
+  ],
+  "sign": "decoder v flipped once; CW positive",
+  "device": "cpu",
+  "threads": 1,
+  "bootstrap": 10000,
+  "unit": "model",
+  "models": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "reuse_pilot": [
+    8,
+    9,
+    5
+  ],
+  "source": "exact Phase2 common gray0.5 baseline and all20 stimuli; no old baseline pooling",
+  "primary": "C48 signed MIDD loss vs propeller;four fixed target groups, T4a primaryhistorical",
+  "denominator": 1e-08,
+  "sintel": "no comparable decoder-replacement Sintel available;do not mix recurrent;conditional later",
+  "id": 11,
+  "seed": 2026100411
+}

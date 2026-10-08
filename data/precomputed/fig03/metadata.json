@@ -1,0 +1,125 @@
+{
+  "source": "Experiment08 / R02: 06_additivity_global and 07_additivity_structural_tests; contract cross-checked against config/additivity_manifest.json and config/analysis_contract.md",
+  "model_ids": [
+    "000",
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009"
+  ],
+  "n_models": 10,
+  "rendering_contract": "common centered rendering; 8 hex × 721; 382×382 px; centered (3,2,3) layout; 7 luminance levels; 21 canonical C1<C2 pairs",
+  "luminance_levels": [
+    48,
+    80,
+    112,
+    143,
+    175,
+    191,
+    207
+  ],
+  "conditions": "3MIDD original/mirror and 4MIDD original/mirror under Experiment08 common centered rendering",
+  "dt_seconds": 0.02,
+  "fps": 50,
+  "fade_in_seconds": 1.0,
+  "analysis_frames_inclusive": [
+    10,
+    49
+  ],
+  "sign_convention": "CW-positive signed tangential flow; decoder y -> image y conversion (u,v)->(u,-v) applied exactly once upstream before tangent projection",
+  "estimands": {
+    "A3": "(R3_original-R3_mirror)/2",
+    "A4_obs": "(R4_original-R4_mirror)/2",
+    "A4_pred": "A3(C1)-A3(C2)",
+    "residual": "A4_obs-A4_pred"
+  },
+  "primary_units": "trained model; 21 canonical C1<C2 pairs within model; models are not pooled for model-wise fits",
+  "source_inference_shape": [
+    8,
+    50,
+    2,
+    721
+  ],
+  "precomputed_created_from": "locally available Experiment08/R02 analysis outputs on 2026-09-30; data values copied without transformations",
+  "cycle_input": "35 unordered luminance triplets per model; cycle_mean/MAE/RMSE recomputed from normalized_cycle_residual in fig3_cycle_residuals.csv",
+  "figure": "Fig. 3",
+  "artifact_version": "provenance-v1",
+  "provenance_schema_version": "1.0",
+  "cohort": "official pretrained flow/0000/000–009; Experiment08 centered eight-field series",
+  "statistical_unit": "trained model; 21 canonical C1<C2 pairs within model; models are not pooled for model-wise fits",
+  "stimulus": "3MIDD original/mirror and 4MIDD original/mirror under Experiment08 common centered rendering",
+  "temporal_contract": {
+    "dt_seconds": 0.02,
+    "fade_in_seconds": 1.0,
+    "analysis_frames_inclusive": [
+      10,
+      49
+    ]
+  },
+  "metric": "fitted global scalar prediction; source-defined merged-field signed tangent",
+  "limitations": [
+    "Fitted scalar R² does not establish identity or full-vector-field additivity.",
+    "Historical source commit cannot be inferred from a matching filename."
+  ],
+  "precomputed_policy": "Reuse bundled source products; do not rerun originating inference or pool distinct cohorts.",
+  "source_files": [
+    {
+      "filename": "fig3_3MIDD_components_per_model.csv",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/06_additivity_global/3MIDD_components_by_model.csv",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "61cbfbb833fe1ca116b7efd771dbd2e70000448df7318485bf50773a60558cf6",
+      "copied_sha256": "61cbfbb833fe1ca116b7efd771dbd2e70000448df7318485bf50773a60558cf6"
+    },
+    {
+      "filename": "fig3_canonical_pair_predictions.csv",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/06_additivity_global/canonical_pair_predictions.csv",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "29d63afc77f55ce85ecb440a38e83832cea3b5e4ccee15f3b120ae4493d56875",
+      "copied_sha256": "29d63afc77f55ce85ecb440a38e83832cea3b5e4ccee15f3b120ae4493d56875"
+    },
+    {
+      "filename": "fig3_cycle_residuals.csv",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_additivity_structural_tests/cycle_tests.csv",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "96733001607b4439d8da3c6c933ab806d2562eb2165721c8dd0e1b96fe20da07",
+      "copied_sha256": "96733001607b4439d8da3c6c933ab806d2562eb2165721c8dd0e1b96fe20da07"
+    }
+  ],
+  "source_repository": null,
+  "source_commit_sha": null,
+  "source_paths": [
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/06_additivity_global/3MIDD_components_by_model.csv"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/06_additivity_global/canonical_pair_predictions.csv"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment08_MIDD_addEffects/analysis/07_additivity_structural_tests/cycle_tests.csv"
+    }
+  ],
+  "provenance_note": "Per-file source_commit_sha is set only when verified or previously recorded. source_sha256 identifies original source bytes; copied_sha256 identifies bundled public bytes after reference sanitation. Source checkout HEAD alone does not prove artifact provenance. Unknown upstream commits remain null. Source references use repository-relative paths; historical-local references do not imply a published repository.",
+  "implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "notebooks/fig03/fig_3.ipynb",
+      "source_sha256": "4a9e11083e5fca8c1f5be0d5d36a10987980956d71508f0ab68755ce81afe6ec",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    }
+  ]
+}

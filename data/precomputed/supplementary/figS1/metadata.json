@@ -1,0 +1,435 @@
+{
+  "figure": "Supplementary Fig. S1 — Validation of decoded-flow direction using propeller controls",
+  "primary_sources": {
+    "inference": "fvsp/projects/seed_analysis/Ensemble_00_propeler.ipynb and artifacts/01_propeller_50models/propeller_flow_50models.npy",
+    "analysis": "fvsp/projects/seed_analysis/analysis_00_propeller_flow.ipynb; artifacts/02_propeller_analysis",
+    "secondary": "Experiment07_3MIDD/06_MIDD_rotation.ipynb not used as primary"
+  },
+  "model_ids": [
+    "000",
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "010",
+    "011",
+    "012",
+    "013",
+    "014",
+    "015",
+    "016",
+    "017",
+    "018",
+    "019",
+    "020",
+    "021",
+    "022",
+    "023",
+    "024",
+    "025",
+    "026",
+    "027",
+    "028",
+    "029",
+    "030",
+    "031",
+    "032",
+    "033",
+    "034",
+    "035",
+    "036",
+    "037",
+    "038",
+    "039",
+    "040",
+    "041",
+    "042",
+    "043",
+    "044",
+    "045",
+    "046",
+    "047",
+    "048",
+    "049"
+  ],
+  "model_names": [
+    "flow/0000/000",
+    "flow/0000/001",
+    "flow/0000/002",
+    "flow/0000/003",
+    "flow/0000/004",
+    "flow/0000/005",
+    "flow/0000/006",
+    "flow/0000/007",
+    "flow/0000/008",
+    "flow/0000/009",
+    "flow/0000/010",
+    "flow/0000/011",
+    "flow/0000/012",
+    "flow/0000/013",
+    "flow/0000/014",
+    "flow/0000/015",
+    "flow/0000/016",
+    "flow/0000/017",
+    "flow/0000/018",
+    "flow/0000/019",
+    "flow/0000/020",
+    "flow/0000/021",
+    "flow/0000/022",
+    "flow/0000/023",
+    "flow/0000/024",
+    "flow/0000/025",
+    "flow/0000/026",
+    "flow/0000/027",
+    "flow/0000/028",
+    "flow/0000/029",
+    "flow/0000/030",
+    "flow/0000/031",
+    "flow/0000/032",
+    "flow/0000/033",
+    "flow/0000/034",
+    "flow/0000/035",
+    "flow/0000/036",
+    "flow/0000/037",
+    "flow/0000/038",
+    "flow/0000/039",
+    "flow/0000/040",
+    "flow/0000/041",
+    "flow/0000/042",
+    "flow/0000/043",
+    "flow/0000/044",
+    "flow/0000/045",
+    "flow/0000/046",
+    "flow/0000/047",
+    "flow/0000/048",
+    "flow/0000/049"
+  ],
+  "n_models": 50,
+  "conditions": [
+    "Static",
+    "CW_mid",
+    "CCW_mid"
+  ],
+  "input_condition_order": [
+    "Static",
+    "CW_mid",
+    "CCW_mid"
+  ],
+  "stimulus": {
+    "fps": 50,
+    "dt_sec": 0.02,
+    "fade_in_sec": 1.0,
+    "n_frames": 50,
+    "analysis_frames_zero_based": "10–49 inclusive",
+    "sequence_shape": [
+      3,
+      50,
+      128,
+      128
+    ],
+    "boxeye_shape": [
+      3,
+      50,
+      1,
+      721
+    ],
+    "n_blades": 3,
+    "renderer": "flyvis.datasets.rendering.BoxEye",
+    "boxeye_config": {
+      "extent": 15,
+      "kernel_size": 13
+    }
+  },
+  "flow": {
+    "shape": [
+      50,
+      3,
+      50,
+      2,
+      721
+    ],
+    "axes": [
+      "model",
+      "condition",
+      "frame",
+      "u/v",
+      "receptor"
+    ],
+    "dtype": "float32",
+    "source_sha256": "28446eb87dc52f47c72cd35ed1c3c610476cb7c14f0309c2a7e446dcbb2ca9b3"
+  },
+  "metric": {
+    "api": "flyvis_midd.rotation.image_rotation_flow_metrics",
+    "sign_convention": "CW-positive signed tangential flow in image coordinates",
+    "decoder_to_image_transform": "negate decoder v exactly once per metric call; quiver display uses a separate copy with one v negation",
+    "annulus_radius_fraction": [
+      0.14,
+      0.98
+    ],
+    "analysis_frames_zero_based": [
+      10,
+      50
+    ]
+  },
+  "detection_criterion": {
+    "function": "source flyvis_illusion.rotation.classify_rotation_control",
+    "direction_alignment": "CW signed_tangent_ratio > 0 and CCW signed_tangent_ratio < 0",
+    "minimum_absolute_tangent_ratio_strictly_greater_than": 0.1,
+    "minimum_moving_to_static_mean_magnitude_ratio_strictly_greater_than": 3.0,
+    "rotation_flow_detected": "direction aligned AND both thresholds passed"
+  },
+  "representative_quiver": {
+    "selection_rule": "model whose P=(CW−CCW)/2 signed tangential direction signal is nearest the official-50 median",
+    "expected_model_id": "005",
+    "snapshot_frame_one_indexed": 30,
+    "snapshot_frame_zero_indexed": 29
+  },
+  "separation_note": "Propeller Static is a stationary visual stimulus and decoder-flow baseline. It is distinct from the Experiment07 MIDD negative-control stimulus.",
+  "expected_source_summary": {
+    "direction_aligned_models": 50,
+    "rotation_detected_models": 49,
+    "non_detected_model_id": "049"
+  },
+  "prohibited_inferences": [
+    "MIDD mechanism validation",
+    "human illusion mechanism",
+    "biological fly perception"
+  ],
+  "artifact_version": "provenance-v1",
+  "provenance_schema_version": "1.0",
+  "cohort": "official pretrained flow/0000/000–049; propeller control",
+  "statistical_unit": "trained network",
+  "limitations": [
+    "MIDD mechanism validation",
+    "human illusion mechanism",
+    "biological fly perception"
+  ],
+  "rendering_contract": {
+    "fps": 50,
+    "dt_sec": 0.02,
+    "fade_in_sec": 1.0,
+    "n_frames": 50,
+    "analysis_frames_zero_based": "10–49 inclusive",
+    "sequence_shape": [
+      3,
+      50,
+      128,
+      128
+    ],
+    "boxeye_shape": [
+      3,
+      50,
+      1,
+      721
+    ],
+    "n_blades": 3,
+    "renderer": "flyvis.datasets.rendering.BoxEye",
+    "boxeye_config": {
+      "extent": 15,
+      "kernel_size": 13
+    }
+  },
+  "temporal_contract": {
+    "fps": 50,
+    "dt_sec": 0.02,
+    "fade_in_sec": 1.0,
+    "n_frames": 50,
+    "analysis_frames_zero_based": "10–49 inclusive",
+    "sequence_shape": [
+      3,
+      50,
+      128,
+      128
+    ],
+    "boxeye_shape": [
+      3,
+      50,
+      1,
+      721
+    ],
+    "n_blades": 3,
+    "renderer": "flyvis.datasets.rendering.BoxEye",
+    "boxeye_config": {
+      "extent": 15,
+      "kernel_size": 13
+    }
+  },
+  "sign_convention": "Source-specific CW-positive conversion; already-derived scalars are not flipped again.",
+  "estimands": {},
+  "precomputed_policy": "Reuse bundled source products; do not rerun originating inference or pool distinct cohorts.",
+  "source_files": [
+    {
+      "filename": "propeller_boxeye_rendered.npz",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/supplementary/figS1/propeller_boxeye_rendered.npz",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "bundled product; upstream copy/aggregation not independently identified",
+      "source_sha256": "67d62607d5147301efeb74876b9d52cb50a015085cd1040a0956be98ba383e23",
+      "copied_sha256": "67d62607d5147301efeb74876b9d52cb50a015085cd1040a0956be98ba383e23",
+      "upstream_source_commit_sha": null
+    },
+    {
+      "filename": "propeller_flow_50models.npy",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/supplementary/figS1/propeller_flow_50models.npy",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "bundled product; upstream copy/aggregation not independently identified",
+      "source_sha256": "28446eb87dc52f47c72cd35ed1c3c610476cb7c14f0309c2a7e446dcbb2ca9b3",
+      "copied_sha256": "28446eb87dc52f47c72cd35ed1c3c610476cb7c14f0309c2a7e446dcbb2ca9b3",
+      "upstream_source_commit_sha": null
+    },
+    {
+      "filename": "propeller_sequences.npz",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/supplementary/figS1/propeller_sequences.npz",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "bundled product; upstream copy/aggregation not independently identified",
+      "source_sha256": "8568ef587dfc2cfde2cfd7a0fe5b06ee41ea149b9e6f2d5d179b7932e45a141f",
+      "copied_sha256": "8568ef587dfc2cfde2cfd7a0fe5b06ee41ea149b9e6f2d5d179b7932e45a141f",
+      "upstream_source_commit_sha": null
+    },
+    {
+      "filename": "source_P_B_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_propeller_analysis/03_propeller_P_B_per_model.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "76ecfcbb47b1a607c1f4c12982c8eb8db87ddd1a5cacdfe949dc432a025be946",
+      "copied_sha256": "76ecfcbb47b1a607c1f4c12982c8eb8db87ddd1a5cacdfe949dc432a025be946"
+    },
+    {
+      "filename": "source_analysis_contract.json",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_propeller_analysis/00_analysis_contract.json",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "63bd3f679b3f27deacb96c7a90066b470989213b06936c5b6538de5309b68723",
+      "copied_sha256": "c714f4422f3f44a9b13d723d5c4f7b0ede4ab6913d747da556b648d36c72c318",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    },
+    {
+      "filename": "source_analysis_qa.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_propeller_analysis/qa.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "e65b5f358fefae11fb9a62203d046f4671a2f472e70ce18c62911f295017b0f2",
+      "copied_sha256": "e65b5f358fefae11fb9a62203d046f4671a2f472e70ce18c62911f295017b0f2"
+    },
+    {
+      "filename": "source_control_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_propeller_analysis/02_rotation_control_per_model.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "b1a349fe2ea4534270b71a772a8a640b9614c7adfcf3631bbe8803fef43fceaf",
+      "copied_sha256": "b1a349fe2ea4534270b71a772a8a640b9614c7adfcf3631bbe8803fef43fceaf"
+    },
+    {
+      "filename": "source_flow_contract.json",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/01_propeller_50models/contract.json",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "fc71474f0b402e0f6fbbbd7771b83efb7f967d030bdbf62efc364d5e21324f1d",
+      "copied_sha256": "013be026cbce3a5bec1b168f44b1a61d4b413e88206ee6d770e442174a2f2723",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    },
+    {
+      "filename": "source_flow_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_propeller_analysis/01_flow_metrics_per_model.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "860e51a1d81db6b81f2975da8886dbbc425560104312d3d25b00ff00b45964c8",
+      "copied_sha256": "860e51a1d81db6b81f2975da8886dbbc425560104312d3d25b00ff00b45964c8"
+    },
+    {
+      "filename": "source_flow_qa.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/01_propeller_50models/qa.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "5f6d7639f1eefeff867083f0fca48e5bbc6aa3a2499d8c61fca8861c26dc4b6e",
+      "copied_sha256": "5f6d7639f1eefeff867083f0fca48e5bbc6aa3a2499d8c61fca8861c26dc4b6e"
+    },
+    {
+      "filename": "source_input_manifest.json",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/00_propeller_input/manifest.json",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "a55c8bbd35f32af3fb303cd3569510efde857e05ab2f50ecb27cddc80e27bf7f",
+      "copied_sha256": "a55c8bbd35f32af3fb303cd3569510efde857e05ab2f50ecb27cddc80e27bf7f"
+    }
+  ],
+  "source_repository": [
+    "https://github.com/poxsalop5029/flyvis-midd",
+    "https://github.com/poxsalop5029/fvsp"
+  ],
+  "source_commit_sha": {
+    "https://github.com/poxsalop5029/flyvis-midd": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+    "https://github.com/poxsalop5029/fvsp": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c"
+  },
+  "source_paths": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/supplementary/figS1/propeller_boxeye_rendered.npz"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/supplementary/figS1/propeller_flow_50models.npy"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/supplementary/figS1/propeller_sequences.npz"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_propeller_analysis/03_propeller_P_B_per_model.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_propeller_analysis/00_analysis_contract.json"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_propeller_analysis/qa.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_propeller_analysis/02_rotation_control_per_model.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/01_propeller_50models/contract.json"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_propeller_analysis/01_flow_metrics_per_model.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/01_propeller_50models/qa.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/00_propeller_input/manifest.json"
+    }
+  ],
+  "provenance_note": "Per-file source_commit_sha is set only when verified or previously recorded. source_sha256 identifies original source bytes; copied_sha256 identifies bundled public bytes after reference sanitation. Source checkout HEAD alone does not prove artifact provenance. Unknown upstream commits remain null. Source references use repository-relative paths; historical-local references do not imply a published repository.",
+  "implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "notebooks/supplementary/fig_S1.ipynb",
+      "source_sha256": "a117ad926005803aea004829da626b2f380c5b357eb8546bb3569767dbe2666c",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    }
+  ]
+}

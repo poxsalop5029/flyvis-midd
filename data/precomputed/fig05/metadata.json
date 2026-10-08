@@ -1,0 +1,375 @@
+{
+  "cohort": "learning-custom",
+  "seed_ids": [
+    "000",
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "010",
+    "011",
+    "012",
+    "013"
+  ],
+  "checkpoint_source": "data/checkpoints/learning_custom_checkpoints.zip",
+  "checkpoint_source_sha256": "db4b89652bfda31b96e65a104a693749e38b6c1ce6b0e0b1a16ef1bef07c9add",
+  "checkpoint_contents": "0000/{seed}/trajectory_checkpoints/step_XXXXXXX.pt; 2,586 checkpoint files across 14 seeds, including step 0 and irregular extras",
+  "primary_analysis": "R10 / 15_MIDD_multiseed_trajectory_analysis.ipynb; reused saved checkpoint-evaluation artifacts; no checkpoint re-inference for this figure",
+  "r10_source_directory": "fvsp/projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory",
+  "source_files": [
+    {
+      "filename": "fig05_A_S_M_EPE_trajectory.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_A_S_M_EPE_trajectory.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "figure-notebook generated product",
+      "source_sha256": "789b3dd5be66a7416d1bc0da738ee1ef98e2d53ff3e35a479e1f72743cba1fca",
+      "copied_sha256": "789b3dd5be66a7416d1bc0da738ee1ef98e2d53ff3e35a479e1f72743cba1fca",
+      "derived_from": [
+        "r10_checkpoint_manifest.csv",
+        "r10_fixed_eval_epe.csv",
+        "r10_midd_A_S_M.csv",
+        "r10_midd_long.csv",
+        "r10_onset_summary_reference.csv"
+      ]
+    },
+    {
+      "filename": "fig05_A_S_M_trajectory.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_A_S_M_trajectory.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "figure-notebook generated product",
+      "source_sha256": "cb1a581256d67fd6a928706bb58eff7cf79aea65ecf8b01a9b5c14dce431554a",
+      "copied_sha256": "cb1a581256d67fd6a928706bb58eff7cf79aea65ecf8b01a9b5c14dce431554a",
+      "derived_from": [
+        "r10_checkpoint_manifest.csv",
+        "r10_fixed_eval_epe.csv",
+        "r10_midd_A_S_M.csv",
+        "r10_midd_long.csv",
+        "r10_onset_summary_reference.csv"
+      ]
+    },
+    {
+      "filename": "fig05_A_step_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_A_step_summary.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "figure-notebook generated product",
+      "source_sha256": "0bc27f73a8692ebfd9bdc8039da0f92f6dd79282157bea5f682e973c6327fbeb",
+      "copied_sha256": "0bc27f73a8692ebfd9bdc8039da0f92f6dd79282157bea5f682e973c6327fbeb",
+      "derived_from": [
+        "r10_checkpoint_manifest.csv",
+        "r10_fixed_eval_epe.csv",
+        "r10_midd_A_S_M.csv",
+        "r10_midd_long.csv",
+        "r10_onset_summary_reference.csv"
+      ]
+    },
+    {
+      "filename": "fig05_EPE_step_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_EPE_step_summary.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "figure-notebook generated product",
+      "source_sha256": "ee64ce6458e87200aec225a3d0d7e5bf96ad9e0fcc1fd0c7516272436392aab5",
+      "copied_sha256": "ee64ce6458e87200aec225a3d0d7e5bf96ad9e0fcc1fd0c7516272436392aab5",
+      "derived_from": [
+        "r10_checkpoint_manifest.csv",
+        "r10_fixed_eval_epe.csv",
+        "r10_midd_A_S_M.csv",
+        "r10_midd_long.csv",
+        "r10_onset_summary_reference.csv"
+      ]
+    },
+    {
+      "filename": "fig05_M_step_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_M_step_summary.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "figure-notebook generated product",
+      "source_sha256": "cd4ef77b02c969d6f430b479d10b8b3af0f25bf499a67888ba23c446521e7a81",
+      "copied_sha256": "cd4ef77b02c969d6f430b479d10b8b3af0f25bf499a67888ba23c446521e7a81",
+      "derived_from": [
+        "r10_checkpoint_manifest.csv",
+        "r10_fixed_eval_epe.csv",
+        "r10_midd_A_S_M.csv",
+        "r10_midd_long.csv",
+        "r10_onset_summary_reference.csv"
+      ]
+    },
+    {
+      "filename": "fig05_S_step_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_S_step_summary.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "figure-notebook generated product",
+      "source_sha256": "f8d896f1b3f58d93e2b840fa835774c37b58a1a19b61d9b9c58ae40e3ce0df79",
+      "copied_sha256": "f8d896f1b3f58d93e2b840fa835774c37b58a1a19b61d9b9c58ae40e3ce0df79",
+      "derived_from": [
+        "r10_checkpoint_manifest.csv",
+        "r10_fixed_eval_epe.csv",
+        "r10_midd_A_S_M.csv",
+        "r10_midd_long.csv",
+        "r10_onset_summary_reference.csv"
+      ]
+    },
+    {
+      "filename": "fig05_checkpoint_availability.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_checkpoint_availability.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "figure-notebook generated product",
+      "source_sha256": "9a78b64eeaf5a90e5249fa3aacae35446f674ecc6ac120c232088e82932d24c7",
+      "copied_sha256": "9a78b64eeaf5a90e5249fa3aacae35446f674ecc6ac120c232088e82932d24c7",
+      "derived_from": [
+        "r10_checkpoint_manifest.csv",
+        "r10_fixed_eval_epe.csv",
+        "r10_midd_A_S_M.csv",
+        "r10_midd_long.csv",
+        "r10_onset_summary_reference.csv"
+      ]
+    },
+    {
+      "filename": "fig05_seed_support.csv",
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_seed_support.csv",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_type": "figure-notebook generated product",
+      "source_sha256": "16344b2621338f57e73203ce5c660007e9de49060c7b3a0b2cd2fa31bab66910",
+      "copied_sha256": "16344b2621338f57e73203ce5c660007e9de49060c7b3a0b2cd2fa31bab66910",
+      "derived_from": [
+        "r10_checkpoint_manifest.csv",
+        "r10_fixed_eval_epe.csv",
+        "r10_midd_A_S_M.csv",
+        "r10_midd_long.csv",
+        "r10_onset_summary_reference.csv"
+      ]
+    },
+    {
+      "filename": "r10_checkpoint_manifest.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory/00_seed_checkpoint_manifest.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "2c6ee485552ef7114f14b015b0721bf56c1db5ccfcf679f523194e6206db09fb",
+      "copied_sha256": "2c6ee485552ef7114f14b015b0721bf56c1db5ccfcf679f523194e6206db09fb"
+    },
+    {
+      "filename": "r10_fixed_eval_epe.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory/10_fixed_eval_epe_multiseed.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "dba11556fff3bed7ce5b170ae362cc5276860cdbb8ba7c2eb5c9530c651619c9",
+      "copied_sha256": "dba11556fff3bed7ce5b170ae362cc5276860cdbb8ba7c2eb5c9530c651619c9"
+    },
+    {
+      "filename": "r10_midd_A_S_M.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory/02_MIDD_multiseed_A_S_M.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "009afaae87630eeb7e56007ccc6d0576037baeb7f85a2d8d76e91a69da725b5c",
+      "copied_sha256": "009afaae87630eeb7e56007ccc6d0576037baeb7f85a2d8d76e91a69da725b5c"
+    },
+    {
+      "filename": "r10_midd_long.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory/01_MIDD_multiseed_long.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "87b8fa6289b23fc2f0cb797cd1a2cd98e6a4dbbd9b51bd47fb4e8f824a7103b7",
+      "copied_sha256": "87b8fa6289b23fc2f0cb797cd1a2cd98e6a4dbbd9b51bd47fb4e8f824a7103b7"
+    },
+    {
+      "filename": "r10_onset_summary_reference.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory/04_seed_group_trajectory_summary.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "056bb7ade8af989eac1ad17e1d29bdccdcf043cffcf0874a543b500575acacf5",
+      "copied_sha256": "056bb7ade8af989eac1ad17e1d29bdccdcf043cffcf0874a543b500575acacf5"
+    }
+  ],
+  "regular_checkpoint_contract": {
+    "regular_interval_steps": 1000,
+    "analysis_max_step": 250000,
+    "step_zero": "untrained / initialization baseline",
+    "checkpoint_counts_regular": 2567,
+    "zip_checkpoint_files_total": 2586,
+    "irregular_extras": 19
+  },
+  "stimulus_groups": [
+    "3MIDD_048",
+    "3MIDD_207",
+    "4MIDD_085_170"
+  ],
+  "stimulus_details": {
+    "3MIDD_048": "C=48",
+    "3MIDD_207": "C=207",
+    "4MIDD_085_170": "C1=85,C2=170",
+    "variants": [
+      "original",
+      "mirror",
+      "negative"
+    ],
+    "n_units": 24,
+    "negative_is_directed_pair_balanced": true
+  },
+  "rendering_contract": {
+    "boxeye_extent": 15,
+    "boxeye_kernel_size": 13,
+    "image_size_px": 382,
+    "inner_diameter_px": 55,
+    "outer_diameter_px": 382,
+    "phase_deg": 0.0,
+    "rendered_input_shape": [
+      50,
+      1,
+      721
+    ],
+    "annulus_receptors": 698
+  },
+  "temporal_contract": {
+    "dt_seconds": 0.02,
+    "fade_in_seconds": 1.0,
+    "frames": 50,
+    "analysis_frames_inclusive": [
+      10,
+      49
+    ]
+  },
+  "sign_convention": "CW-positive in image coordinates; source image_rotation_flow_metrics flips decoder y once; stored signed tangent is already converted and must not be flipped again.",
+  "estimands": {
+    "A": "(T_original-T_mirror)/2",
+    "S": "(T_original+T_mirror)/2",
+    "M": "abs(A)-abs(S)",
+    "actual_reversal": "T_original*T_mirror<0; equivalently M>0"
+  },
+  "epe_contract": {
+    "metric": "fixed-evaluation Sintel endpoint error (diagnostic; not held out)",
+    "sequence_ids": [
+      0,
+      5,
+      10,
+      15,
+      22
+    ],
+    "n_samples": 15,
+    "augment": false,
+    "random_temporal_crop": false,
+    "dt_seconds": 0.02,
+    "n_frames": 19,
+    "center_crop_fraction": 0.7,
+    "boxeye_extent": 15,
+    "boxeye_kernel_size": 13
+  },
+  "onset_threshold_abs_A": 0.001,
+  "summary_rule": "At each training step, summarize only seeds with a checkpoint at that step; seed is the unit. Checkpoints are not independent replicates.",
+  "figure": "Fig. 5",
+  "artifact_version": "provenance-v1",
+  "provenance_schema_version": "1.0",
+  "statistical_unit": "learning-custom seed; checkpoints are repeated and support is unequal",
+  "stimulus": {
+    "3MIDD_048": "C=48",
+    "3MIDD_207": "C=207",
+    "4MIDD_085_170": "C1=85,C2=170",
+    "variants": [
+      "original",
+      "mirror",
+      "negative"
+    ],
+    "n_units": 24,
+    "negative_is_directed_pair_balanced": true
+  },
+  "metric": "mean_signed_tangent; A/S/M trajectories and diagnostic Sintel EPE",
+  "limitations": [
+    "Unequal training lengths; MIDD is not a training target.",
+    "Sintel fixed evaluation is diagnostic, not held out."
+  ],
+  "precomputed_policy": "Reuse bundled source products; do not rerun originating inference or pool distinct cohorts.",
+  "source_repository": [
+    "https://github.com/poxsalop5029/flyvis-midd",
+    "https://github.com/poxsalop5029/fvsp"
+  ],
+  "source_commit_sha": {
+    "https://github.com/poxsalop5029/flyvis-midd": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+    "https://github.com/poxsalop5029/fvsp": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c"
+  },
+  "source_paths": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_A_S_M_EPE_trajectory.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_A_S_M_trajectory.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_A_step_summary.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_EPE_step_summary.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_M_step_summary.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_S_step_summary.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_checkpoint_availability.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_path": "data/precomputed/fig05/fig05_seed_support.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory/00_seed_checkpoint_manifest.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory/10_fixed_eval_epe_multiseed.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory/02_MIDD_multiseed_A_S_M.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory/01_MIDD_multiseed_long.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/15_MIDD_multiseed_trajectory/04_seed_group_trajectory_summary.csv"
+    }
+  ],
+  "provenance_note": "Per-file source_commit_sha is set only when verified or previously recorded. source_sha256 identifies original source bytes; copied_sha256 identifies bundled public bytes after reference sanitation. Source checkout HEAD alone does not prove artifact provenance. Unknown upstream commits remain null. Source references use repository-relative paths; historical-local references do not imply a published repository.",
+  "legacy_source_filenames": [
+    "00_seed_checkpoint_manifest.csv",
+    "01_MIDD_multiseed_long.csv",
+    "02_MIDD_multiseed_A_S_M.csv",
+    "04_seed_group_trajectory_summary.csv",
+    "10_fixed_eval_epe_multiseed.csv"
+  ],
+  "implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "notebooks/fig05/fig_5.ipynb",
+      "source_sha256": "acf4ae855800c37f8ffee616c96b58569c5523942a85a266fbcc51ba8a6ed2b5",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    }
+  ]
+}

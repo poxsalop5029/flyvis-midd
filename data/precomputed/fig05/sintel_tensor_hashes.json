@@ -1,0 +1,90 @@
+[
+  {
+    "batch": 0,
+    "key": "lum",
+    "shape": [
+      4,
+      40,
+      1,
+      721
+    ],
+    "sha256": "1696e3fec4dce6f8525164b017516b9fd7367b5d695f28fd9b5be0bdd1786379"
+  },
+  {
+    "batch": 0,
+    "key": "flow",
+    "shape": [
+      4,
+      40,
+      2,
+      721
+    ],
+    "sha256": "5321a80e11405d294beb28b89f13b9ee9f7ed14c27ff6b760dde834db142e77d"
+  },
+  {
+    "batch": 1,
+    "key": "lum",
+    "shape": [
+      4,
+      40,
+      1,
+      721
+    ],
+    "sha256": "e963747e05eb56212428c92aeca4f753e01acfe202655a43dc4ee31ada27e52d"
+  },
+  {
+    "batch": 1,
+    "key": "flow",
+    "shape": [
+      4,
+      40,
+      2,
+      721
+    ],
+    "sha256": "703814175e3d1197df4413c77ba4ae49d5630604f95d0771d9992d1547ffb73e"
+  },
+  {
+    "batch": 2,
+    "key": "lum",
+    "shape": [
+      4,
+      40,
+      1,
+      721
+    ],
+    "sha256": "a9d18d89fc3251bfa3f99948ed350269fb368de1e6fd003ac4775e9f69260ed0"
+  },
+  {
+    "batch": 2,
+    "key": "flow",
+    "shape": [
+      4,
+      40,
+      2,
+      721
+    ],
+    "sha256": "47e920af03dc992112a7ddec3e6cb704872b4486fe83d72df152c83c8e2eb8c7"
+  },
+  {
+    "batch": 3,
+    "key": "lum",
+    "shape": [
+      3,
+      40,
+      1,
+      721
+    ],
+    "sha256": "4985ac3a1144127396162590d2a26976d94266eee5c316883600f37db76e4546"
+  },
+  {
+    "batch": 3,
+    "key": "flow",
+    "shape": [
+      3,
+      40,
+      2,
+      721
+    ],
+    "sha256": "97a4918ceda1e74ff4daf3eec5e40ce640aad346813ad9ad1ab8954c93ed8747"
+  }
+]

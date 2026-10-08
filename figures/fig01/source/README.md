@@ -1,0 +1,3 @@
+Representative fields retained from the executed canonical fig_1.ipynb cell 022 image output at adoption baseline. Models 015/013/025/002 and frame 25 are unchanged. Only plot framing and phenotype labels change. The full canonical model-013 flow array was not stored: these are explicitly cached raster snapshots, not raw-field re-inference. Other main plots are regenerated from numerical CSV/NPZ inputs. No PDF was directly edited.
+
+Initial committed Notebook SHA-256: `8471676d49754bcb50b8c8d660a015ac6171ab094ca72b576b001abc85b6bb16`. The source image is its final assembly-cell image/png output, not a modified PDF.

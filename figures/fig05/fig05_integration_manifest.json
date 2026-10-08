@@ -1,0 +1,81 @@
+{
+  "canonical_notebook": "notebooks/fig05/fig_5.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/fig05/learning_normalized_metrics.csv": "dc778a2d7e432abc8ae4cc17e9f77b033c372a087da18780056239b60f8f07e5",
+    "data/precomputed/fig05/fig05_seed_support.csv": "16344b2621338f57e73203ce5c660007e9de49060c7b3a0b2cd2fa31bab66910",
+    "data/precomputed/fig05/fig05_EPE_step_summary.csv": "ee64ce6458e87200aec225a3d0d7e5bf96ad9e0fcc1fd0c7516272436392aab5",
+    "data/precomputed/fig05/learning_threshold_summary.csv": "f3a6192ebb4c655d116515494ece65b5ade368015a195744060818fb7b2de51b",
+    "data/precomputed/fig05/learning_threshold_crossings.csv": "1ed4db3e4fe8080f3bc6b1835c496208d97742c30ca260dafcf27220968a68e2",
+    "data/precomputed/fig05/learning_sign_consistency.csv": "53e2b210b0a7fa7186992150962d5207100d8fc149866282a58c79cc4c38cdf7",
+    "data/precomputed/fig05/physical_motion_trajectory.csv": "0d7810935770d873effd598c55f12cb74e48c89b59806b841ee1eae68732b243",
+    "data/precomputed/fig05/physical_motion_onsets.csv": "7c8a18621723942b97f1a0a4ae5e3747819a0762cdd5d871e8764bae538b615a",
+    "data/precomputed/fig05/official50_sintel_epe.csv": "0e97e7bc4fa8913a96eac789295a8ae66840812bd03813d4b41ff706c73750c1",
+    "data/precomputed/fig05/learning_fixed_control_pairs.csv": "8a5b6af858656d8a2e1dc307b68ace340470128b3fd20207830ae0a12dfbf364",
+    "data/precomputed/fig05/learning_stability_checkpoint_summary.csv": "09410cc5cbfd076673550baa532639ae713a32bd57b31f7c931430b10a4ee328"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/fig05/fig05_main.pdf": "2818c39e9714265aba5ca9e50564a967bf9e4b85b3e21d1d0760b20a24d69d42",
+    "figures/fig05/fig05_main.png": "5d2090e8266dea2bafa166265980cec4a03f6cb66046db0e50a7435f0b86e57c"
+  },
+  "summaries": {
+    "figures/fig05/fig05_integration_primary_01.csv": {
+      "source_or_calculation": "common_100k_endpoints",
+      "sha256": "fab5d87a43406f6a359ccb7d6314dc1cd47e83fdc173eae3a7c049ded5251b5c"
+    },
+    "figures/fig05/fig05_integration_adopted_00.csv": {
+      "source_or_calculation": "data/precomputed/fig05/learning_threshold_summary.csv",
+      "sha256": "f3a6192ebb4c655d116515494ece65b5ade368015a195744060818fb7b2de51b"
+    },
+    "figures/fig05/fig05_integration_adopted_01.csv": {
+      "source_or_calculation": "data/precomputed/fig05/learning_sign_consistency.csv",
+      "sha256": "f546c0e9c54d22a9d803bbe114a45c3dbd2cd0e072207a5769e0ce4439613c79"
+    },
+    "figures/fig05/fig05_integration_adopted_02.csv": {
+      "source_or_calculation": "data/precomputed/fig05/physical_motion_trajectory.csv",
+      "sha256": "83eb7b3170c156aab6a84eaf53f4d63fd0bf4f83995dcad17901ee40ad30c45f"
+    },
+    "figures/fig05/fig05_integration_adopted_03.csv": {
+      "source_or_calculation": "data/precomputed/fig05/physical_motion_onsets.csv",
+      "sha256": "7c8a18621723942b97f1a0a4ae5e3747819a0762cdd5d871e8764bae538b615a"
+    },
+    "figures/fig05/fig05_integration_adopted_04.csv": {
+      "source_or_calculation": "data/precomputed/fig05/official50_sintel_epe.csv",
+      "sha256": "8d7cba45f748b10fa9b1b2e22e5760405aba7e2a9573442b58aefbee1c9482d9"
+    },
+    "figures/fig05/fig05_integration_adopted_05.csv": {
+      "source_or_calculation": "data/precomputed/fig05/learning_fixed_control_pairs.csv",
+      "sha256": "dd00d0521f26822225b9f6308ea92c2163aa81593ec33701d4a5307f6411e720"
+    },
+    "figures/fig05/fig05_integration_adopted_06.csv": {
+      "source_or_calculation": "data/precomputed/fig05/learning_stability_checkpoint_summary.csv",
+      "sha256": "fca9ec0ebae0c1ac001ed0f5b5ad52999dffc85922455f375e748cc3800bc945"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

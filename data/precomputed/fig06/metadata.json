@@ -1,0 +1,622 @@
+{
+  "figure": "Fig.6 — MIDD flow is a nonlinear by-product of generic motion computation",
+  "source_of_panel_structure": "manuscript/manucript_plan.md at repository HEAD 0b0908ed674ca13829d1592e1686304b1c6600f6",
+  "data_policy": "Source artifacts copied verbatim; panels retain separate cohorts and estimands.",
+  "panels": {
+    "A": {
+      "type": "conceptual reference schematic",
+      "claim": "ordinary motion pathway context only; schematic is not a measured circuit result"
+    },
+    "B": {
+      "experiment": "Experiment09 / R04",
+      "models": [
+        "flow/0000/000",
+        "flow/0000/001",
+        "flow/0000/002",
+        "flow/0000/003",
+        "flow/0000/004",
+        "flow/0000/005",
+        "flow/0000/006",
+        "flow/0000/007",
+        "flow/0000/008",
+        "flow/0000/009"
+      ],
+      "n": 10,
+      "stimulus": "MIDD luminance sweep; C=48,80,112,143,175,191,207",
+      "rendering": "centered 3-2-3, 8 large hex; shape [50,8,721]",
+      "timing": {
+        "dt_sec": 0.02,
+        "fade_in_state_sec": 1.0,
+        "n_frames": 50,
+        "analysis_frames": "10–49"
+      },
+      "metric": "normalized MIDD cell-evidence response (e_normalized); raw E=(Original−Mirror)/2 projected by LOMO preferred-direction tangent; response-identifiable entries only",
+      "sign_convention": "source activity sign; decoded-flow coupling is signed tangent with CW-positive convention",
+      "limitations": "variable subtype-specific identifiable model count; R04 T4a signed association is unstable across models"
+    },
+    "C": {
+      "experiment": "Experiment10 / R05–R06 corrected-family decoder-input intervention statistics",
+      "models": [
+        "flow/0000/000",
+        "flow/0000/001",
+        "flow/0000/002",
+        "flow/0000/003",
+        "flow/0000/004",
+        "flow/0000/005",
+        "flow/0000/006",
+        "flow/0000/007",
+        "flow/0000/008",
+        "flow/0000/009"
+      ],
+      "n": 10,
+      "stimulus": "3MIDD luminance curve; C=48,80,112,143,175,191,207",
+      "rendering": "BoxEye; 8 receptors × 50 frames × 34 decoder channels × 721 spatial positions",
+      "timing": {
+        "dt_sec": 0.02,
+        "fade_in_state_sec": 1.0,
+        "n_frames": 50,
+        "analysis_frames": "10–49"
+      },
+      "metric": "corrected-family model-level normalized MIDD loss L=1−gain; decoder-input replacement with frame-matched baseline",
+      "primary_summary_source": "R05–R06 corrected-family report table",
+      "alternate_artifact_caveat": "12_canonical_T4T5_silencing per-model table yields different effect values; not reconciled and not mixed into this plotted summary",
+      "paired_MVE02_component": {
+        "experiment": "MVE02 recurrent whole-subtype neutralization",
+        "subtypes": [
+          "T4c",
+          "T4d"
+        ],
+        "cohort": "same seed×cohort instances as panel D; target vs matched-random controls"
+      },
+      "limitations": "Experiment10 decoder-input replacement is distinct from the MVE02 recurrent intervention; only MVE02 T4c/T4d rows pair directly with D"
+    },
+    "D": {
+      "experiment": "MVE02 established-MIDD common-circuit specificity (R12)",
+      "cohort": "six seed/cohort instances: established 001, 002 (holdout), 003, 010; comparator 000, 008; seed IDs are cohort-local",
+      "model_seed_cohort": [
+        {
+          "seed": 1,
+          "cohort": "established",
+          "holdout": false
+        },
+        {
+          "seed": 2,
+          "cohort": "established",
+          "holdout": true
+        },
+        {
+          "seed": 3,
+          "cohort": "established",
+          "holdout": false
+        },
+        {
+          "seed": 10,
+          "cohort": "established",
+          "holdout": false
+        },
+        {
+          "seed": 0,
+          "cohort": "comparator",
+          "holdout": false
+        },
+        {
+          "seed": 8,
+          "cohort": "comparator",
+          "holdout": false
+        }
+      ],
+      "checkpoint_step": 250000,
+      "conditions": {
+        "dt_sec": 0.02,
+        "fade_in_state_sec": 1.0,
+        "analysis_frames": "10–49",
+        "phases": 12,
+        "decoder_y_flip_applied_upstream_once": true
+      },
+      "metric": "Sintel EPE change (intervention minus intact) for recurrent whole-subtype neutralization vs matched-random control",
+      "paired_panel": "C MVE02 T4c/T4d recurrent whole-subtype neutralization rows; matched by seed and cohort",
+      "limitations": "not paired to the separate Experiment10 decoder-input replacement series also shown in C"
+    },
+    "E": {
+      "experiment": "MVE02 (R12)",
+      "cohort": "established/comparator/holdout as identified in source table; 6 seed-level model instances",
+      "model_seed_cohort": [
+        {
+          "seed": 1,
+          "cohort": "established",
+          "holdout": false
+        },
+        {
+          "seed": 2,
+          "cohort": "established",
+          "holdout": true
+        },
+        {
+          "seed": 3,
+          "cohort": "established",
+          "holdout": false
+        },
+        {
+          "seed": 10,
+          "cohort": "established",
+          "holdout": false
+        },
+        {
+          "seed": 0,
+          "cohort": "comparator",
+          "holdout": false
+        },
+        {
+          "seed": 8,
+          "cohort": "comparator",
+          "holdout": false
+        }
+      ],
+      "checkpoint_step": 250000,
+      "conditions": {
+        "dt_sec": 0.02,
+        "fade_in_state_sec": 1.0,
+        "analysis_frames": "10–49",
+        "phases": 12,
+        "decoder_y_flip_applied_upstream_once": true
+      },
+      "metric": "per-seed change in MIDD antisymmetric component A after recurrent whole-subtype neutralization of T4c/T4d; individual seed rows shown separately from group summaries in C",
+      "sign_convention": "CW-positive tangent; A=(Original−Mirror)/2",
+      "limitations": "seed IDs only meaningful together with cohort labels"
+    },
+    "F": {
+      "experiment": "Phase16 cross-swap (R15 candidate)",
+      "cohort": "selected official-50 model IDs [000,005,010,015,020,025,030,035,040,045]; 10x10 network×decoder crossed design",
+      "stimulus": "3MIDD_048 stable window, frames 10–49 in 50-frame source run",
+      "timing": {
+        "dt_sec": 0.02,
+        "gray_seconds": 1.0,
+        "n_frames": 50,
+        "analysis_frames": "10–49",
+        "rotation_annulus": [
+          0.14,
+          0.98
+        ]
+      },
+      "metric": "A=(T_original−T_mirror)/2",
+      "sign_convention": "CW-positive tangent; A=(T_original−T_mirror)/2",
+      "limitations": "descriptive matrix; variance attribution unresolved under I05; no precise percentage"
+    },
+    "G": {
+      "type": "integrated candidate schematic",
+      "claim": "separates measured links from candidate nonlinear/residual steps; no cell-level cancellation mechanism is asserted"
+    }
+  },
+  "known_unresolved": {
+    "I05": "Cross-swap interaction fractions differ between report and saved CSV. CSV raw interaction fractions: S .844/.808/.828 and A .845/.786/.767; gain-normalized S about .805. Report has distinct values. Cause unresolved; percentages intentionally not plotted."
+  },
+  "prohibited_inferences": [
+    "perfect additivity",
+    "full vector-field additivity",
+    "dedicated biological illusion circuit absent",
+    "cellular nonlinear residual directly observed",
+    "human illusion mechanism",
+    "biological fly perception",
+    "discrete seed mechanism classes"
+  ],
+  "artifact_version": "provenance-v1",
+  "provenance_schema_version": "1.0",
+  "cohort": "panel-specific Experiment09/10 official n=10; MVE02 six seed/cohort instances; selected official cross-swap n=10",
+  "statistical_unit": "panel-specific trained model or seed/cohort instance; see panels",
+  "stimulus": {
+    "A": "ordinary motion pathway context only; schematic is not a measured circuit result",
+    "B": "MIDD luminance sweep; C=48,80,112,143,175,191,207",
+    "C": "3MIDD luminance curve; C=48,80,112,143,175,191,207",
+    "D": {
+      "dt_sec": 0.02,
+      "fade_in_state_sec": 1.0,
+      "analysis_frames": "10–49",
+      "phases": 12,
+      "decoder_y_flip_applied_upstream_once": true
+    },
+    "E": {
+      "dt_sec": 0.02,
+      "fade_in_state_sec": 1.0,
+      "analysis_frames": "10–49",
+      "phases": 12,
+      "decoder_y_flip_applied_upstream_once": true
+    },
+    "F": "3MIDD_048 stable window, frames 10–49 in 50-frame source run",
+    "G": "separates measured links from candidate nonlinear/residual steps; no cell-level cancellation mechanism is asserted"
+  },
+  "rendering_contract": {
+    "A": "ordinary motion pathway context only; schematic is not a measured circuit result",
+    "B": "centered 3-2-3, 8 large hex; shape [50,8,721]",
+    "C": "BoxEye; 8 receptors × 50 frames × 34 decoder channels × 721 spatial positions",
+    "D": {
+      "dt_sec": 0.02,
+      "fade_in_state_sec": 1.0,
+      "analysis_frames": "10–49",
+      "phases": 12,
+      "decoder_y_flip_applied_upstream_once": true
+    },
+    "E": {
+      "dt_sec": 0.02,
+      "fade_in_state_sec": 1.0,
+      "analysis_frames": "10–49",
+      "phases": 12,
+      "decoder_y_flip_applied_upstream_once": true
+    },
+    "F": null,
+    "G": "separates measured links from candidate nonlinear/residual steps; no cell-level cancellation mechanism is asserted"
+  },
+  "temporal_contract": {
+    "A": "ordinary motion pathway context only; schematic is not a measured circuit result",
+    "B": {
+      "dt_sec": 0.02,
+      "fade_in_state_sec": 1.0,
+      "n_frames": 50,
+      "analysis_frames": "10–49"
+    },
+    "C": {
+      "dt_sec": 0.02,
+      "fade_in_state_sec": 1.0,
+      "n_frames": 50,
+      "analysis_frames": "10–49"
+    },
+    "D": {
+      "dt_sec": 0.02,
+      "fade_in_state_sec": 1.0,
+      "analysis_frames": "10–49",
+      "phases": 12,
+      "decoder_y_flip_applied_upstream_once": true
+    },
+    "E": {
+      "dt_sec": 0.02,
+      "fade_in_state_sec": 1.0,
+      "analysis_frames": "10–49",
+      "phases": 12,
+      "decoder_y_flip_applied_upstream_once": true
+    },
+    "F": {
+      "dt_sec": 0.02,
+      "gray_seconds": 1.0,
+      "n_frames": 50,
+      "analysis_frames": "10–49",
+      "rotation_annulus": [
+        0.14,
+        0.98
+      ]
+    },
+    "G": "separates measured links from candidate nonlinear/residual steps; no cell-level cancellation mechanism is asserted"
+  },
+  "metric": {
+    "A": "ordinary motion pathway context only; schematic is not a measured circuit result",
+    "B": "normalized MIDD cell-evidence response (e_normalized); raw E=(Original−Mirror)/2 projected by LOMO preferred-direction tangent; response-identifiable entries only",
+    "C": "corrected-family model-level normalized MIDD loss L=1−gain; decoder-input replacement with frame-matched baseline",
+    "D": "Sintel EPE change (intervention minus intact) for recurrent whole-subtype neutralization vs matched-random control",
+    "E": "per-seed change in MIDD antisymmetric component A after recurrent whole-subtype neutralization of T4c/T4d; individual seed rows shown separately from group summaries in C",
+    "F": "A=(T_original−T_mirror)/2",
+    "G": "separates measured links from candidate nonlinear/residual steps; no cell-level cancellation mechanism is asserted"
+  },
+  "sign_convention": {
+    "A": "ordinary motion pathway context only; schematic is not a measured circuit result",
+    "B": "source activity sign; decoded-flow coupling is signed tangent with CW-positive convention",
+    "C": null,
+    "D": {
+      "dt_sec": 0.02,
+      "fade_in_state_sec": 1.0,
+      "analysis_frames": "10–49",
+      "phases": 12,
+      "decoder_y_flip_applied_upstream_once": true
+    },
+    "E": "CW-positive tangent; A=(Original−Mirror)/2",
+    "F": "CW-positive tangent; A=(T_original−T_mirror)/2",
+    "G": "separates measured links from candidate nonlinear/residual steps; no cell-level cancellation mechanism is asserted"
+  },
+  "estimands": {
+    "A": "ordinary motion pathway context only; schematic is not a measured circuit result",
+    "B": "normalized MIDD cell-evidence response (e_normalized); raw E=(Original−Mirror)/2 projected by LOMO preferred-direction tangent; response-identifiable entries only",
+    "C": "corrected-family model-level normalized MIDD loss L=1−gain; decoder-input replacement with frame-matched baseline",
+    "D": "Sintel EPE change (intervention minus intact) for recurrent whole-subtype neutralization vs matched-random control",
+    "E": "per-seed change in MIDD antisymmetric component A after recurrent whole-subtype neutralization of T4c/T4d; individual seed rows shown separately from group summaries in C",
+    "F": "A=(T_original−T_mirror)/2",
+    "G": "separates measured links from candidate nonlinear/residual steps; no cell-level cancellation mechanism is asserted"
+  },
+  "limitations": {
+    "known_unresolved": {
+      "I05": "Cross-swap interaction fractions differ between report and saved CSV. CSV raw interaction fractions: S .844/.808/.828 and A .845/.786/.767; gain-normalized S about .805. Report has distinct values. Cause unresolved; percentages intentionally not plotted."
+    },
+    "prohibited_inferences": [
+      "perfect additivity",
+      "full vector-field additivity",
+      "dedicated biological illusion circuit absent",
+      "cellular nonlinear residual directly observed",
+      "human illusion mechanism",
+      "biological fly perception",
+      "discrete seed mechanism classes"
+    ]
+  },
+  "precomputed_policy": "Source artifacts copied verbatim; panels retain separate cohorts and estimands.",
+  "source_files": [
+    {
+      "filename": "crossswap_decision.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/16_03_S_network_decoder_crossswap/09_phase16_03_decision.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "8d8c29eb07f8fe14d11d6300d666f478c8131b7b7b8d3a041a319b2c06433260",
+      "copied_sha256": "8d8c29eb07f8fe14d11d6300d666f478c8131b7b7b8d3a041a319b2c06433260"
+    },
+    {
+      "filename": "crossswap_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/16_03_S_network_decoder_crossswap/02_crossswap_metrics.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "2f07747574d790cdb625646c5c6c810c05ce133ae6bde79aa5df572697015d72",
+      "copied_sha256": "2f07747574d790cdb625646c5c6c810c05ce133ae6bde79aa5df572697015d72"
+    },
+    {
+      "filename": "crossswap_protocol.json",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/16_03_S_network_decoder_crossswap/00_protocol.json",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "e2e254378affbd64df914b20b3b1abd389e0613f1b28822e3e7aca7b2326bbc1",
+      "copied_sha256": "e2e254378affbd64df914b20b3b1abd389e0613f1b28822e3e7aca7b2326bbc1"
+    },
+    {
+      "filename": "crossswap_report_excerpt.txt",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/reports/report16_17_integrated.md",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "e05af823f5bf35dd15dd38d76f70deec0de4e389caa346789015aa02680f07ad",
+      "copied_sha256": "e05af823f5bf35dd15dd38d76f70deec0de4e389caa346789015aa02680f07ad"
+    },
+    {
+      "filename": "exp09_activity_by_model_luminance.csv",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/05_MIDD_cell_evidence/MIDD_cell_evidence_by_model_luminance.csv",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "bf42d6be9eb73bc07ece9f6ae8f5e5590a319549bf06665f49d6f14168780a64",
+      "copied_sha256": "bf42d6be9eb73bc07ece9f6ae8f5e5590a319549bf06665f49d6f14168780a64"
+    },
+    {
+      "filename": "exp09_coupling_by_cell_type.csv",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/06_cell_flow_coupling/cell_flow_coupling_by_cell_type.csv",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "2151794bde56a03f8c006ad1fc74c103594ae29f89f38661089c70f457241fd0",
+      "copied_sha256": "2151794bde56a03f8c006ad1fc74c103594ae29f89f38661089c70f457241fd0"
+    },
+    {
+      "filename": "exp09_coupling_by_model.csv",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/06_cell_flow_coupling/cell_flow_coupling_by_model.csv",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "f6f1580d8a91cbff04baef62344436e1574a038d6de7b148181a8080bbcfaefd",
+      "copied_sha256": "f6f1580d8a91cbff04baef62344436e1574a038d6de7b148181a8080bbcfaefd"
+    },
+    {
+      "filename": "exp09_coupling_qa.csv",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/06_cell_flow_coupling/coupling_QA.csv",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "5540c05041bb6008a99eb5c9378d03f2191f0348dc8545d0086f31b342b4d5eb",
+      "copied_sha256": "5540c05041bb6008a99eb5c9378d03f2191f0348dc8545d0086f31b342b4d5eb"
+    },
+    {
+      "filename": "exp09_evidence_metadata.json",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/05_MIDD_cell_evidence/run_metadata.json",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "8392fe37ac51eb1ee41134a4a481a9ff28f1bec9cd67a5b8172b95c9b3e4d267",
+      "copied_sha256": "8392fe37ac51eb1ee41134a4a481a9ff28f1bec9cd67a5b8172b95c9b3e4d267"
+    },
+    {
+      "filename": "exp09_manifest.json",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/config/experiment09_manifest.json",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "4a68a50c6c990e0a38a668a4753322e2f623273aedade3c68af45358a0c7ae01",
+      "copied_sha256": "480a408fa8ae5685091f6cebac83f51609b3990aef86901def420eae636c10e9",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    },
+    {
+      "filename": "exp10_condition_rotation_summaries.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/12_canonical_T4T5_silencing/01_condition_rotation_summaries.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_type": "repository artifact",
+      "source_sha256": "e06485ce539e249d41ae57b6a5f666ece6f361bc6936804ea09d8198f5c23398",
+      "copied_sha256": "e06485ce539e249d41ae57b6a5f666ece6f361bc6936804ea09d8198f5c23398"
+    },
+    {
+      "filename": "exp10_intervention_contract.json",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/12_canonical_T4T5_silencing/intervention_contract.json",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "081fc8d9caa4a8570869b02b60c94e92b0ed7c61bcf1ff56bde7b2174a3b73ef",
+      "copied_sha256": "081fc8d9caa4a8570869b02b60c94e92b0ed7c61bcf1ff56bde7b2174a3b73ef"
+    },
+    {
+      "filename": "exp10_manifest.json",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/config/experiment10_manifest.json",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "c3052fc2a76e161be95a166f44e3b0b3b874a75ca5c61857fe4587828e1d990f",
+      "copied_sha256": "46793fc12f55fbec23688ba65c9bde7b592e5c6b4a917fa3b8a64136706d86ed",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    },
+    {
+      "filename": "exp10_midd_intervention_effects.csv",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/12_canonical_T4T5_silencing/02_MIDD_intervention_effects.csv",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "bc3022c0445e3365859ebc93bff3a764799c3888e6038af2ec951786a5f28795",
+      "copied_sha256": "bc3022c0445e3365859ebc93bff3a764799c3888e6038af2ec951786a5f28795"
+    },
+    {
+      "filename": "exp10_model_level_statistics_corrected.csv",
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/09_report/model_level_statistics_corrected_families.csv",
+      "source_commit_sha": null,
+      "source_type": "local historical artifact",
+      "source_sha256": "910f4744e05d4f4e6d8d5ed74478f5a9790f51d6674c750b62979951b7a906d6",
+      "copied_sha256": "910f4744e05d4f4e6d8d5ed74478f5a9790f51d6674c750b62979951b7a906d6"
+    },
+    {
+      "filename": "exp10_silencing_qa.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/12_canonical_T4T5_silencing/06_silencing_QA.csv",
+      "source_commit_sha": "5acb9a145047274be04cd3e1511382f7f833819c",
+      "source_type": "repository artifact",
+      "source_sha256": "d2b72d125a28b2ffeec2a3abaf6aa7ba80c228786894466eedb327ac981b9eaf",
+      "copied_sha256": "d2b72d125a28b2ffeec2a3abaf6aa7ba80c228786894466eedb327ac981b9eaf"
+    },
+    {
+      "filename": "mve02_config.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/MVE/MVE02_established_MIDD_common_circuit/00_preregistered_config.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "bc438b0bbe82136546d9860bb83090629e1c3f9c521c87e8febed89a445cadc5",
+      "copied_sha256": "bc438b0bbe82136546d9860bb83090629e1c3f9c521c87e8febed89a445cadc5"
+    },
+    {
+      "filename": "mve02_midd_matched_random.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/MVE/MVE02_established_MIDD_common_circuit/02_recurrent_MIDD_matched_random.csv",
+      "source_commit_sha": null,
+      "source_type": "repository artifact",
+      "source_sha256": "913fd9f63d771aab277d9b147c683a5683fa8a1fce7ee79d14773adf8052b125",
+      "copied_sha256": "913fd9f63d771aab277d9b147c683a5683fa8a1fce7ee79d14773adf8052b125",
+      "source_checkout_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "commit_status": "Exact source bytes not verified in checkout HEAD; commit is not asserted."
+    },
+    {
+      "filename": "mve02_seed_subtype_contributions.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/MVE/MVE02_established_MIDD_common_circuit/04_target_seed_summary.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "47174bec1feba1719fdb6cd7e2b22a1a6ead73002479ffef28da97538d810204",
+      "copied_sha256": "47174bec1feba1719fdb6cd7e2b22a1a6ead73002479ffef28da97538d810204"
+    },
+    {
+      "filename": "mve02_sintel_specificity.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/MVE/MVE02_established_MIDD_common_circuit/09_Sintel_specificity.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_type": "repository artifact",
+      "source_sha256": "c875c3fca4ee63e9713c362224ae598cd18af77fd41042812a673ccf7c16284c",
+      "copied_sha256": "c875c3fca4ee63e9713c362224ae598cd18af77fd41042812a673ccf7c16284c"
+    }
+  ],
+  "source_repository": [
+    "https://github.com/poxsalop5029/fvpg",
+    "https://github.com/poxsalop5029/fvsp"
+  ],
+  "source_commit_sha": {
+    "https://github.com/poxsalop5029/fvsp": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+    "https://github.com/poxsalop5029/fvpg": "5acb9a145047274be04cd3e1511382f7f833819c"
+  },
+  "source_paths": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/16_03_S_network_decoder_crossswap/09_phase16_03_decision.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/16_03_S_network_decoder_crossswap/02_crossswap_metrics.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/16_03_S_network_decoder_crossswap/00_protocol.json"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/reports/report16_17_integrated.md"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/05_MIDD_cell_evidence/MIDD_cell_evidence_by_model_luminance.csv"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/06_cell_flow_coupling/cell_flow_coupling_by_cell_type.csv"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/06_cell_flow_coupling/cell_flow_coupling_by_model.csv"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/06_cell_flow_coupling/coupling_QA.csv"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/analysis/05_MIDD_cell_evidence/run_metadata.json"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment09_MIDDvsT4T5/config/experiment09_manifest.json"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/12_canonical_T4T5_silencing/01_condition_rotation_summaries.csv"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/12_canonical_T4T5_silencing/intervention_contract.json"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/config/experiment10_manifest.json"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/12_canonical_T4T5_silencing/02_MIDD_intervention_effects.csv"
+    },
+    {
+      "source_repository": null,
+      "source_path": "Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/09_report/model_level_statistics_corrected_families.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvpg",
+      "source_path": "experiments/midd/Experiment_MIDD/Experiment10_MIDDvsT4T5Silencing/analysis/12_canonical_T4T5_silencing/06_silencing_QA.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/MVE/MVE02_established_MIDD_common_circuit/00_preregistered_config.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/MVE/MVE02_established_MIDD_common_circuit/02_recurrent_MIDD_matched_random.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/MVE/MVE02_established_MIDD_common_circuit/04_target_seed_summary.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/learning_dynamics/artifacts/MVE/MVE02_established_MIDD_common_circuit/09_Sintel_specificity.csv"
+    }
+  ],
+  "provenance_note": "Per-file source_commit_sha is set only when verified or previously recorded. source_sha256 identifies original source bytes; copied_sha256 identifies bundled public bytes after reference sanitation. Source checkout HEAD alone does not prove artifact provenance. Unknown upstream commits remain null. Source references use repository-relative paths; historical-local references do not imply a published repository.",
+  "implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "notebooks/fig06/fig_6.ipynb",
+      "source_sha256": "c35578d8a5fa2cfcd71ad8236fdb0009a4ded409690fb2fa37f76cd767060975",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    }
+  ]
+}

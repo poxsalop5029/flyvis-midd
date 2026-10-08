@@ -1,0 +1,7 @@
+check,pass
+non_target_invariance,True
+noop_unchanged,True
+ten_models,True
+two_renderings,True
+all_interventions,True
+finite_primary_effects,True

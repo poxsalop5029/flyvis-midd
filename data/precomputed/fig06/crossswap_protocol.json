@@ -1,0 +1,56 @@
+{
+  "analysis": "16_03_S_network_decoder_crossswap",
+  "status": "exploratory_internal_mechanistic_analysis",
+  "network_seed_ids": [
+    "000",
+    "005",
+    "010",
+    "015",
+    "020",
+    "025",
+    "030",
+    "035",
+    "040",
+    "045"
+  ],
+  "decoder_seed_ids": [
+    "000",
+    "005",
+    "010",
+    "015",
+    "020",
+    "025",
+    "030",
+    "035",
+    "040",
+    "045"
+  ],
+  "n_cross_combinations": 100,
+  "seed_selection": "deterministic evenly spaced model IDs; not selected from Phase16 outcomes",
+  "dt": 0.02,
+  "gray_seconds": 1.0,
+  "n_frames": 50,
+  "windows_python": {
+    "early": [
+      0,
+      10
+    ],
+    "stable": [
+      10,
+      50
+    ],
+    "late": [
+      30,
+      50
+    ]
+  },
+  "primary_window": "stable",
+  "rotation_annulus": [
+    0.14,
+    0.98
+  ],
+  "bootstrap_n": 2000,
+  "gain_eps": 1e-05,
+  "strict_independent_validation": false,
+  "source_branch": "fixed_common_linear_representation_unsupported"
+}

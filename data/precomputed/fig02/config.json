@@ -1,0 +1,13 @@
+{
+  "seed": 2026100504,
+  "model_bootstrap": 10000,
+  "phase": "C48 12 fixed phases, official50; conditional whole-model CI",
+  "shuffle": "same LR half-difference magnitude, ten identical source realizations; ranks descriptive",
+  "EPE_primary_family": [
+    "A phase0",
+    "abs(A) phase0",
+    "phase normalized SD"
+  ],
+  "EPE_phase_stability": "SD(A over phases)/mean paired magnitude; higher values less stable",
+  "fixed_checkpoint_controls": "C48 and one fixed shuffle, four common steps all14; all pairs contextual, uniform singleton"
+}

@@ -1,0 +1,4 @@
+model_id,checkpoint,checkpoint_sha256,FlyVis_version,device,network_eval,decoder_recursive_eval
+flow/0000/024,flyvis-upstream/results/flow/0000/024/chkpts/chkpt_00000,00df16e8308194f16f58db081508154a5df5aad7756193d883a39a4b3ba153c4,1.2.0,cpu,True,True
+flow/0000/041,flyvis-upstream/results/flow/0000/041/chkpts/chkpt_00000,18956d65ef43738df631a337d4cbb70f88a10e7d21a8507099566e61fff168a4,1.2.0,cpu,True,True
+flow/0000/042,flyvis-upstream/results/flow/0000/042/chkpts/chkpt_00000,84085b7f910ff7687d26a27e985d958fe1ebbdbd06e5979ddd6d8e41ae737bdd,1.2.0,cpu,True,True

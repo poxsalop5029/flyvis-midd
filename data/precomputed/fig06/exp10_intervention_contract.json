@@ -1,0 +1,62 @@
+{
+  "notebook": "12_MIDD_T4T5_decoder_silencing.ipynb",
+  "method": "frame_matched_baseline",
+  "interventions": {
+    "control__noop": [],
+    "single__T4a": [
+      "T4a"
+    ],
+    "single__T4b": [
+      "T4b"
+    ],
+    "single__T4c": [
+      "T4c"
+    ],
+    "single__T4d": [
+      "T4d"
+    ],
+    "single__T5a": [
+      "T5a"
+    ],
+    "single__T5b": [
+      "T5b"
+    ],
+    "single__T5c": [
+      "T5c"
+    ],
+    "single__T5d": [
+      "T5d"
+    ],
+    "group__T4": [
+      "T4a",
+      "T4b",
+      "T4c",
+      "T4d"
+    ],
+    "group__T5": [
+      "T5a",
+      "T5b",
+      "T5c",
+      "T5d"
+    ],
+    "group__T4_T5": [
+      "T4a",
+      "T4b",
+      "T4c",
+      "T4d",
+      "T5a",
+      "T5b",
+      "T5c",
+      "T5d"
+    ],
+    "control__all34": "__all__"
+  },
+  "primary_family": "T4/T5 predefined",
+  "all34": "positive control",
+  "statistical_unit": "trained model n=10",
+  "renderings": [
+    "boxeye",
+    "highres_232"
+  ],
+  "interpretation": "decoder-input replacement, not biological network silencing"
+}

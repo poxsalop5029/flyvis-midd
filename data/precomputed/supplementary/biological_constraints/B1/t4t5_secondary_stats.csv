@@ -1,0 +1,7 @@
+family,endpoint,n,statistic,effect_size,estimate,ci_low,ci_high,raw_p,n_excluded,note,holm_p
+secondary,T4_mean_A_activity,50,two-sided model-level sign-flip,0.14747862335277676,0.0006259082147218861,-0.00051740535014865472,0.0018385385729110147,0.32738363081845906,0,Exploratory; percentile bootstrap 95% CI.,1
+secondary,T4_spearman_vs_A_flow,50,two-sided model-level permutation Spearman,0.049123649459783911,0.049123649459783911,-0.25351202338558038,0.34360393624665242,0.7308634568271587,0,Exploratory; paired percentile bootstrap 95% CI.,1
+secondary,T5_mean_A_activity,50,two-sided model-level sign-flip,-0.12486781765613801,-0.00034299179090341444,-0.0011073978869036445,0.00041285434502276078,0.39038048097595118,0,Exploratory; percentile bootstrap 95% CI.,1
+secondary,T5_spearman_vs_A_flow,50,two-sided model-level permutation Spearman,0.059399759903961583,0.059399759903961583,-0.25319902338701872,0.358380214919857,0.68251587420628967,0,Exploratory; paired percentile bootstrap 95% CI.,1
+secondary,paired_T4_minus_T5_mean_A,50,two-sided paired model-level sign-flip,0.2665074155559089,0.00096890000562530054,2.4600855210534115e-05,0.0019929180968333219,0.067096645167741609,0,Exploratory paired difference; network is the unit.,0.40257987100644965
+secondary,phase0_primary_A_activity,50,two-sided model-level sign-flip,-0.044089210626265543,-9.9016130364242529e-05,-0.00067370836435186624,0.00055023118914177471,0.77576121193940306,0,Exploratory phase-zero endpoint; not substituted for phase average.,1

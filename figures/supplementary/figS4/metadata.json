@@ -1,0 +1,30 @@
+{
+  "canonical_reproduction": {
+    "notebook": "notebooks/supplementary/fig_S4.ipynb",
+    "input_contract": "src/flyvis_midd/figure_inputs.json",
+    "input_paths": [
+      "data/precomputed/supplementary/figS4/mirror_directional_metrics.csv",
+      "data/precomputed/supplementary/figS4/metadata.json",
+      "data/precomputed/supplementary/figS4/calibrated_static_sign_comparison.csv",
+      "data/precomputed/supplementary/figS4/model_comparison_summary.csv",
+      "data/precomputed/supplementary/figS4/luminance_landscape.csv",
+      "data/precomputed/supplementary/figS4/raw_vs_directional_metrics.csv",
+      "data/precomputed/supplementary/figS4/landscape_metrics.csv",
+      "data/precomputed/supplementary/figS4/mirror_decomposition.csv",
+      "data/precomputed/supplementary/figS4/known_rotation_sign_calibration.csv"
+    ],
+    "analysis_source": "src/flyvis_midd/figure_analysis.py",
+    "plot_source": "src/flyvis_midd/figure_rendering.py",
+    "outputs": [
+      "figures/supplementary/figS4/figS4_main.pdf",
+      "figures/supplementary/figS4/figS4_main.png"
+    ],
+    "execution_manifest": "figures/supplementary/figS4/figS4_integration_manifest.json",
+    "source_chain": "numerical acquisition \u2192 canonical precomputed inputs \u2192 Figure notebook",
+    "revision_notebook_execution_required": false,
+    "inference_performed": false,
+    "historical_metadata_retained": true,
+    "supporting_inputs": [],
+    "path_relocation_only": true
+  }
+}

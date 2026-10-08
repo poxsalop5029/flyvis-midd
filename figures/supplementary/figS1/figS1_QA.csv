@@ -1,0 +1,23 @@
+check,pass,detail
+official_50_model_ids_000_049,True,000–049
+three_expected_conditions,True,"['Static', 'CW_mid', 'CCW_mid']"
+flow_expected_shape_and_finite,True,"(50, 3, 50, 2, 721)"
+stimulus_input_shape,True,"((3, 50, 128, 128), (3, 50, 721), (721, 2))"
+source_artifact_sha256,True,28446eb87dc52f47c72cd35ed1c3c610476cb7c14f0309c2a7e446dcbb2ca9b3
+official_source_QA_pass,True,both inference and analysis source QA tables
+50Hz_fade_1s_frames_10_49,True,zero-based frames 10..49
+source_coordinate_contract_one_v_flip,True,image-coordinate tangential metric applies flip internally once
+metrics_unique_50x3,True,"(150, 10)"
+metrics_finite_no_nan_inf,True,"{'mean_flow_magnitude': 0, 'mean_signed_tangent': 0, 'mean_abs_tangent': 0, 'signed_tangent_ratio': 0, 'rotation_coherence': 0, 'mean_signed_radial': 0, 'annulus_positions': 0, 'annulus_receptors': 0}"
+local_API_reproduces_source_metrics,True,"{'mean_flow_magnitude': 1.4375595789317686e-06, 'mean_signed_tangent': 1.4058761337309988e-06, 'signed_tangent_ratio': 1.866199642597266e-07, 'mean_signed_radial': 1.3970436807397846e-07}"
+direction_agreement_50_of_50,True,50/50
+rotation_detection_49_of_50,True,49/50
+source_classification_reproduced,True,source criterion thresholds: ratio>0.1 and moving/static magnitude>3.0
+CW_positive_and_CCW_negative_all_models,True,direction sign is tested independently of detection
+non_detected_model_matches_source,True,['049']
+representative_is_median_P_model,True,005
+quiver_coordinate_conversion_once,True,copy for visualization; no chained/double flip
+source_detection_thresholds_exact,True,strict > thresholds from source classify_rotation_control
+static_baseline_nonzero_and_low,True,static mean magnitude=0.265072; moving mean=9.881651
+static_baseline_values_reproduced,True,mean magnitude=0.265072; mean signed tangent=0.000076
+direction_and_detection_not_conflated,True,50/50 labels aligned; 49/50 detected

@@ -1,0 +1,413 @@
+{
+  "1": {
+    "notebook": "notebooks/fig01/fig_1.ipynb",
+    "input_paths": [
+      "data/precomputed/fig01/fig1_midd_per_model.csv",
+      "figures/fig01/source/retained_representative_fields.png",
+      "figures/fig01/fig1A_midd_stimuli.png"
+    ],
+    "output_dir": "figures/fig01",
+    "prefix": "fig01",
+    "supporting_input_paths": []
+  },
+  "2": {
+    "notebook": "notebooks/fig02/fig_2.ipynb",
+    "input_paths": [
+      "data/precomputed/fig01/fig1_midd_per_model.csv",
+      "data/precomputed/fig02/fig2B_luminance_A_per_model.csv",
+      "data/stimuli/fig1B_boxeye_input/midd_source_images_uint8.npz",
+      "data/precomputed/fig02/matched_control_specificity_modelwise.csv",
+      "data/precomputed/fig02/matched_control_bootstrap_summary.csv",
+      "data/precomputed/fig02/official50_shuffle_model_metrics.csv",
+      "data/precomputed/fig02/official50_shuffle_summary.csv"
+    ],
+    "output_dir": "figures/fig02",
+    "prefix": "fig02",
+    "supporting_input_paths": [
+      "data/precomputed/fig02/matched_control_specificity_modelwise.csv",
+      "data/precomputed/fig02/matched_control_bootstrap_summary.csv",
+      "data/precomputed/fig02/official50_shuffle_model_metrics.csv",
+      "data/precomputed/fig02/official50_shuffle_summary.csv"
+    ]
+  },
+  "3": {
+    "notebook": "notebooks/fig03/fig_3.ipynb",
+    "input_paths": [
+      "data/precomputed/fig03/composition_model_metrics.csv",
+      "data/precomputed/fig03/composition_cv_metrics.csv",
+      "data/precomputed/fig03/composition_null_comparison.csv",
+      "data/precomputed/fig03/fig3_3MIDD_components_per_model.csv",
+      "data/precomputed/fig03/fig3_canonical_pair_predictions.csv",
+      "data/precomputed/fig03/composition_null_draw_metrics.csv",
+      "data/precomputed/fig03/composition_bootstrap_summary.csv",
+      "data/precomputed/fig03/composition_control_summary.csv",
+      "data/precomputed/supplementary/figS1/multifield_sign_correspondence.csv",
+      "data/precomputed/supplementary/figS1/multifield_qa.csv",
+      "data/precomputed/fig03/comparator_model_metrics.csv",
+      "data/precomputed/fig03/comparator_summary.csv",
+      "data/precomputed/fig03/comparator_contrasts.csv"
+    ],
+    "output_dir": "figures/fig03",
+    "prefix": "fig03",
+    "supporting_input_paths": [
+      "data/precomputed/fig03/composition_model_metrics.csv",
+      "data/precomputed/fig03/composition_cv_metrics.csv",
+      "data/precomputed/fig03/composition_null_comparison.csv",
+      "data/precomputed/fig03/composition_null_draw_metrics.csv",
+      "data/precomputed/fig03/composition_bootstrap_summary.csv",
+      "data/precomputed/fig03/composition_control_summary.csv",
+      "data/precomputed/supplementary/figS1/multifield_sign_correspondence.csv",
+      "data/precomputed/supplementary/figS1/multifield_qa.csv",
+      "data/precomputed/fig03/comparator_model_metrics.csv",
+      "data/precomputed/fig03/comparator_summary.csv",
+      "data/precomputed/fig03/comparator_contrasts.csv"
+    ]
+  },
+  "4": {
+    "notebook": "notebooks/fig04/fig_4.ipynb",
+    "input_paths": [
+      "data/precomputed/fig04/geometry_paired.csv",
+      "data/precomputed/fig04/geometry_geometry_contrasts.csv",
+      "data/precomputed/fig04/phase_model_phase_sensitivity.csv",
+      "data/precomputed/fig04/phase_paired.csv",
+      "data/precomputed/fig04/phase_bootstrap.csv",
+      "data/precomputed/fig04/geometry_bootstrap.csv",
+      "data/precomputed/fig04/official50_phase_pairs.csv",
+      "data/precomputed/fig04/official50_phase_model_metrics.csv",
+      "data/precomputed/fig04/official50_phase_reliability.csv",
+      "data/precomputed/fig04/receptor_geometry.csv",
+      "data/precomputed/fig04/radial_radial_model_phase_metrics.csv",
+      "data/precomputed/fig04/radial_ROI_comparison.csv",
+      "data/precomputed/fig04/phase_reliability_icc_bootstrap.csv"
+    ],
+    "output_dir": "figures/fig04",
+    "prefix": "fig04",
+    "supporting_input_paths": [
+      "data/precomputed/fig04/geometry_paired.csv",
+      "data/precomputed/fig04/geometry_geometry_contrasts.csv",
+      "data/precomputed/fig04/phase_model_phase_sensitivity.csv",
+      "data/precomputed/fig04/phase_paired.csv",
+      "data/precomputed/fig04/phase_bootstrap.csv",
+      "data/precomputed/fig04/geometry_bootstrap.csv",
+      "data/precomputed/fig04/official50_phase_pairs.csv",
+      "data/precomputed/fig04/official50_phase_model_metrics.csv",
+      "data/precomputed/fig04/official50_phase_reliability.csv",
+      "data/precomputed/fig04/receptor_geometry.csv",
+      "data/precomputed/fig04/radial_radial_model_phase_metrics.csv",
+      "data/precomputed/fig04/radial_ROI_comparison.csv",
+      "data/precomputed/fig04/phase_reliability_icc_bootstrap.csv"
+    ]
+  },
+  "5": {
+    "notebook": "notebooks/fig05/fig_5.ipynb",
+    "input_paths": [
+      "data/precomputed/fig05/learning_normalized_metrics.csv",
+      "data/precomputed/fig05/fig05_seed_support.csv",
+      "data/precomputed/fig05/fig05_EPE_step_summary.csv",
+      "data/precomputed/fig05/learning_threshold_summary.csv",
+      "data/precomputed/fig05/learning_threshold_crossings.csv",
+      "data/precomputed/fig05/learning_sign_consistency.csv",
+      "data/precomputed/fig05/physical_motion_trajectory.csv",
+      "data/precomputed/fig05/physical_motion_onsets.csv",
+      "data/precomputed/fig05/official50_sintel_epe.csv",
+      "data/precomputed/fig05/learning_fixed_control_pairs.csv",
+      "data/precomputed/fig05/learning_stability_checkpoint_summary.csv"
+    ],
+    "output_dir": "figures/fig05",
+    "prefix": "fig05",
+    "supporting_input_paths": [
+      "data/precomputed/fig05/learning_normalized_metrics.csv",
+      "data/precomputed/fig05/learning_threshold_summary.csv",
+      "data/precomputed/fig05/learning_threshold_crossings.csv",
+      "data/precomputed/fig05/learning_sign_consistency.csv",
+      "data/precomputed/fig05/physical_motion_trajectory.csv",
+      "data/precomputed/fig05/physical_motion_onsets.csv",
+      "data/precomputed/fig05/official50_sintel_epe.csv",
+      "data/precomputed/fig05/learning_fixed_control_pairs.csv",
+      "data/precomputed/fig05/learning_stability_checkpoint_summary.csv"
+    ]
+  },
+  "6": {
+    "notebook": "notebooks/fig06/fig_6.ipynb",
+    "input_paths": [
+      "data/precomputed/fig06/replacement_paired_losses.csv",
+      "data/precomputed/fig06/replacement_bootstrap.csv",
+      "data/precomputed/fig06/replacement_qa.csv",
+      "data/precomputed/fig06/robust_intervention_model_metrics.csv",
+      "data/precomputed/fig06/robust_intervention_summary.csv",
+      "data/precomputed/fig06/denominator_audit.csv",
+      "data/precomputed/fig06/replacement_metrics.csv",
+      "data/precomputed/fig06/crossswap_metrics.csv",
+      "data/precomputed/fig06/crossswap_direction_accuracy.csv"
+    ],
+    "output_dir": "figures/fig06",
+    "prefix": "fig06",
+    "supporting_input_paths": [
+      "data/precomputed/fig06/replacement_paired_losses.csv",
+      "data/precomputed/fig06/replacement_bootstrap.csv",
+      "data/precomputed/fig06/replacement_qa.csv",
+      "data/precomputed/fig06/robust_intervention_model_metrics.csv",
+      "data/precomputed/fig06/robust_intervention_summary.csv",
+      "data/precomputed/fig06/denominator_audit.csv",
+      "data/precomputed/fig06/replacement_metrics.csv"
+    ],
+    "qa_reference_paths": [
+      "data/precomputed/fig06/crossswap_matched_model_units.csv",
+      "data/precomputed/fig06/crossswap_direction_summary.csv"
+    ]
+  },
+  "S1": {
+    "notebook": "notebooks/supplementary/fig_S1.ipynb",
+    "input_paths": [
+      "data/precomputed/supplementary/figS1/source_P_B_summary.csv",
+      "data/precomputed/supplementary/figS1/source_input_manifest.json",
+      "data/precomputed/supplementary/figS1/source_flow_contract.json",
+      "data/precomputed/supplementary/figS1/metadata.json",
+      "data/precomputed/supplementary/figS1/propeller_flow_50models.npy",
+      "data/precomputed/supplementary/figS1/source_analysis_qa.csv",
+      "data/precomputed/supplementary/figS1/source_flow_qa.csv",
+      "data/precomputed/supplementary/figS1/source_control_summary.csv",
+      "data/precomputed/supplementary/figS1/source_analysis_contract.json",
+      "data/precomputed/supplementary/figS1/propeller_boxeye_rendered.npz",
+      "data/precomputed/supplementary/figS1/propeller_sequences.npz",
+      "data/precomputed/supplementary/figS1/source_flow_metrics.csv",
+      "data/precomputed/supplementary/figS1/multifield_sign_correspondence.csv",
+      "data/precomputed/supplementary/figS1/multifield_qa.csv"
+    ],
+    "output_dir": "figures/supplementary/figS1",
+    "prefix": "figS1",
+    "supporting_input_paths": [
+      "data/precomputed/supplementary/figS1/multifield_sign_correspondence.csv",
+      "data/precomputed/supplementary/figS1/multifield_qa.csv"
+    ]
+  },
+  "S2": {
+    "notebook": "notebooks/supplementary/fig_S2.ipynb",
+    "input_paths": [
+      "data/precomputed/supplementary/figS2/source_rendering_contract.json",
+      "data/precomputed/supplementary/figS2/scalar_run_metadata.json",
+      "data/precomputed/supplementary/figS2/scalar_additivity_report.md",
+      "data/precomputed/supplementary/figS2/metadata.json",
+      "data/precomputed/supplementary/figS2/field_01_vector_field_metrics.csv",
+      "data/precomputed/supplementary/figS2/scalar_global_run_metadata.json",
+      "data/precomputed/supplementary/figS2/scalar_02_model_level_statistics.csv",
+      "data/precomputed/supplementary/figS2/scalar_03_canonical_pair_predictions.csv",
+      "data/precomputed/supplementary/figS2/scalar_05_global_model_metrics.csv",
+      "data/precomputed/supplementary/figS2/scalar_06_final_QA.csv",
+      "data/precomputed/supplementary/figS2/field_02_representation_level_summary.csv",
+      "data/precomputed/supplementary/figS2/field_04_vector_field_QA.csv",
+      "data/precomputed/supplementary/figS2/field_run_metadata.json"
+    ],
+    "output_dir": "figures/supplementary/figS2",
+    "prefix": "figS2",
+    "supporting_input_paths": []
+  },
+  "S3": {
+    "notebook": "notebooks/supplementary/fig_S3.ipynb",
+    "input_paths": [
+      "data/precomputed/supplementary/figS3/duration_paired_timecourses.csv",
+      "data/precomputed/supplementary/figS3/duration_window_metrics.csv",
+      "data/precomputed/supplementary/figS3/duration_uniform_late_control.csv",
+      "data/precomputed/supplementary/figS3/05_A_S_temporal_profiles.csv",
+      "data/precomputed/supplementary/figS3/duration_late_contrasts.csv",
+      "data/precomputed/supplementary/figS3/duration_negative_late_control.csv"
+    ],
+    "output_dir": "figures/supplementary/figS3",
+    "prefix": "figS3",
+    "supporting_input_paths": [
+      "data/precomputed/supplementary/figS3/duration_paired_timecourses.csv",
+      "data/precomputed/supplementary/figS3/duration_window_metrics.csv",
+      "data/precomputed/supplementary/figS3/duration_uniform_late_control.csv",
+      "data/precomputed/supplementary/figS3/duration_late_contrasts.csv",
+      "data/precomputed/supplementary/figS3/duration_negative_late_control.csv"
+    ]
+  },
+  "S4": {
+    "notebook": "notebooks/supplementary/fig_S4.ipynb",
+    "input_paths": [
+      "data/precomputed/supplementary/figS4/mirror_directional_metrics.csv",
+      "data/precomputed/supplementary/figS4/metadata.json",
+      "data/precomputed/supplementary/figS4/calibrated_static_sign_comparison.csv",
+      "data/precomputed/supplementary/figS4/model_comparison_summary.csv",
+      "data/precomputed/supplementary/figS4/luminance_landscape.csv",
+      "data/precomputed/supplementary/figS4/raw_vs_directional_metrics.csv",
+      "data/precomputed/supplementary/figS4/landscape_metrics.csv",
+      "data/precomputed/supplementary/figS4/mirror_decomposition.csv",
+      "data/precomputed/supplementary/figS4/known_rotation_sign_calibration.csv"
+    ],
+    "output_dir": "figures/supplementary/figS4",
+    "prefix": "figS4",
+    "supporting_input_paths": []
+  },
+  "S5": {
+    "notebook": "notebooks/supplementary/fig_S5.ipynb",
+    "input_paths": [
+      "data/precomputed/fig02/matched_control_specificity_modelwise.csv",
+      "data/precomputed/fig04/phase_paired.csv",
+      "data/precomputed/fig04/geometry_geometry_contrasts.csv",
+      "data/precomputed/fig01/fig1_midd_per_model.csv",
+      "data/precomputed/fig02/matched_control_bootstrap_summary.csv",
+      "data/precomputed/fig04/phase_model_phase_sensitivity.csv",
+      "data/precomputed/fig04/phase_bootstrap.csv",
+      "data/precomputed/fig04/geometry_paired.csv",
+      "data/precomputed/fig04/geometry_bootstrap.csv",
+      "data/precomputed/fig02/official50_shuffle_model_metrics.csv",
+      "data/precomputed/fig02/official50_shuffle_draw_metrics.csv",
+      "data/precomputed/fig02/official50_shuffle_summary.csv",
+      "data/precomputed/fig02/official50_static_physical_context.csv",
+      "data/precomputed/fig02/official50_controls_metrics.csv",
+      "data/precomputed/fig04/official50_phase_model_metrics.csv",
+      "data/precomputed/fig04/official50_phase_pairs.csv",
+      "data/precomputed/fig04/official50_phase_reliability.csv",
+      "data/precomputed/fig04/official50_performance_phase_join.csv",
+      "data/precomputed/fig05/official50_performance_primary_relations.csv",
+      "data/precomputed/fig04/receptor_geometry.csv",
+      "data/precomputed/fig04/radial_radial_model_phase_metrics.csv",
+      "data/precomputed/fig04/radial_ROI_comparison.csv",
+      "data/precomputed/fig04/phase_reliability_icc_bootstrap.csv"
+    ],
+    "output_dir": "figures/supplementary/figS5",
+    "prefix": "figS5",
+    "supporting_input_paths": [
+      "data/precomputed/fig02/matched_control_specificity_modelwise.csv",
+      "data/precomputed/fig04/phase_paired.csv",
+      "data/precomputed/fig04/geometry_geometry_contrasts.csv",
+      "data/precomputed/fig02/matched_control_bootstrap_summary.csv",
+      "data/precomputed/fig04/phase_model_phase_sensitivity.csv",
+      "data/precomputed/fig04/phase_bootstrap.csv",
+      "data/precomputed/fig04/geometry_paired.csv",
+      "data/precomputed/fig04/geometry_bootstrap.csv",
+      "data/precomputed/fig02/official50_shuffle_model_metrics.csv",
+      "data/precomputed/fig02/official50_shuffle_draw_metrics.csv",
+      "data/precomputed/fig02/official50_shuffle_summary.csv",
+      "data/precomputed/fig02/official50_static_physical_context.csv",
+      "data/precomputed/fig02/official50_controls_metrics.csv",
+      "data/precomputed/fig04/official50_phase_model_metrics.csv",
+      "data/precomputed/fig04/official50_phase_pairs.csv",
+      "data/precomputed/fig04/official50_phase_reliability.csv",
+      "data/precomputed/fig04/official50_performance_phase_join.csv",
+      "data/precomputed/fig05/official50_performance_primary_relations.csv",
+      "data/precomputed/fig04/receptor_geometry.csv",
+      "data/precomputed/fig04/radial_radial_model_phase_metrics.csv",
+      "data/precomputed/fig04/radial_ROI_comparison.csv",
+      "data/precomputed/fig04/phase_reliability_icc_bootstrap.csv"
+    ]
+  },
+  "S6": {
+    "notebook": "notebooks/supplementary/fig_S6.ipynb",
+    "input_paths": [
+      "data/precomputed/supplementary/figS6/sector_paired.csv",
+      "data/precomputed/supplementary/figS6/sector_model_count_sensitivity.csv",
+      "data/precomputed/supplementary/figS6/sector_bootstrap.csv",
+      "data/precomputed/fig04/receptor_geometry.csv"
+    ],
+    "output_dir": "figures/supplementary/figS6",
+    "prefix": "figS6",
+    "supporting_input_paths": [
+      "data/precomputed/supplementary/figS6/sector_paired.csv",
+      "data/precomputed/supplementary/figS6/sector_model_count_sensitivity.csv",
+      "data/precomputed/supplementary/figS6/sector_bootstrap.csv",
+      "data/precomputed/fig04/receptor_geometry.csv"
+    ]
+  },
+  "S7": {
+    "notebook": "notebooks/supplementary/fig_S7.ipynb",
+    "input_paths": [
+      "data/precomputed/fig03/composition_model_metrics.csv",
+      "data/precomputed/fig03/composition_cv_metrics.csv",
+      "data/precomputed/fig03/composition_null_comparison.csv",
+      "data/precomputed/fig03/composition_null_draw_metrics.csv",
+      "data/precomputed/fig03/composition_bootstrap_summary.csv",
+      "data/precomputed/fig03/composition_control_summary.csv",
+      "data/precomputed/fig03/fig3_3MIDD_components_per_model.csv",
+      "data/precomputed/fig03/fig3_canonical_pair_predictions.csv",
+      "data/precomputed/fig03/comparator_model_metrics.csv",
+      "data/precomputed/fig03/comparator_summary.csv",
+      "data/precomputed/fig03/comparator_contrasts.csv"
+    ],
+    "output_dir": "figures/supplementary/figS7",
+    "prefix": "figS7",
+    "supporting_input_paths": [
+      "data/precomputed/fig03/composition_model_metrics.csv",
+      "data/precomputed/fig03/composition_cv_metrics.csv",
+      "data/precomputed/fig03/composition_null_comparison.csv",
+      "data/precomputed/fig03/composition_null_draw_metrics.csv",
+      "data/precomputed/fig03/composition_bootstrap_summary.csv",
+      "data/precomputed/fig03/composition_control_summary.csv",
+      "data/precomputed/fig03/comparator_model_metrics.csv",
+      "data/precomputed/fig03/comparator_summary.csv",
+      "data/precomputed/fig03/comparator_contrasts.csv"
+    ]
+  },
+  "S8": {
+    "notebook": "notebooks/supplementary/fig_S8.ipynb",
+    "input_paths": [
+      "data/precomputed/fig05/learning_threshold_summary.csv",
+      "data/precomputed/fig05/learning_normalized_metrics.csv",
+      "data/precomputed/fig05/physical_motion_trajectory.csv",
+      "data/precomputed/fig05/learning_threshold_crossings.csv",
+      "data/precomputed/fig05/learning_sign_consistency.csv",
+      "data/precomputed/fig05/physical_motion_onsets.csv",
+      "data/precomputed/fig05/learning_fixed_control_pairs.csv",
+      "data/precomputed/fig05/learning_stability_checkpoint_summary.csv"
+    ],
+    "output_dir": "figures/supplementary/figS8",
+    "prefix": "figS8",
+    "supporting_input_paths": [
+      "data/precomputed/fig05/learning_threshold_summary.csv",
+      "data/precomputed/fig05/learning_normalized_metrics.csv",
+      "data/precomputed/fig05/physical_motion_trajectory.csv",
+      "data/precomputed/fig05/learning_threshold_crossings.csv",
+      "data/precomputed/fig05/learning_sign_consistency.csv",
+      "data/precomputed/fig05/physical_motion_onsets.csv",
+      "data/precomputed/fig05/learning_fixed_control_pairs.csv",
+      "data/precomputed/fig05/learning_stability_checkpoint_summary.csv"
+    ]
+  },
+  "S9": {
+    "notebook": "notebooks/supplementary/fig_S9.ipynb",
+    "input_paths": [
+      "data/precomputed/fig06/replacement_paired_losses.csv",
+      "data/precomputed/fig06/exp09_coupling_by_model.csv",
+      "data/precomputed/fig06/exp10_model_level_statistics_corrected.csv",
+      "data/precomputed/fig06/mve02_sintel_specificity.csv",
+      "data/precomputed/fig06/exp09_activity_by_model_luminance.csv",
+      "data/precomputed/fig06/mve02_midd_matched_random.csv",
+      "data/precomputed/fig06/replacement_qa.csv",
+      "data/precomputed/fig06/replacement_bootstrap.csv",
+      "data/precomputed/fig06/robust_intervention_model_metrics.csv",
+      "data/precomputed/fig06/robust_intervention_summary.csv",
+      "data/precomputed/fig06/denominator_audit.csv",
+      "data/precomputed/fig06/replacement_metrics.csv"
+    ],
+    "output_dir": "figures/supplementary/figS9",
+    "prefix": "figS9",
+    "supporting_input_paths": [
+      "data/precomputed/fig06/replacement_paired_losses.csv",
+      "data/precomputed/fig06/replacement_qa.csv",
+      "data/precomputed/fig06/replacement_bootstrap.csv",
+      "data/precomputed/fig06/robust_intervention_model_metrics.csv",
+      "data/precomputed/fig06/robust_intervention_summary.csv",
+      "data/precomputed/fig06/denominator_audit.csv",
+      "data/precomputed/fig06/replacement_metrics.csv"
+    ]
+  },
+  "S10": {
+    "notebook": "notebooks/supplementary/fig_S10.ipynb",
+    "input_paths": [
+      "data/precomputed/fig06/crossswap_metrics.csv",
+      "data/precomputed/fig06/crossswap_decomposition.csv",
+      "data/precomputed/fig06/crossswap_matched_model_units.csv",
+      "data/precomputed/fig06/crossswap_direction_accuracy.csv",
+      "data/precomputed/fig06/crossswap_direction_summary.csv"
+    ],
+    "output_dir": "figures/supplementary/figS10",
+    "prefix": "figS10",
+    "supporting_input_paths": [
+      "data/precomputed/fig06/crossswap_decomposition.csv",
+      "data/precomputed/fig06/crossswap_matched_model_units.csv",
+      "data/precomputed/fig06/crossswap_direction_accuracy.csv",
+      "data/precomputed/fig06/crossswap_direction_summary.csv"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "canonical_notebook": "notebooks/fig02/fig_2.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/fig01/fig1_midd_per_model.csv": "ea64ba2c8b5d1bee163f70c30901bf6063849957771137d24b9aadda5bba90ea",
+    "data/precomputed/fig02/fig2B_luminance_A_per_model.csv": "5e187be7968ec50782ee7f9a127cf31eeb95a3741314746e004594f9e564883c",
+    "data/stimuli/fig1B_boxeye_input/midd_source_images_uint8.npz": "6ee2369c10677f3f9e8a5ee0d8081a849fb81efd3a6c1ba5565af90bc40cbd61",
+    "data/precomputed/fig02/matched_control_specificity_modelwise.csv": "9710de8c00486c3893aa07a50b46db579d0a12a3bd7bcfcb0d9f1cb453acbfd4",
+    "data/precomputed/fig02/matched_control_bootstrap_summary.csv": "3fd2de4b6f4c9a0d5f0ca278d24304733c128049edf5a1157d76750dfcc55a59",
+    "data/precomputed/fig02/official50_shuffle_model_metrics.csv": "6812c7d5121a127dd5b732eec9daaec2a37374bc8ae1c9b78dffcac6ebcd9398",
+    "data/precomputed/fig02/official50_shuffle_summary.csv": "0d10976a4a7fcecc8952348a688b388c75fe3ab387b0c5740b63793210ecf7f0"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/fig02/fig02_main.pdf": "26f3416b40e60a7fc182fabb66cb7b9a081b0e61aa83ede152380d5fab79b5ed",
+    "figures/fig02/fig02_main.png": "0bf221dafc15d72ed9c7b819563ab7d3996fbadf43586917f59d4afb5603e489"
+  },
+  "summaries": {
+    "figures/fig02/fig02_integration_primary_00.csv": {
+      "source_or_calculation": "data/precomputed/fig01/fig1_midd_per_model.csv",
+      "sha256": "43aefc20f2d32e4d50495caf3ed3e18c317a9b476f613040594fae39158389c0"
+    },
+    "figures/fig02/fig02_integration_primary_01.csv": {
+      "source_or_calculation": "data/precomputed/fig02/fig2B_luminance_A_per_model.csv",
+      "sha256": "ec2ec60f597e654a7a2408268da028f5cfff393cca2da649415fd28b623508a1"
+    },
+    "figures/fig02/fig02_integration_adopted_00.csv": {
+      "source_or_calculation": "data/precomputed/fig02/matched_control_specificity_modelwise.csv",
+      "sha256": "e07958be58ff0be9826834813370f04d146a95c3871aed8ab305f8810f92e395"
+    },
+    "figures/fig02/fig02_integration_adopted_01.csv": {
+      "source_or_calculation": "data/precomputed/fig02/matched_control_bootstrap_summary.csv",
+      "sha256": "8d09348ab8aca39c9b0a44c2e5d2efc76d623043a2f41ea0ece3592a7d51f616"
+    },
+    "figures/fig02/fig02_integration_adopted_02.csv": {
+      "source_or_calculation": "data/precomputed/fig02/official50_shuffle_model_metrics.csv",
+      "sha256": "4c7987c1555e94a1a48c7a3f866d7c3d8f4306b5c3c5a17654132397a649acab"
+    },
+    "figures/fig02/fig02_integration_adopted_03.csv": {
+      "source_or_calculation": "data/precomputed/fig02/official50_shuffle_summary.csv",
+      "sha256": "6f7758945dde876f45ded2a7ad6c45cc72309b1c0d62df73177179738aa85102"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

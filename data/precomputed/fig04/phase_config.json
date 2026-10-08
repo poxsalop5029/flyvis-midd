@@ -1,0 +1,59 @@
+{
+  "dt": 0.02,
+  "fade": 1.0,
+  "frames": 50,
+  "window": [
+    10,
+    50
+  ],
+  "image_size": 382,
+  "diameters": [
+    55,
+    382
+  ],
+  "BoxEye": [
+    15,
+    13
+  ],
+  "annulus": [
+    0.14,
+    0.98
+  ],
+  "sign": "decoder v flipped once; CW positive",
+  "device": "cpu",
+  "threads": 1,
+  "bootstrap": 10000,
+  "unit": "model",
+  "models": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "phase_fractions": [
+    0.0,
+    0.08333333333333333,
+    0.16666666666666666,
+    0.25,
+    0.3333333333333333,
+    0.4166666666666667,
+    0.5,
+    0.5833333333333334,
+    0.6666666666666666,
+    0.75,
+    0.8333333333333334,
+    0.9166666666666666
+  ],
+  "phase_period": "full repeated color unit;15deg for24units bothfamilies",
+  "epsilon": 1e-16,
+  "primary": "C48 VarS\u2212VarA",
+  "practical_S_range_over_G": 0.01,
+  "id": 2,
+  "seed": 2026100402
+}

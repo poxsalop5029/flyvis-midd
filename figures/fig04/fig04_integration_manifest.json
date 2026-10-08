@@ -1,0 +1,107 @@
+{
+  "canonical_notebook": "notebooks/fig04/fig_4.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/fig04/geometry_paired.csv": "e778aa90ae6c4ec8259ee99258c946945aaa168b6183fe93177e7dba5bcd0a87",
+    "data/precomputed/fig04/geometry_geometry_contrasts.csv": "f2db5ddf8dfdadc4e2e8fe6084ab635bd96741e8c525a0424134c13f9da6148a",
+    "data/precomputed/fig04/phase_model_phase_sensitivity.csv": "aeef2462b3e27bfc7fb83f44dfa17bc298f5070ae8e3d55e33dc05b29a169eca",
+    "data/precomputed/fig04/phase_paired.csv": "c9506a3fd02d96fbc8c8af4bb8d7bdf16dd8b7c3b6e17b33536f28edba8b9833",
+    "data/precomputed/fig04/phase_bootstrap.csv": "25e7129e521532e862e8f8118130224e592fbd0e5fb1f1d83bf94ab535a5f9b3",
+    "data/precomputed/fig04/geometry_bootstrap.csv": "92f40880f62c25915baf08e045b7e867f0e7ce12d94ae5449d9b1444a256a9a9",
+    "data/precomputed/fig04/official50_phase_pairs.csv": "c89eec320fb486f2f75626b727a581bbb0286fa7a7088e9bba004620f98457d3",
+    "data/precomputed/fig04/official50_phase_model_metrics.csv": "0ae6279923d14a7e04349da39b3afb0653f32777bddea24020419069aae09f3c",
+    "data/precomputed/fig04/official50_phase_reliability.csv": "fbb228d8513e3ebd7ee114e759fc4d06be49431215dca3c40ef86e5d64014cd8",
+    "data/precomputed/fig04/receptor_geometry.csv": "37d62da0b6c699edc8459f95e779c5226c94237dc19ebb3f6c19fcb87b195f91",
+    "data/precomputed/fig04/radial_radial_model_phase_metrics.csv": "a2e7477fe49f5071eb78fcb26acb7abd488c5e7d9972e3aa55177992f1866e75",
+    "data/precomputed/fig04/radial_ROI_comparison.csv": "7ffbf95a097aa04110e41560e017f365fb9e846746664e22c80213275ebd70a8",
+    "data/precomputed/fig04/phase_reliability_icc_bootstrap.csv": "5e02d01a3f9a30de719dde3c4d98b9103edff7bfdc191db09ea6486287c0cf97"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/fig04/fig04_main.pdf": "1dfd32570ba2eb091eeb49386cf39fa99e79f51ebc74cdf600c8f198037d8ccc",
+    "figures/fig04/fig04_main.png": "2bb922e4583fbb494623c05834521ce6d0b5ebf7fff86bf4aaf132a3b703c6f5"
+  },
+  "summaries": {
+    "figures/fig04/fig04_integration_primary_00.csv": {
+      "source_or_calculation": "official50_fixed_phase_pairs",
+      "sha256": "e7d6f6f194d26809db29d846eec5113e604b0d63752c89326c3f55377d05b2e9"
+    },
+    "figures/fig04/fig04_integration_adopted_00.csv": {
+      "source_or_calculation": "data/precomputed/fig04/geometry_paired.csv",
+      "sha256": "a83d107e644dd85fcc5bfb053ea01cbdfc168febc6a9339bf06af2c65db87f7c"
+    },
+    "figures/fig04/fig04_integration_adopted_01.csv": {
+      "source_or_calculation": "data/precomputed/fig04/geometry_geometry_contrasts.csv",
+      "sha256": "1f4711f6c00545668631c7b4318a7a51cd0d131e613d99c874855fe5b09492cf"
+    },
+    "figures/fig04/fig04_integration_adopted_02.csv": {
+      "source_or_calculation": "data/precomputed/fig04/phase_model_phase_sensitivity.csv",
+      "sha256": "524af18c47407e46a0eb670e1f57b26240089ae1e9872a4cf5f9593769d0d67c"
+    },
+    "figures/fig04/fig04_integration_adopted_03.csv": {
+      "source_or_calculation": "data/precomputed/fig04/phase_paired.csv",
+      "sha256": "7ab6a171ddac8aeb3054e3859b43548077bbaf1b23d416ef29188bbbed312d60"
+    },
+    "figures/fig04/fig04_integration_adopted_04.csv": {
+      "source_or_calculation": "data/precomputed/fig04/phase_bootstrap.csv",
+      "sha256": "a668feff8ef215c6b4e5a31319457e05a7566e7aef4cf82100398cacbc504257"
+    },
+    "figures/fig04/fig04_integration_adopted_05.csv": {
+      "source_or_calculation": "data/precomputed/fig04/geometry_bootstrap.csv",
+      "sha256": "f303c38260b5aaf2b9bdb758446d520dc057cec2384690e05c216ee1a803e8ba"
+    },
+    "figures/fig04/fig04_integration_adopted_06.csv": {
+      "source_or_calculation": "data/precomputed/fig04/official50_phase_pairs.csv",
+      "sha256": "e7d6f6f194d26809db29d846eec5113e604b0d63752c89326c3f55377d05b2e9"
+    },
+    "figures/fig04/fig04_integration_adopted_07.csv": {
+      "source_or_calculation": "data/precomputed/fig04/official50_phase_model_metrics.csv",
+      "sha256": "2a863bcafd86d06d4cc55d1d89416a139a781234185fcd8fe2851a11f4aa3691"
+    },
+    "figures/fig04/fig04_integration_adopted_08.csv": {
+      "source_or_calculation": "data/precomputed/fig04/official50_phase_reliability.csv",
+      "sha256": "0edefe00d767b4d9fdfb5481ec8c8ed0875eb7a6fe8323b006d3f401f28e2e26"
+    },
+    "figures/fig04/fig04_integration_adopted_09.csv": {
+      "source_or_calculation": "data/precomputed/fig04/receptor_geometry.csv",
+      "sha256": "5dc56bc8d3fd7bae6b929821b0a606ee12ec4ebf0a3bb49af396d5d9646f896c"
+    },
+    "figures/fig04/fig04_integration_adopted_11.csv": {
+      "source_or_calculation": "data/precomputed/fig04/radial_ROI_comparison.csv",
+      "sha256": "273b34285b1da59a89bf24bbaef04b40778bf6e2767dbe3b4e8cc0ef969fbd2f"
+    },
+    "figures/fig04/fig04_integration_adopted_12.csv": {
+      "source_or_calculation": "data/precomputed/fig04/phase_reliability_icc_bootstrap.csv",
+      "sha256": "781e1e1e908a82b843d12fec55fb8a1e9a8341913064bb93c95c81cbfc6c4325"
+    },
+    "figures/fig04/fig04_integration_adopted_13.csv": {
+      "source_or_calculation": "recomputed_phase_variance",
+      "sha256": "8ad540cdf744f5f8f78611547cc37b929fa75533a2b149b8ee6e76053fb6c3bf"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

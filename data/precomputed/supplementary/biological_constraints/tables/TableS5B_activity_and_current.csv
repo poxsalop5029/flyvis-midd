@@ -1,0 +1,8 @@
+Analysis / endpoint,Estimate/statistic,95% CI,Raw p,Adjusted p,Status
+B1 P1 mean A_activity,+0.000141,"[-0.000677, +0.001055]",0.755,1,Primary; inconclusive
+B1 P2 association with A_flow,rho=+0.116,"[-0.193, +0.415]",0.417,1,Primary; inconclusive
+B1 P3 sign agreement,27/50 (54%),"[39.3%, 68.2%]",0.672,1,Primary; inconclusive
+D1 P1 mean I_ONOFF,4.52e-08,"[-1.12e-07, 2.16e-07]",0.606,1,Primary; inconclusive
+D1 P2 association with A_flow,rho=+0.065,"[-0.216, +0.341]",0.653,1,Primary; inconclusive
+D1 P3 sign agreement,26/50 (52%),"[37.4%, 66.3%]",—,—,Primary; non-confirmatory
+D1 secondary OFF_A association with A_flow,rho=-0.357,"[-0.606, -0.051]",0.0119,0.0476,Secondary; candidate only

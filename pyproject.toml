@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flyvis-midd"
+version = "0.1.0"
+description = "MIDD stimulus and analysis utilities for FlyVis"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+analysis = [
+    "torch>=2.0",
+]
+figures = [
+    "matplotlib>=3.7",
+    "torch>=2.0",
+]
+notebooks = [
+    "pandas>=2.0",
+]
+all = [
+    "torch>=2.0",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

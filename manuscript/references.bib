@@ -1,0 +1,208 @@
+% Add verified bibliographic records here.
+% Example format:
+% @article{key,
+%   author  = {Author, A.},
+%   title   = {Title},
+%   journal = {Journal},
+%   year    = {2026},
+%   doi     = {10.xxxx/xxxxx}
+% }
+
+% Watanabe et al., 2018 — Frontiers in Psychology
+% Illusory Motion Reproduced by Deep Neural Networks Trained for Prediction
+% PredNetを自然動画で学習し、未学習のRotating Snakesで人間と同方向の錯視様motionを報告。negative controlではmotionをほぼ出さなかった。Frontiers
+% DOI: 10.3389/fpsyg.2018.00345
+
+% Kirubeswaran & Storrs, 2023 — Vision Research
+% Inconsistent illusory motion in predictive coding deep neural networks
+% Watanabe 2018を追試し、10個の独立PredNetで錯視の再現性を検証。ネットワーク間で大きなばらつきがあり、grayscale Rotating Snakesでは人間との不一致も報告。サイエンスダイレクト
+% DOI: 10.1016/j.visres.2023.108195
+
+% Kobayashi & Watanabe, 2023 — Scientific Reports
+% Integration of motion information in illusory motion perceived in stationary patterns
+% 3MIDD / 4MIDDを用いて、局所velocity informationの加算によるglobal illusory motionの予測を心理物理的に検証。Nature
+% DOI: 10.1038/s41598-023-48265-4
+
+% Lappalainen et al., 2024 — Nature
+% Connectome-constrained networks predict neural activity across the fly visual system
+% FlyVis本論文。connectome-constrained recurrent networkをoptic-flow taskに学習。今回のモデル基盤。Nature
+% DOI: 10.1038/s41586-024-07939-3
+
+% Bach & Atala-Gérard, 2020 — i-Perception
+% The Rotating Snakes Illusion Is a Straightforward Consequence of Nonlinearity in Arrays of Standard Motion Detectors
+% 標準的correlation-type motion detector arrayに、集約前の非線形性を入れるだけでRotating Snakesの主要特性を説明できると提案。今回の「汎用motion回路の副産物」というmechanismにかなり近い。Sage Journals
+% DOI: 10.1177/2041669520958025
+
+@article{BachAtalaGerard2020RotatingSnakes,
+  author  = {Bach, Michael and Atala-G{\'e}rard, Lea},
+  title   = {The Rotating Snakes Illusion Is a Straightforward Consequence of Nonlinearity in Arrays of Standard Motion Detectors},
+  journal = {i-Perception},
+  year    = {2020},
+  volume  = {11},
+  number  = {5},
+  pages   = {2041669520958025},
+  doi     = {10.1177/2041669520958025}
+}
+
+@article{WatanabeEtAl2018IllusoryMotion,
+  author  = {Watanabe, Eiji and Kitaoka, Akiyoshi and Sakamoto, Kiwako and Yasugi, Masaki and Tanaka, Kenta},
+  title   = {Illusory Motion Reproduced by Deep Neural Networks Trained for Prediction},
+  journal = {Frontiers in Psychology},
+  year    = {2018},
+  volume  = {9},
+  pages   = {345},
+  doi     = {10.3389/fpsyg.2018.00345}
+}
+
+@article{KirubeswaranStorrs2023InconsistentMotion,
+  author  = {Kirubeswaran, O. R. and Storrs, Katherine R.},
+  title   = {Inconsistent Illusory Motion in Predictive Coding Deep Neural Networks},
+  journal = {Vision Research},
+  year    = {2023},
+  volume  = {206},
+  pages   = {108195},
+  doi     = {10.1016/j.visres.2023.108195}
+}
+
+@article{KobayashiWatanabe2023MIDD,
+  author  = {Kobayashi, Taisuke and Watanabe, Eiji},
+  title   = {Integration of Motion Information in Illusory Motion Perceived in Stationary Patterns},
+  journal = {Scientific Reports},
+  year    = {2023},
+  volume  = {13},
+  pages   = {21107},
+  doi     = {10.1038/s41598-023-48265-4}
+}
+
+@article{LappalainenEtAl2024FlyVis,
+  author  = {Lappalainen, Janne K. and Tschopp, Fabian D. and Prakhya, Sridhama and McGill, Mason and Nern, Aljoscha and Shinomiya, Kazunori and Takemura, Shin-ya and Gruntman, Eyal and Macke, Jakob H. and Turaga, Srinivas C.},
+  title   = {Connectome-constrained Networks Predict Neural Activity across the Fly Visual System},
+  journal = {Nature},
+  year    = {2024},
+  volume  = {634},
+  pages   = {1132--1140},
+  doi     = {10.1038/s41586-024-07939-3}
+}
+
+% Bibliographic fields verified against publisher-deposited Crossref metadata.
+@article{MaisakEtAl2013DirectionMap,
+  author  = {Maisak, Matthew S. and Haag, Juergen and Ammer, Georg and Serbe, Etienne and Meier, Matthias and Leonhardt, Aljoscha and Schilling, Tabea and Bahl, Armin and Rubin, Gerald M. and Nern, Aljoscha and Dickson, Barry J. and Reiff, Dierk F. and Hopp, Elisabeth and Borst, Alexander},
+  title   = {A directional tuning map of {Drosophila} elementary motion detectors},
+  journal = {Nature},
+  year    = {2013},
+  volume  = {500},
+  number  = {7461},
+  pages   = {212--216},
+  doi     = {10.1038/nature12320},
+  url     = {https://doi.org/10.1038/nature12320}
+}
+
+% Bibliographic fields verified against publisher-deposited Crossref metadata.
+@article{StrotherEtAl2017DirectionalSelectivity,
+  author  = {Strother, James A. and Wu, Shiuan-Tze and Wong, Allan M. and Nern, Aljoscha and Rogers, Edward M. and Le, Jasmine Q. and Rubin, Gerald M. and Reiser, Michael B.},
+  title   = {The Emergence of Directional Selectivity in the Visual Motion Pathway of {Drosophila}},
+  journal = {Neuron},
+  year    = {2017},
+  volume  = {94},
+  number  = {1},
+  pages   = {168--182.e10},
+  doi     = {10.1016/j.neuron.2017.03.010},
+  url     = {https://doi.org/10.1016/j.neuron.2017.03.010}
+}
+
+% Bibliographic fields verified against publisher-deposited Crossref metadata.
+@article{AtalaGerardBach2017RotatingSnakes,
+  author  = {Atala-G{\'e}rard, Lea and Bach, Michael},
+  title   = {Rotating Snakes Illusion—Quantitative Analysis Reveals a Region in Luminance Space With Opposite Illusory Rotation},
+  journal = {i-Perception},
+  year    = {2017},
+  volume  = {8},
+  number  = {1},
+  pages   = {2041669517691779},
+  doi     = {10.1177/2041669517691779},
+  url     = {https://doi.org/10.1177/2041669517691779}
+}
+
+% Bibliographic fields verified against publisher-deposited Crossref metadata.
+@article{BorstEgelhaaf1989MotionDetection,
+  author  = {Borst, Alexander and Egelhaaf, Martin},
+  title   = {Principles of visual motion detection},
+  journal = {Trends in Neurosciences},
+  year    = {1989},
+  volume  = {12},
+  number  = {8},
+  pages   = {297--306},
+  doi     = {10.1016/0166-2236(89)90010-6},
+  url     = {https://doi.org/10.1016/0166-2236(89)90010-6}
+}
+
+% Publisher BibTeX: https://jmlr.org/papers/v23/20-1335.bib
+@article{DAmourEtAl2022Underspecification,
+  author  = {Alexander D'Amour and Katherine Heller and Dan Moldovan and Ben Adlam and Babak Alipanahi and Alex Beutel and Christina Chen and Jonathan Deaton and Jacob Eisenstein and Matthew D. Hoffman and Farhad Hormozdiari and Neil Houlsby and Shaobo Hou and Ghassen Jerfel and Alan Karthikesalingam and Mario Lucic and Yian Ma and Cory McLean and Diana Mincu and Akinori Mitani and Andrea Montanari and Zachary Nado and Vivek Natarajan and Christopher Nielson and Thomas F. Osborne and Rajiv Raman and Kim Ramasamy and Rory Sayres and Jessica Schrouff and Martin Seneviratne and Shannon Sequeira and Harini Suresh and Victor Veitch and Max Vladymyrov and Xuezhi Wang and Kellie Webster and Steve Yadlowsky and Taedong Yun and Xiaohua Zhai and D. Sculley},
+  title   = {Underspecification Presents Challenges for Credibility in Modern Machine Learning},
+  journal = {Journal of Machine Learning Research},
+  year    = {2022},
+  volume  = {23},
+  number  = {226},
+  pages   = {1--61},
+  url     = {https://jmlr.org/papers/v23/20-1335.html}
+}
+
+@article{BackusOruc2005,
+ author={Backus, Benjamin T. and Oruç, Ilker},
+ title={Illusory motion from change over time in the response to contrast and luminance},
+ journal={Journal of Vision}, year={2005}, volume={5}, number={11}, pages={1055--1069}, doi={10.1167/5.11.10}
+}
+@article{Conway2005,
+ author={Conway, Bevil R. and Kitaoka, Akiyoshi and Yazdanbakhsh, Arash and Pack, Christopher C. and Livingstone, Margaret S.},
+ title={Neural Basis for a Powerful Static Motion Illusion},
+ journal={Journal of Neuroscience}, year={2005}, volume={25}, number={23}, pages={5651--5656}, doi={10.1523/JNEUROSCI.1084-05.2005}
+}
+@article{KitaokaAshida2003,
+ author={Kitaoka, Akiyoshi and Ashida, Hiroshi},
+ title={Phenomenal Characteristics of the Peripheral Drift Illusion},
+ journal={VISION}, year={2003}, volume={15}, number={4}, pages={261--262}, doi={10.24636/vision.15.4_261}
+}
+
+@article{AgrochaoEtAl2020IllusoryMotionFlies,
+  author  = {Agrochao, Margarida and Tanaka, Ryosuke and Salazar-Gatzimas, Emilio and Clark, Damon A.},
+  title   = {Mechanism for analogous illusory motion perception in flies and humans},
+  journal = {Proceedings of the National Academy of Sciences},
+  year    = {2020},
+  volume  = {117},
+  number  = {37},
+  pages   = {23044--23053},
+  doi     = {10.1073/pnas.2002937117}
+}
+
+@article{ClarkEtAl2014MotionStrategy,
+  author  = {Clark, Damon A. and Fitzgerald, James E. and Ales, Justin M. and Gohl, Daryl M. and Silies, Marion A. and Norcia, Anthony M. and Clandinin, Thomas R.},
+  title   = {Flies and humans share a motion estimation strategy that exploits natural scene statistics},
+  journal = {Nature Neuroscience},
+  year    = {2014},
+  volume  = {17},
+  pages   = {296--303},
+  doi     = {10.1038/nn.3600}
+}
+
+@article{LeonhardtEtAl2016ONOFF,
+  author  = {Leonhardt, Aljoscha and Ammer, Georg and Meier, Matthias and Serbe, Etienne and Bahl, Armin and Borst, Alexander},
+  title   = {Asymmetry of {Drosophila} ON and OFF motion detectors enhances real-world velocity estimation},
+  journal = {Nature Neuroscience},
+  year    = {2016},
+  volume  = {19},
+  number  = {5},
+  pages   = {706--715},
+  doi     = {10.1038/nn.4262}
+}
+
+@article{FitzgeraldEtAl2011StimulusStatistics,
+  author  = {Fitzgerald, James E. and Katsov, Alexander Y. and Clandinin, Thomas R. and Schnitzer, Mark J.},
+  title   = {Symmetries in stimulus statistics shape the form of visual motion estimators},
+  journal = {Proceedings of the National Academy of Sciences},
+  year    = {2011},
+  volume  = {108},
+  number  = {31},
+  pages   = {12909--12914},
+  doi     = {10.1073/pnas.1015680108}
+}

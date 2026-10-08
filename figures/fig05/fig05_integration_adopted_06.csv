@@ -1,0 +1,7 @@
+group,window,n_adjacent_comparisons,median_adjacent_pearson,median_adjacent_spearman,mean_adjacent_sign_agreement,median_relative_RMS_change,n_seeds,replication_unit
+3MIDD_048,common0_100k,100,0.9371652033462928,0.8879120879120878,0.8821428571428572,0.3197921060117494,14,seed; comparisons are ordered and dependent
+3MIDD_048,late_common80_100k,20,0.9602662806153328,0.9582417582417584,0.9428571428571428,0.2317611066087173,14,seed; comparisons are ordered and dependent
+3MIDD_207,common0_100k,100,0.931615687123561,0.9252747252747252,0.8814285714285713,0.3243804891269271,14,seed; comparisons are ordered and dependent
+3MIDD_207,late_common80_100k,20,0.921103982107743,0.9406593406593406,0.9892857142857142,0.3957718932297764,14,seed; comparisons are ordered and dependent
+4MIDD_085_170,common0_100k,100,0.92278102248873,0.8879120879120878,0.827142857142857,0.3789491310763012,14,seed; comparisons are ordered and dependent
+4MIDD_085_170,late_common80_100k,20,0.9433050883384116,0.9384615384615383,0.95,0.2876935505267327,14,seed; comparisons are ordered and dependent

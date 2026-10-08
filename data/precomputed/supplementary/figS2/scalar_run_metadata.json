@@ -1,0 +1,7 @@
+{
+  "artifact_version": 1,
+  "inference_unit": "trained model",
+  "n_models": 10,
+  "benchmarks_status": "inherited_not_preregistered",
+  "vector_field_primary": false
+}

@@ -1,0 +1,4 @@
+test,n_models,estimate,median,sd_between_models,ci95_low,ci95_high,p_raw,p_holm,status,bootstrap_draws,permutations,statistic_definition,n_concordant,n_discordant,n_zero_excluded,proportion_concordant,ci95_low_exact_binomial,ci95_high_exact_binomial,reason
+P1_mean_model_phase_mean_I_ONOFF_vs_zero,50.0,4.524047333122841e-08,1.1561539655298377e-08,5.995047268648645e-07,-1.1191807525193424e-07,2.15842873979903e-07,0.6062696865156743,1.0,CONFIRMATORY,10000.0,20000.0,mean across models; sign-flip whole model values,,,,,,,
+P2_I_ONOFF_mean_vs_A_flow_mean,50.0,0.06468187274909963,,,-0.21640651839036273,0.3414552554939635,0.6530673466326684,1.0,CONFIRMATORY,10000.0,20000.0,Spearman across 50 model means; permute y across models,,,,,,,
+P3_sign_concordance_descriptive_only,,,,,,,,,NOT_CONFIRMATORY,,,,26.0,24.0,0.0,0.52,0.3741519450790943,0.66339490839654,No prespecified biological/theoretical mapping from signed source-current imbalance to decoded-flow sign.

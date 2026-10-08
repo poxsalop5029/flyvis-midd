@@ -1,0 +1,21 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+  "figure": "S10",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/fig06/crossswap_metrics.csv": "2f07747574d790cdb625646c5c6c810c05ce133ae6bde79aa5df572697015d72",
+    "data/precomputed/fig06/crossswap_decomposition.csv": "cc59b3a17c3850583847c9b3e87beede899008dd2b76044c7119fb7e3fdea697",
+    "data/precomputed/fig06/crossswap_matched_model_units.csv": "2bb6b32a3e77302db0339806a33ad3d09d449cfc337d53874e546010da7983dd",
+    "data/precomputed/fig06/crossswap_direction_accuracy.csv": "a727a67ac7e8c6e46b1507eb14f851ce325d4089f3bed9367a972aea2004807e"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS10/figS10_main.pdf": "ef710153b7100d419fa88a7b7e0cffd4cdfc89bc2bb4bc2e959993fe93f61fe3",
+    "figures/supplementary/figS10/figS10_main.png": "f05abab96ad74e005dd04c0cdb88da3fcac545c40d338b42f9bfda222994ff0f",
+    "figures/supplementary/figS10/figS10_adoption_QA.csv": "89287d15ef22f6a413495dc662af7ba1ff59dd249a9563121d5721469c27780d"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": "",
+  "last_execution_source_sha256": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+  "path_relocation_only": true
+}

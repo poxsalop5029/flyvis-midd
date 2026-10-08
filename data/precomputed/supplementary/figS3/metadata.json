@@ -1,0 +1,395 @@
+{
+  "figure": "S3",
+  "sources": [
+    {
+      "filename": "00_analysis_contract.json",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/00_analysis_contract.json",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "cd05227e6520316302df97e6293ba613eebb3e3a56991a79f7c3c0509c836656",
+      "source_worktree_status": "",
+      "copied_sha256": "7666bc6044fb5525df9e4e4add944731bf87ad4d056dc1c6a5ef41a6472c331f",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    },
+    {
+      "filename": "01_tangent_per_model_condition.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/01_tangent_per_model_condition.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "2c43686a96e788f536999fbe800675204a335830a9314b8fef2f9e0493d43f5f",
+      "source_worktree_status": "",
+      "copied_sha256": "2c43686a96e788f536999fbe800675204a335830a9314b8fef2f9e0493d43f5f"
+    },
+    {
+      "filename": "03_MIDD_group_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/03_MIDD_group_summary.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "aff606b88117b3490288983630f86e8518d3d26267ed43289ea80a6c2e2c6dc3",
+      "source_worktree_status": "",
+      "copied_sha256": "aff606b88117b3490288983630f86e8518d3d26267ed43289ea80a6c2e2c6dc3"
+    },
+    {
+      "filename": "04_tangent_temporal_profiles.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/04_tangent_temporal_profiles.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "0a46fafb93f76fa8e616e96cfcd656f4c03ba45df407111b914edcf318ca7b5e",
+      "source_worktree_status": "",
+      "copied_sha256": "0a46fafb93f76fa8e616e96cfcd656f4c03ba45df407111b914edcf318ca7b5e"
+    },
+    {
+      "filename": "05_A_S_temporal_profiles.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/05_A_S_temporal_profiles.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "41cd33452af772a671ef5196934ae8693c5163ec607f44a65e55d94f4b16ec4c",
+      "source_worktree_status": "",
+      "copied_sha256": "41cd33452af772a671ef5196934ae8693c5163ec607f44a65e55d94f4b16ec4c"
+    },
+    {
+      "filename": "qa.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/qa.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "821ea6df4d4f7ad1d54dc29939a0f96ccf0e272ecb08247aa58a3595a1293d48",
+      "source_worktree_status": "",
+      "copied_sha256": "821ea6df4d4f7ad1d54dc29939a0f96ccf0e272ecb08247aa58a3595a1293d48"
+    },
+    {
+      "filename": "source_inference_contract.json",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/01_midd_50models/contract.json",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "d17735f2109680ae56688b3932b8b9aaeaaa51c5a2c03af464f5bb40cb8b1e38",
+      "source_worktree_status": "",
+      "copied_sha256": "4a8e9d75f821c0a156d20d795d7f18281ac6e8523a5943ba6d3b0198a8a1ad1c",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    }
+  ],
+  "source_implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/analysis_02_midd_flow.ipynb",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "7784df3091be2f7fc39ef5a802746c2a782647b85d4566ce46d2d1fafda2896b",
+      "source_worktree_status": ""
+    }
+  ],
+  "analysis_contract": {
+    "model_cohort": "official pretrained flow/0000/000–049 (N=50)",
+    "rendering": "single BoxEye extent=15, kernel_size=13; source annulus 0.14–0.98 maximal receptor radius",
+    "statistical_unit": "trained network; frames repeated within network",
+    "summary": "mean ± SEM across 50 models, following source notebook",
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "stable_frames_python": [
+      10,
+      50
+    ],
+    "rotation_sign": "CW positive; scalars already converted once",
+    "status": "descriptive temporal summary; no recurrence mechanism inference"
+  },
+  "provenance_note": "Per-file source_commit_sha is set only when verified or previously recorded. source_sha256 identifies original source bytes; copied_sha256 identifies bundled public bytes after reference sanitation. Source checkout HEAD alone does not prove artifact provenance. Unknown upstream commits remain null. Source references use repository-relative paths; historical-local references do not imply a published repository.",
+  "artifact_version": "provenance-v1",
+  "provenance_schema_version": "1.0",
+  "cohort": "official pretrained flow/0000/000–049 (N=50)",
+  "statistical_unit": "trained network; frames repeated within network",
+  "limitations": "descriptive temporal summary; no recurrence mechanism inference",
+  "rendering_contract": "single BoxEye extent=15, kernel_size=13; source annulus 0.14–0.98 maximal receptor radius",
+  "temporal_contract": [
+    10,
+    50
+  ],
+  "stimulus": {
+    "model_cohort": "official pretrained flow/0000/000–049 (N=50)",
+    "rendering": "single BoxEye extent=15, kernel_size=13; source annulus 0.14–0.98 maximal receptor radius",
+    "statistical_unit": "trained network; frames repeated within network",
+    "summary": "mean ± SEM across 50 models, following source notebook",
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "stable_frames_python": [
+      10,
+      50
+    ],
+    "rotation_sign": "CW positive; scalars already converted once",
+    "status": "descriptive temporal summary; no recurrence mechanism inference"
+  },
+  "metric": "mean ± SEM across 50 models, following source notebook",
+  "sign_convention": "CW positive; scalars already converted once",
+  "estimands": {
+    "model_cohort": "official pretrained flow/0000/000–049 (N=50)",
+    "rendering": "single BoxEye extent=15, kernel_size=13; source annulus 0.14–0.98 maximal receptor radius",
+    "statistical_unit": "trained network; frames repeated within network",
+    "summary": "mean ± SEM across 50 models, following source notebook",
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "stable_frames_python": [
+      10,
+      50
+    ],
+    "rotation_sign": "CW positive; scalars already converted once",
+    "status": "descriptive temporal summary; no recurrence mechanism inference"
+  },
+  "precomputed_policy": "Reuse bundled source products; do not rerun originating inference or pool distinct cohorts.",
+  "source_files": [
+    {
+      "filename": "00_analysis_contract.json",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/00_analysis_contract.json",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "cd05227e6520316302df97e6293ba613eebb3e3a56991a79f7c3c0509c836656",
+      "source_worktree_status": "",
+      "copied_sha256": "7666bc6044fb5525df9e4e4add944731bf87ad4d056dc1c6a5ef41a6472c331f",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    },
+    {
+      "filename": "01_tangent_per_model_condition.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/01_tangent_per_model_condition.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "2c43686a96e788f536999fbe800675204a335830a9314b8fef2f9e0493d43f5f",
+      "source_worktree_status": "",
+      "copied_sha256": "2c43686a96e788f536999fbe800675204a335830a9314b8fef2f9e0493d43f5f"
+    },
+    {
+      "filename": "03_MIDD_group_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/03_MIDD_group_summary.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "aff606b88117b3490288983630f86e8518d3d26267ed43289ea80a6c2e2c6dc3",
+      "source_worktree_status": "",
+      "copied_sha256": "aff606b88117b3490288983630f86e8518d3d26267ed43289ea80a6c2e2c6dc3"
+    },
+    {
+      "filename": "04_tangent_temporal_profiles.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/04_tangent_temporal_profiles.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "0a46fafb93f76fa8e616e96cfcd656f4c03ba45df407111b914edcf318ca7b5e",
+      "source_worktree_status": "",
+      "copied_sha256": "0a46fafb93f76fa8e616e96cfcd656f4c03ba45df407111b914edcf318ca7b5e"
+    },
+    {
+      "filename": "05_A_S_temporal_profiles.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/05_A_S_temporal_profiles.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "41cd33452af772a671ef5196934ae8693c5163ec607f44a65e55d94f4b16ec4c",
+      "source_worktree_status": "",
+      "copied_sha256": "41cd33452af772a671ef5196934ae8693c5163ec607f44a65e55d94f4b16ec4c"
+    },
+    {
+      "filename": "qa.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/qa.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "821ea6df4d4f7ad1d54dc29939a0f96ccf0e272ecb08247aa58a3595a1293d48",
+      "source_worktree_status": "",
+      "copied_sha256": "821ea6df4d4f7ad1d54dc29939a0f96ccf0e272ecb08247aa58a3595a1293d48"
+    },
+    {
+      "filename": "source_inference_contract.json",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/01_midd_50models/contract.json",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "d17735f2109680ae56688b3932b8b9aaeaaa51c5a2c03af464f5bb40cb8b1e38",
+      "source_worktree_status": "",
+      "copied_sha256": "4a8e9d75f821c0a156d20d795d7f18281ac6e8523a5943ba6d3b0198a8a1ad1c",
+      "copy_transformation": "Local path references sanitized; numerical and scientific fields unchanged."
+    }
+  ],
+  "source_repository": "https://github.com/poxsalop5029/fvsp",
+  "source_commit_sha": {
+    "https://github.com/poxsalop5029/fvsp": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c"
+  },
+  "source_paths": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/00_analysis_contract.json"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/01_tangent_per_model_condition.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/03_MIDD_group_summary.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/04_tangent_temporal_profiles.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/05_A_S_temporal_profiles.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/02_midd_flow_analysis/qa.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/seed_analysis/artifacts/01_midd_50models/contract.json"
+    }
+  ],
+  "implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "notebooks/supplementary/fig_S3.ipynb",
+      "source_sha256": "02b9ff4918bf1435b9913a8a9c583f48ad324faf3e4395b83577f759e6f718cc",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    }
+  ]
+}

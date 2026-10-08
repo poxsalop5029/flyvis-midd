@@ -1,0 +1,30 @@
+{
+  "scope": "R2-0 and R2-1 only; stop after Gate",
+  "primary": "3MIDD_048",
+  "secondary_groups": [
+    "3MIDD_207",
+    "4MIDD_085_170"
+  ],
+  "new_inference": false,
+  "sign": "native decoder v flipped exactly once; CW-positive T",
+  "unit": "official model or independent custom training seed; phases/checkpoints repeated within unit",
+  "official_models": [
+    "flow/0000/000",
+    "flow/0000/001",
+    "flow/0000/002",
+    "flow/0000/003",
+    "flow/0000/004",
+    "flow/0000/005",
+    "flow/0000/006",
+    "flow/0000/007",
+    "flow/0000/008",
+    "flow/0000/009"
+  ],
+  "selection": "Reuse the fixed Rev02/03 official000\u2013009 index cohort, not a random sample of official50; no phenotype re-selection.",
+  "bootstrap": "10000 whole-model row resamples; fixed phase columns retained; percentile95%; conditional robustness intervals, not official50 population intervals.",
+  "seed": 2026100500,
+  "pixel_contract": "Actual Rev02/03 cached uint8 382x382; center190.5; ring55/382; white255; no crop, AA, interpolation or dtype conversion; reuse src stimulus generator only to verify saved images.",
+  "mapping": "All reflected O/M across12 stored phases against all opposite-variant phases; choose minimum full-image MAE, ties minimum phase index; also report annulus MAE and RMS normalized by255.",
+  "case_rule": "CASE A if the continuous sector order is Mirror-equivalent and any discrete residual pixels are confined to analytically identified sector boundaries; CASE B for non-boundary structural differences. Exact and effective equivalence are reported separately.",
+  "T_comparison": "Only measured Rev03 phase0 LR responses versus Rev02 best-matching phase, both variants, model-wise. Other reflected phases have pixel-only comparison; do not fabricate responses."
+}

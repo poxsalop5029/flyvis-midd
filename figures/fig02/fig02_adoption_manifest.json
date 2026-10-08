@@ -1,0 +1,21 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+  "figure": "2",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/fig01/fig1_midd_per_model.csv": "ea64ba2c8b5d1bee163f70c30901bf6063849957771137d24b9aadda5bba90ea",
+    "data/precomputed/fig02/fig2B_luminance_A_per_model.csv": "5e187be7968ec50782ee7f9a127cf31eeb95a3741314746e004594f9e564883c",
+    "data/stimuli/fig1B_boxeye_input/midd_source_images_uint8.npz": "6ee2369c10677f3f9e8a5ee0d8081a849fb81efd3a6c1ba5565af90bc40cbd61",
+    "data/precomputed/fig02/official50_shuffle_model_metrics.csv": "6812c7d5121a127dd5b732eec9daaec2a37374bc8ae1c9b78dffcac6ebcd9398"
+  },
+  "outputs_sha256": {
+    "figures/fig02/fig02_main.pdf": "26f3416b40e60a7fc182fabb66cb7b9a081b0e61aa83ede152380d5fab79b5ed",
+    "figures/fig02/fig02_main.png": "0bf221dafc15d72ed9c7b819563ab7d3996fbadf43586917f59d4afb5603e489",
+    "figures/fig02/fig02_adoption_QA.csv": "a32d27d0b8d05c439f3ca8dca4b47dc7646a2e6678fac9f6fc926a1233d3cc7a"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": "",
+  "last_execution_source_sha256": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+  "path_relocation_only": true
+}

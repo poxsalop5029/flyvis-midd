@@ -1,0 +1,64 @@
+{
+  "canonical_notebook": "notebooks/supplementary/fig_S3.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/supplementary/figS3/duration_paired_timecourses.csv": "91c4cf587c158f8cbfbac873b6cb8b539f65fe8050760866c0dc2d889b7c091f",
+    "data/precomputed/supplementary/figS3/duration_window_metrics.csv": "583e71fada4bae530c6bfa95074b72d61ca5cc75e8dddc252ec5ef5dbd8980a3",
+    "data/precomputed/supplementary/figS3/duration_uniform_late_control.csv": "48ec1ef313b8221066a9b41b71ded6f97ef5f750eb31970c7a6f941b55673ffb",
+    "data/precomputed/supplementary/figS3/05_A_S_temporal_profiles.csv": "41cd33452af772a671ef5196934ae8693c5163ec607f44a65e55d94f4b16ec4c",
+    "data/precomputed/supplementary/figS3/duration_late_contrasts.csv": "afc227c1bbdfa012d947d758bcff456d4101617ad55ebb94ed7a509fc2ca972a",
+    "data/precomputed/supplementary/figS3/duration_negative_late_control.csv": "61a7fd55cf894d569e842c4cd2f39d3fce22e760016c0dcd02ab39a471dbb4de"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS3/figS3_main.pdf": "f971e13f98a0f2ad8d05e62ea77de1dc00dc94ead29e6f2617ecde8030f56796",
+    "figures/supplementary/figS3/figS3_main.png": "de4372866d90681318bb09a9fc331fb278768d87d4b8b89887dec2421238d885"
+  },
+  "summaries": {
+    "figures/supplementary/figS3/figS3_integration_adopted_00.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS3/duration_window_metrics.csv",
+      "sha256": "ef7c9703ff79f40f1f25015dc16e2709f3b3bcc3ef28126be07692dd7d682777"
+    },
+    "figures/supplementary/figS3/figS3_integration_adopted_01.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS3/duration_uniform_late_control.csv",
+      "sha256": "db29d448bf29beffedea14ee89b6efbc20a81dfe646052cc17449d9f18ee8b67"
+    },
+    "figures/supplementary/figS3/figS3_integration_adopted_02.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS3/duration_late_contrasts.csv",
+      "sha256": "ef1132d255fdf319ef2a65ed086233cdf2f6aca35c3c471d7c7a5c433d5a8278"
+    },
+    "figures/supplementary/figS3/figS3_integration_adopted_03.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS3/duration_negative_late_control.csv",
+      "sha256": "61a7fd55cf894d569e842c4cd2f39d3fce22e760016c0dcd02ab39a471dbb4de"
+    },
+    "figures/supplementary/figS3/figS3_integration_adopted_04.csv": {
+      "source_or_calculation": "recomputed_late_window",
+      "sha256": "67a84108a383dd8ae30b07d077cc2d03acbd88dbb5fa2032381f0aee29d5874c"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

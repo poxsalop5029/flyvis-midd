@@ -1,0 +1,288 @@
+{
+  "figure": "S4",
+  "sources": [
+    {
+      "filename": "model_comparison_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/01_model_comparison/tables/model_comparison_summary.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "ccc6fefd4fc6848548121faa22523ddd4e4a688c587fe2b84efcbb515856fb1d",
+      "source_worktree_status": "",
+      "copied_sha256": "ccc6fefd4fc6848548121faa22523ddd4e4a688c587fe2b84efcbb515856fb1d"
+    },
+    {
+      "filename": "known_rotation_sign_calibration.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/01_model_comparison/tables/known_rotation_sign_calibration.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "d828aedb9ed921161c35128750f53f8beed82a5ff1f26517d876e25441b86d2d",
+      "source_worktree_status": "",
+      "copied_sha256": "d828aedb9ed921161c35128750f53f8beed82a5ff1f26517d876e25441b86d2d"
+    },
+    {
+      "filename": "calibrated_static_sign_comparison.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/01_model_comparison/tables/calibrated_static_sign_comparison.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "b707c05894f8e612abea955220dfc7252cd8eac89cfa5e3df12738618dc50a98",
+      "source_worktree_status": "",
+      "copied_sha256": "b707c05894f8e612abea955220dfc7252cd8eac89cfa5e3df12738618dc50a98"
+    },
+    {
+      "filename": "luminance_landscape.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/luminance_landscape.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "284dafc8fc44b170cfd1386e69a4ec5f862f38a539fb0cb39fceab66a7777995",
+      "source_worktree_status": "",
+      "copied_sha256": "284dafc8fc44b170cfd1386e69a4ec5f862f38a539fb0cb39fceab66a7777995"
+    },
+    {
+      "filename": "landscape_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/landscape_metrics.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "35f2a1f409dac161f991358618dcd75cde0aa678661e7e1e73124963741fdbf5",
+      "source_worktree_status": "",
+      "copied_sha256": "35f2a1f409dac161f991358618dcd75cde0aa678661e7e1e73124963741fdbf5"
+    },
+    {
+      "filename": "mirror_decomposition.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/mirror_decomposition.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "b62887184b1f1b31e048953a06b594b1254248444409a2fc1aaa7bbfa22bfec3",
+      "source_worktree_status": "",
+      "copied_sha256": "b62887184b1f1b31e048953a06b594b1254248444409a2fc1aaa7bbfa22bfec3"
+    },
+    {
+      "filename": "mirror_directional_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/mirror_directional_metrics.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "68997ca442589797387493af40c4dd13966cac0e3441945865bbc8390889f4af",
+      "source_worktree_status": "",
+      "copied_sha256": "68997ca442589797387493af40c4dd13966cac0e3441945865bbc8390889f4af"
+    },
+    {
+      "filename": "raw_vs_directional_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/raw_vs_directional_metrics.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "692c4f37fe81b5eccafbfd84fcb98c0338e6ac810a0975f729fe51d217641326",
+      "source_worktree_status": "",
+      "copied_sha256": "692c4f37fe81b5eccafbfd84fcb98c0338e6ac810a0975f729fe51d217641326"
+    }
+  ],
+  "source_implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/report.md",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "3138d03641fde71294ddec3dd59a9dcaea24651df474a868e0b7dcd9b4cd5948",
+      "source_worktree_status": ""
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/model.md",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "40c6639337081aa6f496f44149a2d7ad1b6c4cdc0e678d06e7e63eb8499eb576",
+      "source_worktree_status": ""
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/01_static_flow_model_comparison.ipynb",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "62ddf75e7e48fc6864848b5d4834ea8fc0f5664e16e5be676ef7c0ccac6ff763",
+      "source_worktree_status": ""
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/02_luminance_landscape.ipynb",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "8ef0dc223b695bf7b570615841e0148f359696f53a83045297aef1da683013a1",
+      "source_worktree_status": ""
+    }
+  ],
+  "analysis_contract": {
+    "model_cohort": "FlyVis official pretrained flow/0000/000 only; classical deterministic detector array",
+    "rendering": "382×382 annulus, diameters 55/382, 24 units; BoxEye extent=15 kernel_size=13",
+    "statistical_unit": "defined stimulus grid within a single trained model; not ensemble or independent trials",
+    "landscape": "21×21 g1/g2 grid 0..1 step .05; both models use round(255*g)/255 luminances",
+    "normalization": "per-model max absolute output; raw and antisymmetric normalized separately",
+    "robust": "abs(normalized output)>=0.05 in both models",
+    "mirror": "directional=(F(g1,g2)-F(g2,g1))/2; symmetric=(F(g1,g2)+F(g2,g1))/2",
+    "calibration": "Bach raw × -1, FlyVis raw × +1, fixed by CW/CCW control and applied once",
+    "status": "exploratory computational comparison; no biological mechanism equivalence",
+    "classical": "Reichardt array with f(d)=sqrt(2)*d/sqrt(1+d²) before summation; full pattern-shift average, not a temporal persistence model"
+  },
+  "provenance_note": "Per-file source_commit_sha is set only when verified or previously recorded. source_sha256 identifies original source bytes; copied_sha256 identifies bundled public bytes after reference sanitation. Source checkout HEAD alone does not prove artifact provenance. Unknown upstream commits remain null. Source references use repository-relative paths; historical-local references do not imply a published repository.",
+  "artifact_version": "provenance-v1",
+  "provenance_schema_version": "1.0",
+  "cohort": "FlyVis official pretrained flow/0000/000 only; classical deterministic detector array",
+  "statistical_unit": "defined stimulus grid within a single trained model; not ensemble or independent trials",
+  "limitations": "exploratory computational comparison; no biological mechanism equivalence",
+  "rendering_contract": "382×382 annulus, diameters 55/382, 24 units; BoxEye extent=15 kernel_size=13",
+  "temporal_contract": {
+    "policy": "Retain source-specific timing; see source contract artifacts."
+  },
+  "stimulus": {
+    "model_cohort": "FlyVis official pretrained flow/0000/000 only; classical deterministic detector array",
+    "rendering": "382×382 annulus, diameters 55/382, 24 units; BoxEye extent=15 kernel_size=13",
+    "statistical_unit": "defined stimulus grid within a single trained model; not ensemble or independent trials",
+    "landscape": "21×21 g1/g2 grid 0..1 step .05; both models use round(255*g)/255 luminances",
+    "normalization": "per-model max absolute output; raw and antisymmetric normalized separately",
+    "robust": "abs(normalized output)>=0.05 in both models",
+    "mirror": "directional=(F(g1,g2)-F(g2,g1))/2; symmetric=(F(g1,g2)+F(g2,g1))/2",
+    "calibration": "Bach raw × -1, FlyVis raw × +1, fixed by CW/CCW control and applied once",
+    "status": "exploratory computational comparison; no biological mechanism equivalence",
+    "classical": "Reichardt array with f(d)=sqrt(2)*d/sqrt(1+d²) before summation; full pattern-shift average, not a temporal persistence model"
+  },
+  "metric": {
+    "model_cohort": "FlyVis official pretrained flow/0000/000 only; classical deterministic detector array",
+    "rendering": "382×382 annulus, diameters 55/382, 24 units; BoxEye extent=15 kernel_size=13",
+    "statistical_unit": "defined stimulus grid within a single trained model; not ensemble or independent trials",
+    "landscape": "21×21 g1/g2 grid 0..1 step .05; both models use round(255*g)/255 luminances",
+    "normalization": "per-model max absolute output; raw and antisymmetric normalized separately",
+    "robust": "abs(normalized output)>=0.05 in both models",
+    "mirror": "directional=(F(g1,g2)-F(g2,g1))/2; symmetric=(F(g1,g2)+F(g2,g1))/2",
+    "calibration": "Bach raw × -1, FlyVis raw × +1, fixed by CW/CCW control and applied once",
+    "status": "exploratory computational comparison; no biological mechanism equivalence",
+    "classical": "Reichardt array with f(d)=sqrt(2)*d/sqrt(1+d²) before summation; full pattern-shift average, not a temporal persistence model"
+  },
+  "sign_convention": "Bach raw × -1, FlyVis raw × +1, fixed by CW/CCW control and applied once",
+  "estimands": {
+    "model_cohort": "FlyVis official pretrained flow/0000/000 only; classical deterministic detector array",
+    "rendering": "382×382 annulus, diameters 55/382, 24 units; BoxEye extent=15 kernel_size=13",
+    "statistical_unit": "defined stimulus grid within a single trained model; not ensemble or independent trials",
+    "landscape": "21×21 g1/g2 grid 0..1 step .05; both models use round(255*g)/255 luminances",
+    "normalization": "per-model max absolute output; raw and antisymmetric normalized separately",
+    "robust": "abs(normalized output)>=0.05 in both models",
+    "mirror": "directional=(F(g1,g2)-F(g2,g1))/2; symmetric=(F(g1,g2)+F(g2,g1))/2",
+    "calibration": "Bach raw × -1, FlyVis raw × +1, fixed by CW/CCW control and applied once",
+    "status": "exploratory computational comparison; no biological mechanism equivalence",
+    "classical": "Reichardt array with f(d)=sqrt(2)*d/sqrt(1+d²) before summation; full pattern-shift average, not a temporal persistence model"
+  },
+  "precomputed_policy": "Reuse bundled source products; do not rerun originating inference or pool distinct cohorts.",
+  "source_files": [
+    {
+      "filename": "calibrated_static_sign_comparison.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/01_model_comparison/tables/calibrated_static_sign_comparison.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "b707c05894f8e612abea955220dfc7252cd8eac89cfa5e3df12738618dc50a98",
+      "source_worktree_status": "",
+      "copied_sha256": "b707c05894f8e612abea955220dfc7252cd8eac89cfa5e3df12738618dc50a98"
+    },
+    {
+      "filename": "known_rotation_sign_calibration.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/01_model_comparison/tables/known_rotation_sign_calibration.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "d828aedb9ed921161c35128750f53f8beed82a5ff1f26517d876e25441b86d2d",
+      "source_worktree_status": "",
+      "copied_sha256": "d828aedb9ed921161c35128750f53f8beed82a5ff1f26517d876e25441b86d2d"
+    },
+    {
+      "filename": "landscape_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/landscape_metrics.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "35f2a1f409dac161f991358618dcd75cde0aa678661e7e1e73124963741fdbf5",
+      "source_worktree_status": "",
+      "copied_sha256": "35f2a1f409dac161f991358618dcd75cde0aa678661e7e1e73124963741fdbf5"
+    },
+    {
+      "filename": "luminance_landscape.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/luminance_landscape.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "284dafc8fc44b170cfd1386e69a4ec5f862f38a539fb0cb39fceab66a7777995",
+      "source_worktree_status": "",
+      "copied_sha256": "284dafc8fc44b170cfd1386e69a4ec5f862f38a539fb0cb39fceab66a7777995"
+    },
+    {
+      "filename": "mirror_decomposition.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/mirror_decomposition.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "b62887184b1f1b31e048953a06b594b1254248444409a2fc1aaa7bbfa22bfec3",
+      "source_worktree_status": "",
+      "copied_sha256": "b62887184b1f1b31e048953a06b594b1254248444409a2fc1aaa7bbfa22bfec3"
+    },
+    {
+      "filename": "mirror_directional_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/mirror_directional_metrics.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "68997ca442589797387493af40c4dd13966cac0e3441945865bbc8390889f4af",
+      "source_worktree_status": "",
+      "copied_sha256": "68997ca442589797387493af40c4dd13966cac0e3441945865bbc8390889f4af"
+    },
+    {
+      "filename": "model_comparison_summary.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/01_model_comparison/tables/model_comparison_summary.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "ccc6fefd4fc6848548121faa22523ddd4e4a688c587fe2b84efcbb515856fb1d",
+      "source_worktree_status": "",
+      "copied_sha256": "ccc6fefd4fc6848548121faa22523ddd4e4a688c587fe2b84efcbb515856fb1d"
+    },
+    {
+      "filename": "raw_vs_directional_metrics.csv",
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/raw_vs_directional_metrics.csv",
+      "source_commit_sha": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c",
+      "source_sha256": "692c4f37fe81b5eccafbfd84fcb98c0338e6ac810a0975f729fe51d217641326",
+      "source_worktree_status": "",
+      "copied_sha256": "692c4f37fe81b5eccafbfd84fcb98c0338e6ac810a0975f729fe51d217641326"
+    }
+  ],
+  "source_repository": "https://github.com/poxsalop5029/fvsp",
+  "source_commit_sha": {
+    "https://github.com/poxsalop5029/fvsp": "9dd27cf4d56bd4c7d75d6dfb471025c84672cc7c"
+  },
+  "source_paths": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/01_model_comparison/tables/calibrated_static_sign_comparison.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/01_model_comparison/tables/known_rotation_sign_calibration.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/landscape_metrics.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/luminance_landscape.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/mirror_decomposition.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/mirror_directional_metrics.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/01_model_comparison/tables/model_comparison_summary.csv"
+    },
+    {
+      "source_repository": "https://github.com/poxsalop5029/fvsp",
+      "source_path": "projects/static_flow/artifacts/02_luminance_landscape/tables/raw_vs_directional_metrics.csv"
+    }
+  ],
+  "implementation_references": [
+    {
+      "source_repository": "https://github.com/poxsalop5029/flyvis-midd",
+      "source_commit_sha": "eb9ac3bf02a7ecea59e92f9b048fe690597e00ad",
+      "source_path": "notebooks/supplementary/fig_S4.ipynb",
+      "source_sha256": "688b25d62952378da4316876fbf35254171ffebc3f4648e5724326dcfe681849",
+      "note": "Implementation at source-artifact baseline; later provenance-only edits do not rerun analysis."
+    }
+  ]
+}

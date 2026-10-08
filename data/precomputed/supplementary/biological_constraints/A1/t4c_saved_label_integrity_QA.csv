@@ -1,0 +1,2 @@
+sklearn_runtime_version,pickle_origin_sklearn_version,estimator_methods_called,n_models,raw_labels_exact_match,raw_to_official_mapping,cluster_0_n,cluster_1_n,cluster_2_n,pickle_sha256,labels_sha256,version_warning_present,status
+1.8.0,1.1.1,False,50,True,"{0: 2, 1: 0, 2: 1}",31,7,12,35a3b284e205913a2672a1efc0bdaec54aa784a5af38ab8c8e441e615031d412,fb6ad8a38dc58ba199ffe37091dc205c11e7fed0898a037adf8b7d03853f3f27,True,PASS_WITH_VERSION_WARNING

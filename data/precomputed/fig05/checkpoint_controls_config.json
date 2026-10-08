@@ -1,0 +1,30 @@
+{
+  "seed": 2026100505,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "steps": [
+    0,
+    10000,
+    50000,
+    100000
+  ],
+  "selection": "fixed common support, init/early/intermediate/common endpoint; no outcome selection",
+  "control": "one fixed histogram-preserving shuffled realization and exact LR; balanced negative and LR; uniform128",
+  "operator": "image/LR half-difference for shuffle and negative; canonical Original/Mirror for MIDD separately; uniform singleton T/G (pair A zero by construction)",
+  "state": "original custom R10 runtime dt.02 fade1",
+  "limitations": "one shuffle realization, not shuffle distribution; no phase inference for custom cohort"
+}

@@ -1,0 +1,2 @@
+dt,fade_seconds,n_frames,analysis_start,phase_deg,n_units,eye_extent,eye_kernel_size,image_size,inner_diameter,outer_diameter,inner_radius_fraction,outer_radius_fraction,flip_decoder_y,evaluation_config_id,metric_contract,asymmetry_contract,established,comparators,holdout,step,group,reference_sign,random_draws
+0.02,1.0,50,10,0.0,24,15,13,382,55,382,0.14,0.98,True,8f19c8753526,BoxEye image coordinates; decoder v flipped once; CW-positive,A=(T_original-T_mirror)/2; S=(T_original+T_mirror)/2; M=abs(A)-abs(S),"001,002,003,010","000,008",002,250000,3MIDD_048,-1,199

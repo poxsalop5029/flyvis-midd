@@ -1,0 +1,31 @@
+{
+  "canonical_reproduction": {
+    "notebook": "notebooks/supplementary/fig_S10.ipynb",
+    "input_contract": "src/flyvis_midd/figure_inputs.json",
+    "input_paths": [
+      "data/precomputed/fig06/crossswap_metrics.csv",
+      "data/precomputed/fig06/crossswap_decomposition.csv",
+      "data/precomputed/fig06/crossswap_matched_model_units.csv",
+      "data/precomputed/fig06/crossswap_direction_accuracy.csv",
+      "data/precomputed/fig06/crossswap_direction_summary.csv"
+    ],
+    "analysis_source": "src/flyvis_midd/figure_analysis.py",
+    "plot_source": "src/flyvis_midd/figure_rendering.py",
+    "outputs": [
+      "figures/supplementary/figS10/figS10_main.pdf",
+      "figures/supplementary/figS10/figS10_main.png"
+    ],
+    "execution_manifest": "figures/supplementary/figS10/figS10_integration_manifest.json",
+    "source_chain": "numerical acquisition \u2192 canonical precomputed inputs \u2192 Figure notebook",
+    "revision_notebook_execution_required": false,
+    "inference_performed": false,
+    "historical_metadata_retained": true,
+    "supporting_inputs": [
+      "data/precomputed/fig06/crossswap_decomposition.csv",
+      "data/precomputed/fig06/crossswap_matched_model_units.csv",
+      "data/precomputed/fig06/crossswap_direction_accuracy.csv",
+      "data/precomputed/fig06/crossswap_direction_summary.csv"
+    ],
+    "path_relocation_only": true
+  }
+}

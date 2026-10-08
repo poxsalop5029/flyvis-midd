@@ -1,0 +1,3 @@
+physical_direction,cw_positive_target,bach_raw_mean,flyvis_raw_mean_tangent,bach_cw_calibrated,flyvis_cw_calibrated,bach_to_cw_factor,flyvis_to_cw_factor
+CW,1,-0.1277773584514598,0.1182840824127016,0.1277773584514598,0.1182840824127016,-1.0,1.0
+CCW,-1,0.1277773584514598,-0.0712648385767578,-0.1277773584514598,-0.0712648385767578,-1.0,1.0

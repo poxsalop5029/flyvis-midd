@@ -1,0 +1,11 @@
+model_id,checkpoint,checkpoint_sha256,FlyVis_version,device,network_eval,decoder_recursive_eval
+flow/0000/015,flyvis-upstream/results/flow/0000/015/chkpts/chkpt_00000,e3a7a95e7be582560ccfd8a553d44597d2525a5db9b4bce20f4966b2aa521a76,1.2.0,cpu,True,True
+flow/0000/025,flyvis-upstream/results/flow/0000/025/chkpts/chkpt_00000,06dea4a4ff6d11aea8036e300c8fa6dcd649367f34f0357bb0f217ca3ab17504,1.2.0,cpu,True,True
+flow/0000/046,flyvis-upstream/results/flow/0000/046/chkpts/chkpt_00000,e070e06fd665b82de3ad1ad1d9464a05949cf888e7ed12494a889a96db8b529b,1.2.0,cpu,True,True
+flow/0000/000,flyvis-upstream/results/flow/0000/000/chkpts/chkpt_00000,d0e42857e738d0315897c2d50fde9eb3fb1a3fb1f071d55dfc13d53d72bccc3f,1.2.0,cpu,True,True
+flow/0000/001,flyvis-upstream/results/flow/0000/001/chkpts/chkpt_00000,d970fa9cd5082cf678cc4ef116728b64b4e7d0bbc99350d36d128f9556b0221a,1.2.0,cpu,True,True
+flow/0000/002,flyvis-upstream/results/flow/0000/002/chkpts/chkpt_00000,43e68e8aaddb238b6f522240ba650123c88a42ed7e01d1f378129bea45b771ab,1.2.0,cpu,True,True
+flow/0000/003,flyvis-upstream/results/flow/0000/003/chkpts/chkpt_00000,f2644780aeaa131437bedcb21038b391ee439f9eacfb5bfc3cd05edd22e6255d,1.2.0,cpu,True,True
+flow/0000/004,flyvis-upstream/results/flow/0000/004/chkpts/chkpt_00000,0a8cb1e39d4f594f1ec1518388c448ec32effcc5e10760b403990a18bf9d23be,1.2.0,cpu,True,True
+flow/0000/005,flyvis-upstream/results/flow/0000/005/chkpts/chkpt_00000,8066e710eb113e4cf4e3f3d218f972b8f17ab922daad8fca358d644b906cc926,1.2.0,cpu,True,True
+flow/0000/006,flyvis-upstream/results/flow/0000/006/chkpts/chkpt_00000,e802cf3dbdea7d86fd99136393e4a150fab5ee46c36560d0f187063cf191ee4e,1.2.0,cpu,True,True

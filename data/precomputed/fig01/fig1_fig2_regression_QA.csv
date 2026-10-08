@@ -1,0 +1,10 @@
+group,metric,max_abs_difference,tolerance,pass
+3MIDD_048,T_original,0.0,1e-06,True
+3MIDD_048,T_mirror,0.0,1e-06,True
+3MIDD_048,A_canonical,1.1102230246251565e-16,1e-06,True
+3MIDD_207,T_original,0.0,1e-06,True
+3MIDD_207,T_mirror,0.0,1e-06,True
+3MIDD_207,A_canonical,1.0061396160665481e-16,1e-06,True
+4MIDD_085_170,T_original,0.0,1e-06,True
+4MIDD_085_170,T_mirror,0.0,1e-06,True
+4MIDD_085_170,A_canonical,1.0061396160665481e-16,1e-06,True

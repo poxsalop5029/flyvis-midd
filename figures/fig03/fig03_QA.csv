@@ -1,0 +1,13 @@
+check,pass
+models_n10,True
+luminance_n7,True
+canonical_pairs_21_each,True
+cycle_triplets_35_each,True
+unique_rows,True
+finite_values,True
+A3_definition,True
+A4_definition,True
+prediction_definition,True
+residual_identity,True
+decoder_y_flip_once_upstream,True
+rendering_and_inference_shape,True

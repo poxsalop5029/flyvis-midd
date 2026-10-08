@@ -1,0 +1,5 @@
+check,passed
+canonical 50 models per group,True
+canonical reversal 21/18/12,True
+A/S definitions,True
+source inputs present,True

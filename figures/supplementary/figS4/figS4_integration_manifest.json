@@ -1,0 +1,79 @@
+{
+  "canonical_notebook": "notebooks/supplementary/fig_S4.ipynb",
+  "inference_performed": false,
+  "revision_notebook_execution_required": false,
+  "inputs_sha256": {
+    "data/precomputed/supplementary/figS4/mirror_directional_metrics.csv": "68997ca442589797387493af40c4dd13966cac0e3441945865bbc8390889f4af",
+    "data/precomputed/supplementary/figS4/metadata.json": "a5c49cda91e6984e069ab8031887174ab7515433715b1dcad2a477829c65794f",
+    "data/precomputed/supplementary/figS4/calibrated_static_sign_comparison.csv": "b707c05894f8e612abea955220dfc7252cd8eac89cfa5e3df12738618dc50a98",
+    "data/precomputed/supplementary/figS4/model_comparison_summary.csv": "ccc6fefd4fc6848548121faa22523ddd4e4a688c587fe2b84efcbb515856fb1d",
+    "data/precomputed/supplementary/figS4/luminance_landscape.csv": "284dafc8fc44b170cfd1386e69a4ec5f862f38a539fb0cb39fceab66a7777995",
+    "data/precomputed/supplementary/figS4/raw_vs_directional_metrics.csv": "692c4f37fe81b5eccafbfd84fcb98c0338e6ac810a0975f729fe51d217641326",
+    "data/precomputed/supplementary/figS4/landscape_metrics.csv": "35f2a1f409dac161f991358618dcd75cde0aa678661e7e1e73124963741fdbf5",
+    "data/precomputed/supplementary/figS4/mirror_decomposition.csv": "b62887184b1f1b31e048953a06b594b1254248444409a2fc1aaa7bbfa22bfec3",
+    "data/precomputed/supplementary/figS4/known_rotation_sign_calibration.csv": "d828aedb9ed921161c35128750f53f8beed82a5ff1f26517d876e25441b86d2d"
+  },
+  "source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "f3e17e3fafa666f3dfb0cc7c95729a319fd2d084f95034f92e151a3864924c46",
+    "src/flyvis_midd/figure_rendering.py": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+    "src/flyvis_midd/figure_inputs.json": "b77318bdbbc83093b241ad6ce35a6378ee5aedf4a22cb496770dd761d12944c5",
+    "src/flyvis_midd/round2_analysis.py": "62dc4f36a2df9571499f65cb663df08e78e54651b39d46031fe8fca666b7a16d"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS4/figS4_main.pdf": "fc978a35c9b083026c1bc3e527aa17e362d047274b7fa2528577453ba99ef49e",
+    "figures/supplementary/figS4/figS4_main.png": "a88aedc6a6ee66e0d650ea8fd7a291cddb41550b210b737ff152cdab49eb5bc3"
+  },
+  "summaries": {
+    "figures/supplementary/figS4/figS4_integration_primary_00.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS4/mirror_directional_metrics.csv",
+      "sha256": "af5b7ab4814f7290abb8db48d0a210638a56f88cdbcf804471e2db3c1292b528"
+    },
+    "figures/supplementary/figS4/figS4_integration_primary_01.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS4/calibrated_static_sign_comparison.csv",
+      "sha256": "232a2cc1ca20dd42ce8d53def17ffd94aa4d468b92565de270d23a37aed8680b"
+    },
+    "figures/supplementary/figS4/figS4_integration_primary_02.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS4/model_comparison_summary.csv",
+      "sha256": "956559c5e4a2e858d12db228c0819f94c432d66911b78fc15087be2c0b065b1f"
+    },
+    "figures/supplementary/figS4/figS4_integration_primary_03.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS4/luminance_landscape.csv",
+      "sha256": "b92cf8ef5b4d6dbedc8216a9a956da646f37562a60dce3d782da903a8c200c88"
+    },
+    "figures/supplementary/figS4/figS4_integration_primary_04.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS4/raw_vs_directional_metrics.csv",
+      "sha256": "4c881a7632d9330e64ba696bf1653ffc32dadbfabf46ed3a55202bb0e7cb37a0"
+    },
+    "figures/supplementary/figS4/figS4_integration_primary_05.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS4/landscape_metrics.csv",
+      "sha256": "7b2e32dd02f0e99b66fb23451ca6fd76d53a5f350613caa8df60d9e0630192f7"
+    },
+    "figures/supplementary/figS4/figS4_integration_primary_06.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS4/mirror_decomposition.csv",
+      "sha256": "cab6a0830ea8020554241c0abe2157b30ef1582e4f3df4b9968d1e59db317a6f"
+    },
+    "figures/supplementary/figS4/figS4_integration_primary_07.csv": {
+      "source_or_calculation": "data/precomputed/supplementary/figS4/known_rotation_sign_calibration.csv",
+      "sha256": "bbb3502500096e355a4ab7fb04a7c39cdd21f710d5f3c2c76b81e12e50bfa77a"
+    }
+  },
+  "software": {
+    "python": "3.11.14",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3"
+  },
+  "statistics": "Model/seed units only. Original scalar fit/bootstrap replay and stronger comparators use shared calculations; fixed-design intervals retain their source configs. Phase-grid intervals are conditional.",
+  "limitation": "",
+  "last_execution_source_sha256": {
+    "src/flyvis_midd/figure_analysis.py": "d08f2a607ec03a2506be38569ae7289e18101d9e43c14d17c5219a948327fb0a",
+    "src/flyvis_midd/figure_rendering.py": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+    "src/flyvis_midd/figure_inputs.json": "3b57776227e1bbcbdd66fdd25651b839e77f4b74aaaa142be612529be1107608",
+    "src/flyvis_midd/round2_analysis.py": "e1e71050ab6137d2648a59df3ec0c08df176083a81aee7b6ab9c87dc9304667e"
+  },
+  "path_migration": {
+    "inference_performed": false,
+    "notebook_execution_performed": false,
+    "figures_redrawn": false,
+    "note": "Only input locations and checksum bindings changed; generated figures preserve their preceding execution."
+  }
+}

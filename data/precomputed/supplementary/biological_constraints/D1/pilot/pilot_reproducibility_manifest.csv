@@ -1,0 +1,58 @@
+key,value
+environment_gate,PINNED_ENV_PASS
+FlyVis_version,1.2.0
+FlyVis_commit,92b3845cc426dd309a1a0e1b3890156c42e14021
+FlyVis_path,/opt/anaconda3/envs/flyvis_env/lib/python3.11/site-packages/flyvis
+FlyVis_install_mode,noneditable VCS install
+checkout_cleanliness,noneditable exact-commit package; no mutable checkout
+installed_RECORD_hashes_verified,True
+Python,3.11.14
+Python_executable,/opt/anaconda3/envs/flyvis_env/bin/python
+torch,2.10.0
+device,cpu
+FLYVIS_ROOT_DIR,<FLYVIS_ROOT_DIR>
+models,"[""flow/0000/000"", ""flow/0000/005"", ""flow/0000/010""]"
+phases_deg,"[0.0, 1.25, 2.5, 3.75, 5.0, 6.25, 7.5, 8.75, 10.0, 11.25, 12.5, 13.75]"
+stimulus,3MIDD C=48 Original/Mirror; 382 px; inner/outer diameters 55/382; BoxEye extent/kernel 15/13
+frames,50
+dt_seconds,0.02
+fade_in_seconds,1.0
+analysis_frames,10-49 inclusive
+expected_integrations,72
+completed_integrations,72
+wall_seconds,91.44338704200344
+peak_observed_rss_bytes,2796027904
+source_ON,"Mi1,Tm3"
+target_ON,T4a-d
+source_OFF,"Tm1,Tm2,Tm4,Tm9"
+target_OFF,T5a-d
+aggregation,sum signed source edges per target node; mean frames; mean nodes within subtype; equal-weight four subtypes
+ON_A,(R_ON_original-R_ON_mirror)/2
+OFF_A,(R_OFF_original-R_OFF_mirror)/2
+I_ONOFF,ON_A-OFF_A; no sign flip or normalization
+current_response_shape,"(50, 1513231)"
+current_dtype,float32
+current_dimensions,frame × edge; official API squeezes single sample/batch
+current_semantics,signed synaptic weight × presynaptic activation; sign is included in edge weight
+SourceCurrentView,selects per-source edge columns; does not aggregate source types
+SourceCurrentView_checks_per_integration,24
+all_source_indices_match,True
+ON_A_RMS,1.471366720127038e-05
+OFF_A_RMS,6.382321628214144e-06
+ON_OFF_RMS_ratio,2.305378521857328
+median_spatial_cancellation_ratio,1.0
+scale_issue,False
+spatial_cancellation_issue,False
+exploratory_Spearman_model_mean_N3,0.5
+inferential_statistics,not performed
+decoded_join_keys,model_short_id + phase_index
+decoded_join_rows,36
+decoded_join_exact,True
+input_sha256,"{""<repository-root>/data/precomputed/supplementary/biological_constraints/B1/t4t5_activity_model_phase.csv"": ""88f4f4b6c0d52f75abbe1c608136420b1655e7a881e48fe10d667d2818d1a7b4"", ""<repository-root>/data/precomputed/fig04/official50_phase_pairs.csv"": ""c89eec320fb486f2f75626b727a581bbb0286fa7a7088e9bba004620f98457d3"", ""<repository-root>/data/precomputed/fig04/phase_stimulus_manifest.csv"": ""157d4c017fe820d3a811356c3e2c451f8ebd8398629b7585b1525e3dccb9871d"", ""<archived-source-path>"": ""2fc31a5cfd6251bf34c5ac934c62cedbcd0c34b15dac73ce64bdba77ff23c246""}"
+source_sha256,"{""<repository-root>/data/precomputed/supplementary/biological_constraints/D1/pilot/finalize_pilot.py"": ""50c65fc429f6466bf4a70d2915c40c7462e66a87f810edf212fa1436bd16f1ab"", ""<repository-root>/data/precomputed/supplementary/biological_constraints/D1/pilot/run_pilot.py"": ""01f2e054c4e6c1e6640ab6e6fb59f82e05ef930cbbf10015dea25f151baf20e6"", ""<archived-source-path>"": ""2fc31a5cfd6251bf34c5ac934c62cedbcd0c34b15dac73ce64bdba77ff23c246"", ""/opt/anaconda3/envs/flyvis_env/lib/python3.11/site-packages/flyvis/connectome/connectome.py"": ""1fdc68d14472b3c3ef3ee4e245b87f1f391e02f28f98b901bfb3ca9707848777"", ""/opt/anaconda3/envs/flyvis_env/lib/python3.11/site-packages/flyvis/network/dynamics.py"": ""e77d9e049661321798f213b9c7e98b58945214ad94ab11c5c1ee930bfaacbc86"", ""/opt/anaconda3/envs/flyvis_env/lib/python3.11/site-packages/flyvis/network/network.py"": ""eb172be7db1727a2b1af9f4211c2e1a8655004e8602a4db677e56702a3dfeb43"", ""/opt/anaconda3/envs/flyvis_env/lib/python3.11/site-packages/flyvis/utils/activity_utils.py"": ""2ecafb02eef738022f615f1eb4be9b7afeed2afb1662de7726cbc31ade8d68dc""}"
+output_sha256_excluding_manifest,"{""pilot_current_shape_qa.csv"": ""f239fe9ced64d1b56c966b81df30034a359ecb3f5d7ec101f2ff29063d009909"", ""pilot_integrations_progress.csv"": ""045f71c70a9bb14ee3964e70f3891b8bd784b69c425bf3c06f6587cb8562212d"", ""pilot_joined_decoded_flow.csv"": ""1330a11746c1ceb4ed5fc3d55c7cb77bd1d6ca2025bd538c76b58b58d1b020c2"", ""pilot_model_phase_metrics.csv"": ""98549c4d77aa6a5f3d0896a66c128afa2197e43511179ecfa87d39465d62724c"", ""pilot_scale_qa.csv"": ""f52eac6b824c5e6d4ba25d950fad61a8f1385f23aa2190734b4416eafd9e0e92"", ""pilot_source_current_raw_summary.csv"": ""93b2ccdc626dc863add1896539e3c93d7051f0d6eaff58ff47afa8c6f6bbca00"", ""pilot_target_node_distribution.csv"": ""fbb384f5e7cbfc11fdad7feae0df57c95e00f4d1dd8b9342a40946e9a5d970ca""}"
+full_cohort_workload,1200 integrations (50×12×2)
+estimated_full_cohort_wall_seconds,1524.0564507000574
+estimated_full_cohort_disk_bytes,1454036566
+persistent_response_cache,none; progress ledger was written per integration
+decision,PILOT_PASS

@@ -1,0 +1,21 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+  "figure": "S3",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/supplementary/figS3/duration_paired_timecourses.csv": "91c4cf587c158f8cbfbac873b6cb8b539f65fe8050760866c0dc2d889b7c091f",
+    "data/precomputed/supplementary/figS3/duration_window_metrics.csv": "583e71fada4bae530c6bfa95074b72d61ca5cc75e8dddc252ec5ef5dbd8980a3",
+    "data/precomputed/supplementary/figS3/duration_uniform_late_control.csv": "48ec1ef313b8221066a9b41b71ded6f97ef5f750eb31970c7a6f941b55673ffb",
+    "data/precomputed/supplementary/figS3/05_A_S_temporal_profiles.csv": "41cd33452af772a671ef5196934ae8693c5163ec607f44a65e55d94f4b16ec4c"
+  },
+  "outputs_sha256": {
+    "figures/supplementary/figS3/figS3_main.pdf": "f971e13f98a0f2ad8d05e62ea77de1dc00dc94ead29e6f2617ecde8030f56796",
+    "figures/supplementary/figS3/figS3_main.png": "de4372866d90681318bb09a9fc331fb278768d87d4b8b89887dec2421238d885",
+    "figures/supplementary/figS3/figS3_adoption_QA.csv": "9b70c160157da9004fbc48aa0252049b899913c3bf5ddb740bbc513ef2e261d1"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": "",
+  "last_execution_source_sha256": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+  "path_relocation_only": true
+}

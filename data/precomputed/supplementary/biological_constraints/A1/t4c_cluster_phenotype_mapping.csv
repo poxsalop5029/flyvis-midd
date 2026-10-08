@@ -1,0 +1,4 @@
+t4c_cluster_id,n_models,mean_validation_loss,observed_rounded_3dp,published_mean_task_error,t4c_phenotype,relation_to_known_T4c,published_match,source
+0,31,5.297368897171857,5.297,5.297,upward-selective,matches experimentally known T4c preferred direction,True,"Lappalainen et al., Nature 2024, Fig. 3; DOI: 10.1038/s41586-024-07939-3"
+1,7,5.31581197276948,5.316,5.316,downward-selective,opposite to experimentally known T4c preferred direction,True,"Lappalainen et al., Nature 2024, Fig. 3; DOI: 10.1038/s41586-024-07939-3"
+2,12,5.357196428019691,5.357,5.357,non-direction-tuned,no directional tuning,True,"Lappalainen et al., Nature 2024, Fig. 3; DOI: 10.1038/s41586-024-07939-3"

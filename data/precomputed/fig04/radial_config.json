@@ -1,0 +1,53 @@
+{
+  "seed": 2026100503,
+  "models": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "groups": [
+    "3MIDD_048",
+    "3MIDD_207",
+    "4MIDD_085_170"
+  ],
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "coordinates": "actual BoxEye centers, image y,x",
+  "units": 24,
+  "period_radians": 0.2617993877991494,
+  "ROI": "full canonical annulus intersect period arc >=2 actual nearest-neighbor spacing",
+  "radial_bin_edges_pixels": [
+    30.491087222334336,
+    56.62630484147805,
+    82.76152246062176,
+    108.89674007976548,
+    135.0319576989092,
+    161.1671753180529,
+    187.30239293719663,
+    213.43761055634033
+  ],
+  "window": [
+    10,
+    50
+  ],
+  "direction": "CW positive, decoder v flipped once"
+}

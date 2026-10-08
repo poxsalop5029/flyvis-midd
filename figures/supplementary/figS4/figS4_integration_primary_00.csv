@@ -1,0 +1,2 @@
+analysis,n_conditions,n_robust,pearson_r,spearman_rho,normalized_rmse,robust_sign_agreement,flyvis_directional_rms,flyvis_symmetric_rms,symmetric_to_directional_rms_ratio,flyvis_directional_diagonal_max_abs
+mirror_antisymmetric,441,326,0.4547346656070741,0.5643178680980858,0.3872274762565282,0.8098159509202454,0.0058783449027701,0.0184288787204596,3.135045497547308,0.0

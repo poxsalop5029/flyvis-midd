@@ -1,0 +1,20 @@
+analysis,cohort_units,renderer_sign,support,boundary
+Canonical baseline,official000–049;50,native;CW-positive,50 frames;10–49,stimulus-first1s fade
+Matched shuffled controls,015/025/046+000–006;10,native;CW-positive,50 frames;10–49,restricted exact-raster histogram shuffles;10 repeats
+Phase/reflection,000–009;10,native;CW-positive,12 phases;8 transforms,duplicate images disclosed;fixed retinal ROI
+Sector count,008/009/005+000–004/006/007;10,native;CW-positive,7 counts;2 phases,spatial frequency covaries with edge density
+Scalar composition/calibration,000–009;10,centered8field;positiveCCW,21pairs;LOLO42 repeated predictions,independent held-luminance A3 available
+Rendering comparison,000–009;10,native versus seven-field,source-specific scalar/full-field,distinct from centered8field
+Learning,custom000–013;14,native;CW-positive,common0–100k,unequal follow-up;EPE diagnostic
+Physical learning controls,custom000/004/007;3,native,11checkpoints at10kspacing,sparse physical versusdense MIDD
+Prolonged static,official024/041/042;3,native;CW-positive,continuous500frames;late450–499,phenotype-selected;one jitter path
+Common replacement,official000–009;10,native;gray0.5 baseline,same static/physical operation,not historical21-condition replacement
+Recurrent intervention,six selected custom instances,recurrent state neutralization,paired Sintel/MIDD;199randomdraws,002holdoutdesignation;notprospectiveconfirmatory
+Cross-swap,official000:005:045;10×10,A vsphysicalhorizontalQ,historicalgray;stable10–49,conditionaldescriptiveSS;oneobservationperpair
+Phase and static-control analysis,official000–049;50,native;CW-positive,12 C48 phases;ten shuffles/family,canonical fade1s;frames10–49;operators explicitly separated
+Scalar-composition comparator analysis,official000–009;10,centered8;CCW-positive,7 luminances;21 pairs;42 fold predictions,target excluded;all9 donors averaged within target
+Radial receptor-sampling analysis,official000–009;10,native;CW-positive,7 bins;12 phases;three families,actual spacing12–13px;full698/outer532
+Stable decoder-input intervention,official000–009;10,native endpoints;class-specific contrasts,same common-gray replacement,signed change / paired noop G;T4/T4+T5 primary
+Official-cohort task-performance diagnostic,official000–049;50,native flow vectors;EPE,15 fixed training/final samples;40 resampled frames,same custom Fig5 pipeline;not held out
+Fixed-checkpoint static controls,custom000–013;14,native;CW-positive,steps0/10k/50k/100k,one fixed shuffle;uniform singleton;paired operators separated
+Cross-swap physical-direction validation,ten joint identities;100 cells,rightward u positive;left negative,stable10–49 grating;1s gray,both individual signs required;cells not independent n

@@ -1,0 +1,23 @@
+{
+  "source_script": "src/flyvis_midd/figure_rendering.py",
+  "source_sha256": "7e034b4180d48f37ff923384077c19f37d3521e734c3ed5158534c45d6d5c841",
+  "figure": "3",
+  "inference_performed": false,
+  "inputs_sha256": {
+    "data/precomputed/fig03/composition_model_metrics.csv": "0dfb651f163a89dbf56d250787fe4a245f8ff7b2fecbc94d0e60a520e3311718",
+    "data/precomputed/fig03/composition_cv_metrics.csv": "ffcfd3d8148f4adf4248490208d1a5699da95e86c6acd6ae93aae63b63b1ad90",
+    "data/precomputed/fig03/composition_null_comparison.csv": "0bb5e3d0d75ef27d779a27e55c1584fb74846598584faae5afd180c6de3b5165",
+    "data/precomputed/fig03/fig3_3MIDD_components_per_model.csv": "61cbfbb833fe1ca116b7efd771dbd2e70000448df7318485bf50773a60558cf6",
+    "data/precomputed/fig03/fig3_canonical_pair_predictions.csv": "29d63afc77f55ce85ecb440a38e83832cea3b5e4ccee15f3b120ae4493d56875",
+    "data/precomputed/fig03/comparator_model_metrics.csv": "eea19a9d1e275d097e711c072b8ee4dec21602c3ead5a9dfb389a7afe3eb4602"
+  },
+  "outputs_sha256": {
+    "figures/fig03/fig03_main.pdf": "945e44638fdeae311b2913b2d7893cc2dd3aaf301e039d3b3a6d06292b18ad16",
+    "figures/fig03/fig03_main.png": "0f9ab1454bfcfd52e87b5bcc2bee324ef43068f9b12775f841607d5ca96a339e",
+    "figures/fig03/fig03_adoption_QA.csv": "2f7ef19342f786a67bf3b9f30aae62792b6b5eed979b013454af0291e628ca63"
+  },
+  "unit": "model/seed; repeated conditions within unit",
+  "notes": "",
+  "last_execution_source_sha256": "32bc550f5c239679937539101ea8efb6bf912741cdf38dd8a62e44c2a05c65e7",
+  "path_relocation_only": true
+}

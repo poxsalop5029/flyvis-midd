@@ -1,0 +1,6 @@
+filename,max_abs_numeric_difference,tolerance,same_non_numeric_columns,pass
+fig2D_4MIDD_A_per_model.csv,1.0061396160665481e-16,1e-12,True,True
+fig2B_luminance_A_per_model.csv,0.0,1e-12,True,True
+fig2B_luminance_tangent_per_model_condition.csv,0.0,1e-12,True,True
+fig2D_4MIDD_tangent_per_model_condition.csv,0.0,1e-12,True,True
+fig2E_negative_control_per_model.csv,0.0,1e-12,True,True

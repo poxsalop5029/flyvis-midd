@@ -1,0 +1,10 @@
+check,pass
+source QA,True
+condition metric coverage,True
+pair coverage,True
+summary coverage,True
+temporal condition coverage,True
+temporal pair coverage,True
+actual reversal equals M > 0,True
+finite primary outputs,True
+all figures saved,True

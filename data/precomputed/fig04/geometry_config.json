@@ -1,0 +1,55 @@
+{
+  "dt": 0.02,
+  "fade": 1.0,
+  "frames": 50,
+  "window": [
+    10,
+    50
+  ],
+  "image_size": 382,
+  "diameters": [
+    55,
+    382
+  ],
+  "BoxEye": [
+    15,
+    13
+  ],
+  "annulus": [
+    0.14,
+    0.98
+  ],
+  "sign": "decoder v flipped once; CW positive",
+  "device": "cpu",
+  "threads": 1,
+  "bootstrap": 10000,
+  "unit": "model",
+  "models": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "transforms": [
+    "identity",
+    "LR",
+    "UD",
+    "rot180",
+    "x_minus3",
+    "x_plus3",
+    "y_minus3",
+    "y_plus3"
+  ],
+  "translation_pixels": 3,
+  "translation": "integer shifts, white255 fill, no wrapping/interpolation",
+  "primary": "C48 LR S reflection equivariance vs A; raw delta alongside",
+  "geometry_G_effect": 0.01,
+  "id": 3,
+  "seed": 2026100403
+}
